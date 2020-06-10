@@ -22,6 +22,7 @@ jobs:
       - name: Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
-          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
           GI_SUITE: 5c1d24568ec4123e847a9ecd
+          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+          APP_PORT: 3000
         run: /bin/runghostinspectorsuite server.js
