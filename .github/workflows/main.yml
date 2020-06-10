@@ -16,9 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install dependencies and start app
+      - name: install, build, and run app
         run: |
           npm install
+          npm run build
           npm start
       - name: execute Ghost Inspector suite
         env:
