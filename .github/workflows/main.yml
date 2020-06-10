@@ -20,4 +20,7 @@ jobs:
       - name: install dependencies
         run: npm install
       - name: Ghost Inspector suite
+        env:
+          GI_API_KEY: ${{ secrets.GI_API_KEY }}
+          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
         run: /bin/runghostinspectorsuite server.js
