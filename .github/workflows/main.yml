@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: install dependencies
-        run: npm install
-      - name: start app
-        run: npm start
+      - name: install dependencies and start app
+        run: |
+          npm install
+          npm start
       - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
