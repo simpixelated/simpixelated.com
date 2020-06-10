@@ -14,15 +14,21 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: ghostinspector/test-runner-node
     steps:
       - uses: actions/checkout@v2
       - name: install dependencies
         run: npm install
-      - name: Ghost Inspector suite
+      - name: start app
+        run: npm start
+      - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
-          GI_SUITE: 5c1d24568ec4123e847a9ecd
+          GI_SUITE: ${{ secrets.GI_SUITE }}
           NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
           APP_PORT: 3000
-        run: /bin/runghostinspectorsuite server.js
+        run: docker run \
+          -e APP_PORT \
+          -e GI_API_KEY \
+          -e NGROK_TOKEN \
+          --network "${{ job.container.network }}" \
+          ghostinspector/test-runner-standalone
