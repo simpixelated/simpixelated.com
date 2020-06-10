@@ -24,7 +24,7 @@ jobs:
       - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
-          GI_SUITE: ${{ secrets.GI_SUITE }}
+          GI_SUITE: 5c1d24568ec4123e847a9ecd
           NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
           APP_PORT: 3000
         uses: docker://ghostinspector/test-runner-standalone
