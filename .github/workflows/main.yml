@@ -20,7 +20,7 @@ jobs:
         run: |
           npm install
           npm run build
-          npm start
+          npm start &
       - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
