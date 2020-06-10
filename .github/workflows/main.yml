@@ -27,9 +27,4 @@ jobs:
           GI_SUITE: ${{ secrets.GI_SUITE }}
           NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
           APP_PORT: 3000
-        run: docker run \
-          -e APP_PORT \
-          -e GI_API_KEY \
-          -e NGROK_TOKEN \
-          --network "${{ job.container.network }}" \
-          ghostinspector/test-runner-standalone
+        uses: docker://ghostinspector/test-runner-standalone
