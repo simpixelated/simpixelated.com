@@ -15,7 +15,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      options: --network "${{ job.container.network }}"
+      ports:
+        - 3000
     steps:
       - uses: actions/checkout@v2
       - name: install, build, and run app
