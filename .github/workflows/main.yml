@@ -15,7 +15,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     container:
-      ports:
+      image: node:10-alpine
+      ports:	
         - 3000
     steps:
       - uses: actions/checkout@v2
