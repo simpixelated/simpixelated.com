@@ -14,26 +14,20 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    container:
+      image: node:12-alpine
+      options: --network-alias node-app
     steps:
       - uses: actions/checkout@v2
-      - name: build
-        run: docker build -t my-app .
-      - name: start app and execute Ghost Inspector suite
+      - name: install, build, and run app
+        run: |
+          npm install
+          npm run build
+          npm start &
+      - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
           GI_SUITE: 5c1d24568ec4123e847a9ecd
           NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
-          APP_PORT: 3000
-        run: |
-          docker network create temp-network
-          docker run -d \
-            --network temp-network \
-            --name my-app \
-            my-app
-          docker run -d \
-            -e GI_API_KEY \
-            -e GI_SUITE \
-            -e NGROK_TOKEN
-            -e my-app:APP_PORT
-            --network temp-network \
-            ghostinspector/test-runner-standalone
+          APP_PORT: node-app:3000
+        uses: docker://ghostinspector/test-runner-standalone
