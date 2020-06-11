@@ -14,6 +14,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    container:
+      options: --network "${{ job.container.network }}"
     steps:
       - uses: actions/checkout@v2
       - name: install, build, and run app
