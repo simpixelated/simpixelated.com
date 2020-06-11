@@ -14,10 +14,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container:
-      image: node:10-alpine
-      ports:	
-        - 3000
     steps:
       - uses: actions/checkout@v2
       - name: install, build, and run app
@@ -25,6 +21,8 @@ jobs:
           npm install
           npm run build
           npm start &
+      - name: test connection
+        run: ping -c 4 localhost:3000
       - name: execute Ghost Inspector suite
         env:
           GI_API_KEY: ${{ secrets.GI_API_KEY }}
