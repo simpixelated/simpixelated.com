@@ -1,5 +1,5 @@
 image: "node:12-alpine"
-options: --network-alias node-app
+#options: --network-alias node-app
 
 before_script:
   - npm install
