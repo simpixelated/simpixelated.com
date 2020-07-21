@@ -18,7 +18,7 @@
         "nodemon": "^1.17.1",
         "raw-loader": "^0.5.1",
         "react": "^16.2.0",
-        "react-dom": "^16.2.0",
+        "react-dom": "^16.4.2",
         "serve-favicon": "^2.4.5"
     },
     "scripts": {
