@@ -4,11 +4,10 @@ image: "node:12-alpine"
 before_script:
   - npm install
   - npm run build
-  - npm start &
 
 # execute Ghost Inspector suite
 ghost_inspector_test:
-  image: ghostinspector/test-runner-standalone
+  image: ghostinspector/test-runner-node
   variables:
     GI_API_KEY: $GI_API_KEY
     GI_SUITE: 5c1d24568ec4123e847a9ecd
@@ -16,4 +15,4 @@ ghost_inspector_test:
     APP_PORT: node-app:3000
   # script required by GitLab CI/CD, even though this docker image runs without any input
   script:
-    - echo ""
+    - server.js
