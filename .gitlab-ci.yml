@@ -17,4 +17,4 @@ ghost_inspector_test:
     APP_PORT: node-app:3000
   # script required by GitLab CI/CD, even though this docker image runs without any input
   script:
-    - server.js
+    - node server.js
