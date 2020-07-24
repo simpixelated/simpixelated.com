@@ -2,6 +2,9 @@ stages:
   - build
   - test
 
+before_script:
+  - docker network create node-app
+
 build_and_run:
   image: "node:12-alpine"
   stage: build
@@ -17,7 +20,7 @@ ghost_inspector_test:
     entrypoint: [""]
   variables:
     GI_SUITE: 5c1d24568ec4123e847a9ecd
-    APP_PORT: build:3000
+    APP_PORT: node-app:3000
   stage: test
   script:
     - /bin/runghostinspectorsuite
