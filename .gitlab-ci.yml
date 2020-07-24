@@ -1,17 +1,21 @@
-image:
-  name: ghostinspector/test-runner-node
-  entrypoint: [""]
-variables:
-  #GI_API_KEY: $GI_API_KEY
-  GI_SUITE: 5c1d24568ec4123e847a9ecd
-  #NGROK_TOKEN: $NGROK_TOKEN
-  APP_PORT: 3000
+stages:
+  - build
+  - test
 
-before_script:
-  - npm install
-  - npm run build
+build_and_run:
+  stage: build
+  script:
+    - npm build
+    - npm run &
 
 # execute Ghost Inspector suite
 ghost_inspector_test:
+  image:
+    name: ghostinspector/test-runner-standalone
+    entrypoint: [""]
+  variables:
+    GI_SUITE: 5c1d24568ec4123e847a9ecd
+    APP_PORT: 3000
+  stage: test
   script:
-    - /bin/runghostinspectorsuite server.js
+    - /bin/runghostinspectorsuite
