@@ -3,10 +3,12 @@ stages:
   - test
 
 build_and_run:
+  image: "node:12-alpine"
   stage: build
   script:
-    - npm build
-    - npm run &
+    - npm install
+    - npm run build
+    - npm start &
 
 # execute Ghost Inspector suite
 ghost_inspector_test:
