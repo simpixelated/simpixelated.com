@@ -1,6 +1,7 @@
 services:
-  image: "node:12-alpine"
-  command: npm install && npm run build && npm start &
+  - name: app
+    image: "node:12-alpine"
+    command: npm install && npm run build && npm start &
 
 # execute Ghost Inspector suite
 ghost_inspector_test:
