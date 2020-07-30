@@ -1,4 +1,9 @@
 # execute Ghost Inspector suite
+start_app:
+  image: node:12-alpine
+  script:
+    - npm install && npm run build && npm start &
+
 ghost_inspector_test:
   image:
     name: ghostinspector/test-runner-standalone
@@ -8,7 +13,3 @@ ghost_inspector_test:
     APP_PORT: my-app:3000
   script:
     - /bin/runghostinspectorsuite
-  services:
-    - name: node:12-alpine
-      alias: my-app
-      command: ['npm install && npm run build && npm start &']
