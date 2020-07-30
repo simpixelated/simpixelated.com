@@ -11,4 +11,4 @@ ghost_inspector_test:
   services:
     - name: node:12-alpine
       alias: my-app
-      command: npm install && npm run build && npm start &
+      command: ['npm install && npm run build && npm start &']
