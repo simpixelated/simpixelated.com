@@ -1,3 +1,5 @@
+image: docker:latest
+
 # execute Ghost Inspector suite
 ghost_inspector_test:
   script:
