@@ -1,5 +1,9 @@
 image: docker:latest
 
+services:
+  - docker:dind
+
+
 # execute Ghost Inspector suite
 ghost_inspector_test:
   script:
