@@ -7,6 +7,7 @@ services:
 # execute Ghost Inspector suite
 ghost_inspector_test:
   script:
-    - docker run -d -e url=http://localhost:3000 -p 3000:2368 --name my-app ghost
-    - docker run -e GI_SUITE=5c1d24568ec4123e847a9ecd -e APP_PORT=my-app:3000 -e NGROK_TOKEN=$NGROK_TOKEN -e GI_API_KEY=$GI_API_KEY ghostinspector/test-runner-standalone
+    - docker network create temp-network
+    - docker run -d -e url=http://localhost:3000 -p 3000:2368 --name my-app ghost --network temp-network
+    - docker run --network temp-network -e GI_SUITE=5c1d24568ec4123e847a9ecd -e APP_PORT=my-app:3000 -e NGROK_TOKEN=$NGROK_TOKEN -e GI_API_KEY=$GI_API_KEY ghostinspector/test-runner-standalone
 
