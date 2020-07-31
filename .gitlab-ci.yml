@@ -2,7 +2,9 @@
 start_app:
   image: node:12-alpine
   script:
-    - npm install && npm run build && npm start &
+    - npm install
+    - npm run build
+    - npm start &
 
 ghost_inspector_test:
   image:
