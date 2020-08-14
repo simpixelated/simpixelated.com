@@ -1,9 +1,0 @@
----
-title: "Dreaming About My Next Car"
-date: "02/07/2010"
-slug: "dreaming-about-my-next-car"
----
-
-I must be crazy, because I just bought a mint 2009 GTI and I'm already dreaming about my next car. I know exactly what car it is already and in fact, I already [made a website](http://www.fiat500abarth.us) about it. Yeah that's right, its a Fiat, its Italian, it has less horsepower than my [current car](http://www.simpixelated.com/autos/vw-gti/) and [my 300ZX](http://www.simpixelated.com/autos/ze-parting-shots/), and its a little round. But for some reason that little "clown car" (as Karen calls it) just really hits the right spot for me. I know it looks a little like a miniature Beetle, or a suped-up Smart Car, but I can't help myself. Something about it just makes me grin when I look at it. Now I won't be settling for the base model Fiat 500 when it comes to the US, because I'm crossing my fingers that the Abarth version makes it to our shores. That hot little hatch packs at least 160HP, lower suspension, bigger rims, better tires, and has the looks to match all that performance. I just think it would be a really fun car to drive. I'm not looking for the fastest car or the best drifter or even the absolute best looking, it just has to be fun and exciting and a little unique. That little Fiat definitely fits the bill. If you think I'm crazy, just watch this Top Gear and try to tell me I'm wrong:
-
-<object width="480" height="385"><param name="movie" value="UpAFi9nIJVQ&hl=en_US&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/UpAFi9nIJVQ&hl=en_US&fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>

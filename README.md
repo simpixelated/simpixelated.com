@@ -1,48 +1,55 @@
-This is a work in progress rebuild of my blog at simpixelated.com. I am in the process of converting it from Wordpress to a JavaScript based static site generator using React.js, Next.js, and Markdown.
+This is a work in progress rebuild of my blog at simpixelated.com. I am in the process of converting it from WordPress to a JavaScript based static site generator using React.js, Gatsby.js, and Markdown.
 
 ### History
 
-Looked at a bunch of different options. Started with Gatsby, switched to Next.js, looked into using WP REST API, currently landing on static export with no API. Was not able to get static export working. I think it's a pipe dream without manually creating the html files first. Next.js static export is fairly limited that way, because it doesn't really support dynamic pages out of the box.
+Like many other developers struggling to find time to work on side projects, I've started but never finished refactoring my blog from WordPress to just about anything else, many times over the years. Here's just a few of the frameworks I've tried out:
+- React.js
+- Gatsby 1.0
+- Next.js 5.0
+- headless WordPress with custom static export
+- now back to Gatsby 2.24
 
-Performance:
-- improve on https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com
-- 57 (mobile) / 81 (desktop)
+Goals:
+- improve on https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com: 57 (mobile) / 81 (desktop)
+- improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
+ - [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
+ - [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
+- improve [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 48
+- static export (no server-side code in production)
+- create posts in Markdown
+- CI/CD for layout and content changes
+- source code + content all in Git
+- eliminate hosting fees
+- maintain SSL, custom domain
 
-References:
-- https://github.com/jxson/front-matter
-- https://github.com/fridays/next-routes
-- https://expressjs.com/en/guide/routing.html
-- https://medium.com/@antonioval/making-array-iteration-easy-when-using-async-await-6315c3225838
-- https://github.com/jaketrent/daily-bread/blob/master/server/repo.js
-- https://jaketrent.com/post/serve-markdown-nextjs-server/
-- https://github.com/elmasse/nextein
-- https://github.com/tscanlin/next-blog
-- https://github.com/probablyup/markdown-to-jsx
-- https://timber.io/blog/building-a-blog-with-next-js/
-- https://github.com/expressjs/serve-favicon
+Current Tech Stack:
+- gatsby.js
+- GitHub
+- Netlify
+- [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
+- [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog)
 
-### ROADMAP
+### Roadmap
 
-- [x] create dynamic slug to .md file route
-- [x] display all posts on homepage
-- [x] insert slug into exported .md
-- [x] link to each post by slug
-- [x] fetch single post by slug
-- [x] sort by date
-- [x] filter drafts
-- [x] dynamic <title>
-- [x] display date next to blog post title
-- [ ] figure out how to export static from markdown -- would likely require [dynamically creating pages](https://github.com/zeit/next.js/blob/canary/examples/with-static-export/next.config.js)
-- [ ] pick specific posts to save
-- [ ] filter requests for files with extensions
-- [ ] recreate styles from existing WP template
-- ~~enable search~~
-- [ ] build contact page / form
-- [ ] build resume page
-- [ ] Typescript
-- [ ] tslint
-- [ ] unit tests
-- [ ] publish baseline similar to next-blog
-- [ ] fork/push/PR wordpress-to-markdown changes
+- [ ] update footer:
+  - [ ] switch copyright to "Jordan Kohl"
+  - [ ] update theme credit
+- [ ] update hero:
+  - [ ] add social media icon links: Twitter, Flickr, GitHub, LinkedIn
+- [ ] add resume to top nav
+- [ ] remove about link
 - [ ] resume (e.g. http://davidtheclark.github.io/resume/)
-- [ ] [deploy to GitHub pages](https://github.com/zeit/next.js/wiki/Deploying-a-Next.js-app-into-GitHub-Pages)
+- [ ] migrate cover images
+- [ ] convert resume to HTML with print formatting for easy PDF export (similar to [David Clark](http://davidtheclark.github.io/resume/))
+- [ ] "borrow" some juicy animations from [Bolby theme](https://pxltheme.com/html/bolby/demo/index-3-dark.html), [jnnt.co](http://jntt.co/about.html)
+- [ ] "borrow" some color palettes from [DF](http://danielfiller.com/blog/visceral-contextual-transitions/)
+- [ ] setup [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
+- [ ] add contact info (email link, twitter)
+- [ ] add a changelog
+- [ ] add git commit hook for prettier
+- [ ] update license to match package.json
+- [ ] display version in footer, link to changelog/source
+- [ ] add Google analytics
+- [ ] add Ghost Inspector GitHub action
+- [ ] add 404 page
+- [ ] default to dark theme

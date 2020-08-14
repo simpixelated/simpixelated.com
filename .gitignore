@@ -1,3 +1,13 @@
-.next
-out
+# Dependency directories
 node_modules
+.npm
+logs
+*.log
+npm-debug.log*
+
+# Mac files
+.DS_Store
+
+# gatsby files
+.cache/
+public
