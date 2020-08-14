@@ -17,6 +17,7 @@
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.4.0",
     "gatsby": "^2.24.47",
+    "gatsby-plugin-netlify": "^2.3.13",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

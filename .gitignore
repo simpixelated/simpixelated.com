@@ -11,3 +11,5 @@ npm-debug.log*
 # gatsby files
 .cache/
 public
+# Local Netlify folder
+.netlify

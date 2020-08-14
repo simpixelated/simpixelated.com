@@ -31,6 +31,8 @@ module.exports = {
         showLineNumbers: false,
         formatString: 'YYYY-MM-DD',
         feedTitle: 'simpixelated.com',
+        pagesPath: `${__dirname}/content/pages/`,
+        postsPath: `${__dirname}/content/posts/`,
         navigation: [
           {
             title: `Blog`,
@@ -49,12 +51,13 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/content/pages/`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `Pages`,
+    //     path: `${__dirname}/content/pages/`,
+    //   },
+    // },
+    `gatsby-plugin-netlify`
   ],
 }
