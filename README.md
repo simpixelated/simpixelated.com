@@ -48,10 +48,14 @@ Current Tech Stack:
 - [ ] setup [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
 - [ ] add contact info (email link, twitter)
 - [ ] add a changelog
-- [ ] add git commit hook for prettier
-- [ ] update license to match package.json
+- [x] add git commit hook for prettier
+- [x] update license to match package.json
 - [ ] display version in footer, link to changelog/source
 - [ ] add Google analytics
 - [ ] add Ghost Inspector GitHub action
 - [ ] add 404 page
 - [ ] default to dark theme
+
+## License
+
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
