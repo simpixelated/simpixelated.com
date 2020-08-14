@@ -5,7 +5,7 @@ import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/
 import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle"
 import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation"
 import HeaderTitle from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-title"
-import imageAvatar from "./profile-drawn.png"
+import imageAvatar from "./profile-drawn-transparent.png"
 
 const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig()
