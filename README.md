@@ -3,6 +3,7 @@ This is a work in progress rebuild of my blog at simpixelated.com. I am in the p
 ### History
 
 Like many other developers struggling to find time to work on side projects, I've started but never finished refactoring my blog from WordPress to just about anything else, many times over the years. Here's just a few of the frameworks I've tried out:
+
 - React.js
 - Gatsby 1.0
 - Next.js 5.0
@@ -10,10 +11,11 @@ Like many other developers struggling to find time to work on side projects, I'v
 - now back to Gatsby 2.24
 
 Goals:
+
 - improve on https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com: 57 (mobile) / 81 (desktop)
 - improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
- - [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
- - [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
+- [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
+- [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
 - improve [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 48
 - static export (no server-side code in production)
 - create posts in Markdown
@@ -23,11 +25,13 @@ Goals:
 - maintain SSL, custom domain
 
 Current Tech Stack:
-- gatsby.js
+
+- [Gatsby.js](https://www.gatsbyjs.com/docs/)
 - GitHub
-- Netlify
+- [Netlify](https://docs.netlify.com/#get-started)
 - [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
 - [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog)
+- [Theme UI](https://theme-ui.com/home)
 
 ### Roadmap
 

@@ -2,12 +2,12 @@
 title: "Introduction to Blogging: Choosing the Right Keywords"
 date: "2012-02-26"
 tags:
- - blogging
+  - blogging
 ---
 
 I started blogging, for personal reasons, many many years ago on this very site. Since then I've started doing it professionally both at work and at home. Writing has always been enjoyable to me (I nearly graduated as an English major) and with my passion for web development, blogging seems like the perfect combination for me. [At work](http://blog.sitegoals.com "SiteGoals' Blog"), I've spearheaded the launch of two separate blogs, both aimed at promoting a company or product. Those have met with minimal success, but that is due to a lack of time for content generation.
 
-At home, where my time is my own, I've had significant success with my blog about the [Fiat 500 Abarth](http://www.fiat500abarth.us), a new car model debuting in the US in 2012. It took 3 months before it made a single penny, but the income from AdSense steadily rose to $100 a month and then $300, and just this month it has made over $1,000! Now that I understand the power of passive income through blogging and niche sites, I'm aiming to replicate that success with a handful of other websites.
+At home, where my time is my own, I've had significant success with my blog about the [Fiat 500 Abarth](http://www.fiat500abarth.us), a new car model debuting in the US in 2012. It took 3 months before it made a single penny, but the income from AdSense steadily rose to $100 a month and then $300, and just this month it has made over \$1,000! Now that I understand the power of passive income through blogging and niche sites, I'm aiming to replicate that success with a handful of other websites.
 
 Through that first site, I've learned a lot about SEO, Wordpress, writing, hiring writers, and everything else that is involved with running a revenue generating information site. I have done countless hours of research and had some success, so I feel qualified to talk about it with some authority. Hopefully my advice will help, if you're just getting started.
 
@@ -25,7 +25,7 @@ Enough with the pep-talk about determination and heart. Let's get to the good st
 
 ### What do I write about?
 
-**Picking your blog topic is probably the most important step of the process.** Pick something with too much competition (like "video games") or too few keyword searches and you're pretty much doomed from the start. First, think of something you might be interested in writing about. Then start typing keywords into the [Google Keyword Tool](https://adwords.google.com/select/KeywordToolExternal) to see what people are actually searching for. I recommend Looking for keywords with at least 1,000 local monthly searches and an Approximate CPC above $1. I used to only consider keywords with low competition, but there is an argument to be made that high competition validates the popularity of the keyword and is not a barrier to entry (if you know your SEO).
+**Picking your blog topic is probably the most important step of the process.** Pick something with too much competition (like "video games") or too few keyword searches and you're pretty much doomed from the start. First, think of something you might be interested in writing about. Then start typing keywords into the [Google Keyword Tool](https://adwords.google.com/select/KeywordToolExternal) to see what people are actually searching for. I recommend Looking for keywords with at least 1,000 local monthly searches and an Approximate CPC above \$1. I used to only consider keywords with low competition, but there is an argument to be made that high competition validates the popularity of the keyword and is not a barrier to entry (if you know your SEO).
 
 Some more tips on using the Google Keyword tool:
 

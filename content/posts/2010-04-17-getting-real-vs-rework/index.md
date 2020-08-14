@@ -2,7 +2,7 @@
 title: "Getting Real vs REWORK"
 date: "2010-04-17"
 tags:
- - work
+  - work
 ---
 
 I really admire 37signals for their accomplishments and their unique philosophies. I've read through most of their first book: [_Getting Real_](http://gettingreal.37signals.com/) (which you can do for free) and just finished their newest book: [_REWORK_](http://37signals.com/rework/). While I don't always agree with everything they say 100%, they have a lot of great ideas that can push you in a different direction. Sometimes you have to take what you do, take what they suggest, and find a happy middle-ground. For example, they say

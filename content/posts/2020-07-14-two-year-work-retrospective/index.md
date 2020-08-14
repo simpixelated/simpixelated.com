@@ -2,9 +2,9 @@
 title: "Two Year Work Retrospective"
 date: "2020-07-14"
 tags:
- - work
- - Ghost Inspector
- - Agile
+  - work
+  - Ghost Inspector
+  - Agile
 ---
 
 It's been almost two years since I last published anything about work. A lot has changed for me. I gave up management by quitting my job as a Director of Engineering and took a job as just a good ol' Software Engineer at [Ghost Inspector](https://ghostinspector.com). A lot of reasoning went into that decision, but to sum it up: I was sick of commuting and managing. Considering what's happened in the last year, I'm glad I made that choice!
@@ -17,7 +17,7 @@ The typical Agile process used by most software companies creates a lot of meeti
 
 We have a completely different process at Ghost Inspector. I would describe our software development methodology as Agile-lite -- we take the few good parts and leave the rest behind. We have a backlog of epics and stories with all the good features we want to deliver to our customers. However we **don't do sprints**. Without sprints, we're able to skip all the other Agile rituals that I personally loath. Here's a list of all the [meetings we don't do](https://dzone.com/articles/types-of-meetings-in-scrum-and-agile). No sprints means no sprint planning. No points means no estimation meetings. Without a product owner needing to constantly check the velocity of every story, we don't need to give a status update every day. We generally only meet once a week. Thankfully, not once do I remember anyone saying the word "blocker".
 
-I've lost track of the amount of time wasted on just scheduling meetings at previous companies. Even the daily status was always hotly debated. Too early and all the night owls are grumbling. Too late and you risk interrupting the flow of the early birds. I can't tell you how nice it is to stop thinking so much about _how_ we work and instead just think about the actual work. My levels of stress have been reduced to an extremely low level while working here. The meetings we do have feel particularly important and useful and I welcome them!
+I've lost track of the amount of time wasted on just scheduling meetings at previous companies. Even the daily status was always hotly debated. Too early and all the night owls are grumbling. Too late and you risk interrupting the flow of the early birds. I can't tell you how nice it is to stop thinking so much about *how* we work and instead just think about the actual work. My levels of stress have been reduced to an extremely low level while working here. The meetings we do have feel particularly important and useful and I welcome them!
 
 As a developer, I have all the autonomy I could ever wish for. There are constant opportunities to learn new skills. We don't work on the bleeding edge by any means, but we have a diverse set of projects that allow us to experiment with new technologies. Here's a truncated list of all the different projects I've worked on in the last year and a half:
 

@@ -2,8 +2,8 @@
 title: "Starting an Online Business"
 date: "2010-06-26"
 tags:
- - money
- - business
+  - money
+  - business
 ---
 
 I've been doing a lot of research, reading, and thinking about how to make money online. I know its the magical pot of gold that everyone is searching for, but I really feel that with all my knowledge of web design and development I can come up with something that would really fill a niche need and help me start making some passive income. I just don't know what that is yet. But some great sites that I have found that are helping me are:

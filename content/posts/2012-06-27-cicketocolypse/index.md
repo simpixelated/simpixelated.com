@@ -3,7 +3,7 @@ title: "Cricketocolypse"
 date: "2012-06-27"
 ---
 
-Crickets of the house [Gryllidae, true crickets indeed](http://en.wikipedia.org/wiki/Cricket_(insect)), are in the late stages of a full scale invasion of our apartment. They are practically streaming in through every orifice of the building. We've closed off access to through the back door with duct tape, but that has only served to detour their attack route.  Six-legged Santas now come happily chirping down our chimney.
+Crickets of the house [Gryllidae, true crickets indeed](<http://en.wikipedia.org/wiki/Cricket_(insect)>), are in the late stages of a full scale invasion of our apartment. They are practically streaming in through every orifice of the building. We've closed off access to through the back door with duct tape, but that has only served to detour their attack route.  Six-legged Santas now come happily chirping down our chimney.
 
 I will not call it war, because despite their numbers, it is a rather one sided battle. I don't coddle or shoo them out the door. That would be a day job. Instead, I rain down on their stupid heads with objects the relative size of sport utility vehicles. I push until I hear their exoskeletons crushed underneath. It does not bring me joy, merely relief. I do it to protect my wife from jumping completely out of her own skin.
 

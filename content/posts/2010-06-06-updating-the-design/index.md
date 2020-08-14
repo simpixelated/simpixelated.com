@@ -2,7 +2,7 @@
 title: "Updating the Design"
 date: "2010-06-06"
 tags:
- - design
+  - design
 ---
 
 Although I started with a free theme, I ultimately knew I wanted to design my own theme. At first I started tweaking the current design, but the more I worked with it in Photoshop and the more stuff I tried to include, I realized I should probably start more or less from scratch. So that's what I've done. I'm still working on it, but here's a little teaser to sample:

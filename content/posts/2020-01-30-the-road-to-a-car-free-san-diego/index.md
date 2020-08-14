@@ -2,11 +2,11 @@
 title: "The Road to a Car-free San Diego"
 date: "2020-01-30"
 tags:
- - urbanism
- - climate
- - transportation
- - bike lanes
- - San Diego
+  - urbanism
+  - climate
+  - transportation
+  - bike lanes
+  - San Diego
 ---
 
 Photo by [Derek Story](https://unsplash.com/@derekstory?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/san-diego?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -48,6 +48,6 @@ There are a couple great projects in progress here: [Normal Street Promenade](ht
 
 There is a lot of potential in San Diego to be excited about and I appreciate the work thus far of representatives like Chris Ward and advocacy groups like [BikeSD](http://bikesd.org/), [Climate Action Campaign](https://www.climateactioncampaign.org/), [Circulate SD](http://www.circulatesd.org/), and others. I have hope that people like [Chris Olsen](https://votechrisolsen.com/), [Wendy Wheatcroft](https://www.wendy4sd.com/), and [Todd Gloria](https://toddgloria.com/) can win their respective races and continue to push the city forward on mobility.
 
-* * *
+---
 
 Follow me on [Twitter](https://twitter.com/simpixelated) if you want to stay up to date on San Diego urbanist news. Check out this list I maintain of major development projects in and around downtown: [SD Dev List](https://sd-dev-list.netlify.com/).

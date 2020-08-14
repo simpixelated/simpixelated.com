@@ -29,8 +29,8 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         showLineNumbers: false,
-        formatString: 'YYYY-MM-DD',
-        feedTitle: 'simpixelated.com',
+        formatString: "YYYY-MM-DD",
+        feedTitle: "simpixelated.com",
         pagesPath: `${__dirname}/content/pages/`,
         postsPath: `${__dirname}/content/posts/`,
         navigation: [
@@ -58,6 +58,6 @@ module.exports = {
     //     path: `${__dirname}/content/pages/`,
     //   },
     // },
-    `gatsby-plugin-netlify`
+    `gatsby-plugin-netlify`,
   ],
 }

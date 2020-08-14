@@ -2,7 +2,7 @@
 title: "You Can't Beat LA (or so I hope)"
 date: "2010-06-16"
 tags:
- - Lakers
+  - Lakers
 ---
 
 If you didn't know already, I'm a huge Lakers fan. I started watching the same year that Kobe was drafted into the league and played behind Eddie Jones. Although I loved the Shaqobe years, I honestly didn't become a true die-hard fan until the years following their break-up. So watching Kobe make it all the way back to the finals only to lose to the rival Celtics was bittersweet.

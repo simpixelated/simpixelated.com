@@ -2,7 +2,7 @@
 title: "Front-End Engineer / Developer Interview Questions"
 date: "2018-06-14"
 tags:
- - interviewing
+  - interviewing
 ---
 
 Throughout my career, I have interviewed lots of front-end developers, possibly in the hundreds. Below are some of my favorite questions to ask and why. Most of these have been taken from [this excellent GitHub repo](https://github.com/h5bp/Front-end-Developer-Interview-Questions). These are pretty basic concepts, but you can adjust your expectations and follow up questions based on the experience you need for the role. These can be all be asked in about 20 minutes (perfect for a phone screen).

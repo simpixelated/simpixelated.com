@@ -2,9 +2,9 @@
 title: "Choosing a JavaScript Framework"
 date: "2013-07-04"
 tags:
- - JavaScript
- - Backbone.js
- - Angular
+  - JavaScript
+  - Backbone.js
+  - Angular
 ---
 
 I've been trying to convert [IPOFest](https://github.com/simpixelated/ipofest) (a pet project started by [Kyle](http://www.aquaether.com/) and I) from all PHP to JavaScript that interfaces with a PHP API. At work we use Backbone.js and since I had never used it before, I practiced on IPOFest. First I started with Backbone and Knockout.js, with Knockback.js as a bridge. I didn't go too far down that path, but it did feel a bit awkward and the Knockback documentation didn't help very much. At work we use Handlebars for templates, so I started changing over to that.

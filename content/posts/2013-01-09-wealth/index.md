@@ -2,7 +2,7 @@
 title: "Wealth"
 date: "2013-01-09"
 tags:
- - money
+  - money
 ---
 
 With my [job change](http://simpixelated.com/learning-object-oriented-javascript/ "Learning Object Oriented Javascript") and impending birth of my first baby, my mind has been focused on the future. I have a lot of interests: front-end development, design, usability, management, writing, etc., but regardless of the position/industry, there are two things that I've come to realize:

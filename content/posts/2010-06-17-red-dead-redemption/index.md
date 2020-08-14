@@ -2,7 +2,7 @@
 title: "Red Dead Redemption"
 date: "2010-06-17"
 tags:
- - gaming
+  - gaming
 ---
 
 Although I always enjoyed the Grand Theft Auto series and appreciated how good they were, for some reason I was never fully engrossed by any of them. I could only make it through about a third of the story before getting bored and running off to screw around in the city. Some would argue that "screwing around" is the greatest part of the series, but you can only go on so many joyrides and killing sprees before the novelty wears off. But in Red Dead Redemption, I can screw around all day long! I'm never bored.

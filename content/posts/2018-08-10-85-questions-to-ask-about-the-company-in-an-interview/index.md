@@ -2,14 +2,14 @@
 title: "85 Questions To Ask About The Company In An Interview"
 date: "2018-08-10"
 tags:
- - interviewing
+  - interviewing
 ---
 
 _Illustration by [Katerina Limpitsouni](https://undraw.co/)_
 
 Over the course of my ten year career in software development, I have been in hundreds of interviews, both as the interviewer and interviewee. The same question gets asked at the end of almost every single one: "Do you have any questions for us?".
 
-> Almost every interview ends with this question. Prepare for it. Have an extensive list of questions prepared in advance. More questions than you'll ever get time to ask. Better yet, write them down or print them off. - _Stevie Buckley, [On nailing the interview](https://blog.honest.work/on-nailing-the-interview/)_
+> Almost every interview ends with this question. Prepare for it. Have an extensive list of questions prepared in advance. More questions than you'll ever get time to ask. Better yet, write them down or print them off. - *Stevie Buckley, [On nailing the interview](https://blog.honest.work/on-nailing-the-interview/)*
 
 You may think you are done being judged, but this is the [Bizarro World](https://en.wikipedia.org/wiki/Bizarro_World) part of the interview where instead of being evaluated by your answers, you are being evaluated by your questions. I know this is true because [I do it as a hiring manager](https://simpixelated.com/front-end-engineer-developer-interview-questions/). I'm expecting a good candidate to have questions. Curiosity is a clear indicator of excitement for the position and I want someone who is excited to work with me. The kinds of questions you ask represent the [values that are important to you](https://www.keyvalues.com/culture-queries). If you don't ask anything, it seems like you only care about getting paid.
 
@@ -26,7 +26,7 @@ As a candidate, I know that's not always the case. There are all kinds of reason
 
 But it's important to always ask some questions because it's a rare chance to learn what it will be like to work there. Don't make the mistake of assuming you've learned everything you need to know in a couple hours. No one will be offended if you keep asking questions. If they do, you probably don't want to work there anyway.
 
-> Remember, most of us only chat with our boss for one hour before getting the job. Then, your boss becomes one of the most influential people in your life. You are trading the one thing you can’t get more of: your time. Make sure it is appreciated! - _Rodolphe Dutel,_ [_How To Hire Your Boss_](https://medium.com/@rdutel/how-to-hire-your-boss-e2a69806d87)
+> Remember, most of us only chat with our boss for one hour before getting the job. Then, your boss becomes one of the most influential people in your life. You are trading the one thing you can’t get more of: your time. Make sure it is appreciated! - *Rodolphe Dutel,* [_How To Hire Your Boss_](https://medium.com/@rdutel/how-to-hire-your-boss-e2a69806d87)
 
 With the below list, at least you will never run out of questions to ask. As a candidate, it's equally important for you to figure out if the company is the right fit for you. _Note: do not ask all 85 questions at once, in a monotone voice._
 
@@ -62,8 +62,8 @@ Project Management
 - How much of you time is in recurring meetings? Do you have any that you don't think are worth having?
 - What are the big goals for this team over the next year/two quarters?
 - Who are the customers of the team? \[internal department, other teams, paying clients, anyone who signs up\]
-    - How often to team members speak with them?
-    - \[for internal\] What's the relationship like with that department/teams?
+  - How often to team members speak with them?
+  - \[for internal\] What's the relationship like with that department/teams?
 
 Team Setup
 
@@ -132,7 +132,7 @@ Question to Ask Your Potential Manager
 
 Hopefully this helps you with your next interview! Or if you are a manager or a recruiter, hopefully this helps round out your pitch by answering questions before they need to be asked. Send me your favorite question to ask in the comments or on [Twitter](https://twitter.com/simpixelated)!
 
-* * *
+---
 
 Further Reading:
 

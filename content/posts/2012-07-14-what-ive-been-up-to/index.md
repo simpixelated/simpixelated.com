@@ -19,7 +19,7 @@ I also made a similar app for cars, but to measure a very specific stat: horsepo
 
 ### I took some online courses.
 
-After debating it for months, a coworker asked me if I wanted to split a course taught by Ramit Sethi called [Earn1k](http://earn1k.com/). It is supposed to teach you how to earn $1,000 in a side business, with a heavy focus on freelance consulting.
+After debating it for months, a coworker asked me if I wanted to split a course taught by Ramit Sethi called [Earn1k](http://earn1k.com/). It is supposed to teach you how to earn \$1,000 in a side business, with a heavy focus on freelance consulting.
 
 Although I had already had some mild success with that, I never devoted enough effort to earn more than a couple hundred dollars a day. Part of the reason was that I always hated having deadlines looming over my head and doing freelance while still working a full time job is pretty draining. Earn1k was great though because it gave me a lot of information on dealing with clients that I was able to use at my job at SiteGoals; both with my bosses and with actual clients.
 

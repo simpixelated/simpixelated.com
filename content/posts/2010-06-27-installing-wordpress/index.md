@@ -2,7 +2,7 @@
 title: "Installing Wordpress"
 date: "2010-06-27"
 tags:
- - WordPress
+  - WordPress
 ---
 
 A few tips:

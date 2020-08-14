@@ -2,14 +2,14 @@
 title: "7 Failures and 2 Reasons I'm Moving to Southern California"
 date: "2014-03-04"
 tags:
- - goals
+  - goals
 ---
 
 Before you read any further, I have a warning for you: this is a post about New Year's Resolutions. Yes, in March. I failed spectacularly at following last years goals, only achieving 2 of 9. Fortunately, the two I did accomplish are huge because they allow my family and I to move back to California, San Diego to be specific. In order to understand why I failed the other 7 goals, and figure out how to do better in 2014, I'm going to review each one in detail.
 
 _1\. read a book a month_
 
-Reason #1 I failed: I didn't bother to keep track. Looking back at my Amazon.com orders, I only bought 4 books, which were all reference books that I certainly didn't read cover to cover. I got a couple books for Christmas that I read and I bought a handful of computer books through work that again, I didn't read cover to cover. This year, I'm keeping a strict budget (with the help of [YNAB](http://www.youneedabudget.com)), including a line item each month for books at $30/month. That's 2-3 books a month, so even though I failed to read just 1 book a month last year, I'm setting even higher standards this year at 2 books a month. So far I've done just that. Here's what I've read:
+Reason #1 I failed: I didn't bother to keep track. Looking back at my Amazon.com orders, I only bought 4 books, which were all reference books that I certainly didn't read cover to cover. I got a couple books for Christmas that I read and I bought a handful of computer books through work that again, I didn't read cover to cover. This year, I'm keeping a strict budget (with the help of [YNAB](http://www.youneedabudget.com)), including a line item each month for books at \$30/month. That's 2-3 books a month, so even though I failed to read just 1 book a month last year, I'm setting even higher standards this year at 2 books a month. So far I've done just that. Here's what I've read:
 
 - The Overspent American: Why We Want What We Don't Need
 - The Shallows: What the Internet Is Doing to Our Brains
@@ -19,11 +19,11 @@ Reason #1 I failed: I didn't bother to keep track. Looking back at my Amazon.com
 
 **Revised 2014 goal: read 2 books a month**
 
-_2. create a $50/month income stream_
+_2. create a \$50/month income stream_
 
 When I wrote the goal, I know I was considering this as a "passive" income stream like a niche blog or eCommerce site. I definitely did not do that, despite doing lots of research. However I think I blew this goal out of the water with a combination of raises and freelance work.
 
-I did a freelance gig for $2,400. Spread over 12 months that's $150 more than my goal. Success! The much bigger win though, is that I switched jobs and increased my salary by $40k (not including a bonus). That was in June, so in those 6 months I added $20k of income. Spread over the entire year that's $1,666/month in extra income. Since I didn't officially list "passive" in the goal, I'm going to call this a major success.
+I did a freelance gig for $2,400. Spread over 12 months that's $150 more than my goal. Success! The much bigger win though, is that I switched jobs and increased my salary by $40k (not including a bonus). That was in June, so in those 6 months I added $20k of income. Spread over the entire year that's \$1,666/month in extra income. Since I didn't officially list "passive" in the goal, I'm going to call this a major success.
 
 For 2014, instead of focusing on earning more, I'm going to try to spend less and save more money. More on this in a future post, but here's my **revised 2014 financial goals:**
 
@@ -33,7 +33,7 @@ For 2014, instead of focusing on earning more, I'm going to try to spend less an
 - increase net worth
 - decrease spending to 50% of take home pay
 
-_3. increase fiat500abarth.us income to $200/month_
+_3. increase fiat500abarth.us income to \$200/month_
 
 Major fail here. I didn't really even try until late 2014 and it was a fairly feable attempt. I wrote up a post for hiring another writer but never posted it. My AdSense revenue and traffic has continued to decline. I might try selling this website in 2014, but I'm not setting any specific goals. Mostly I just don't want to worry about it.
 

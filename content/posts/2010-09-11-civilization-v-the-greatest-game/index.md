@@ -2,7 +2,7 @@
 title: "Civilization V: The Greatest Game"
 date: "2010-09-11"
 tags:
- - gaming
+  - gaming
 ---
 
 As my online moniker might suggest, I've always been a fan of the Sim City series. I wasn't old enough to really enjoy the first game, but from Sim City 2000 on, I was hooked. But the last edition, Sim City 4, is already 7 years old and there may never be a fifth. So I've had to look for other games to scratch that building and planning itch. Tropico is a great series for that. I've also discovered the Civilization series. To be truthful, I never gave any of the first three a chance, but I've played the hell out of IV.

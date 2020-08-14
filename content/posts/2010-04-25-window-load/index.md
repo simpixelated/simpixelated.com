@@ -2,7 +2,7 @@
 title: "window.load"
 date: "2010-04-25"
 tags:
- - JavaScript
+  - JavaScript
 ---
 
 I ran into an interesting problem while working on a project for [SiteGoals](http://www.sitegoals.com). We updated the code for an old design, moving it from tables to divs. This was relatively easy, except that the bottom divs needed to stretch to match the height of the tallest column. Sometimes that was the main content div, sometimes that was the sidebar items. I couldn't fake it with a background image because of the quirks of the design and I've never had much luck with any of the pure CSS techniques, so I turned to javascript.

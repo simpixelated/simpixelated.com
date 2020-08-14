@@ -13,15 +13,15 @@ As you can see by my stale timeline, I haven't updated this blog in awhile. I've
 ### AngularJS Plugins
 
 - [using ui-router for authorization](http://www.frederiknakstad.com/2014/02/09/ui-router-in-angular-client-side-auth/)
-- modal service with $ionicModal
+- modal service with \$ionicModal
 - [logging Angular code with loggly](https://github.com/ajbrown/angular-loggly-logger)
 - creating lodash / underscore mixins
 - [using ChartJS in Angular](http://jtblin.github.io/angular-chart.js/)
 - [preloading images](https://github.com/andrewmcgivery/ionic-ion-imageCacheFactory)
 - [local storage Angular service](http://learn.ionicframework.com/formulas/localstorage/)
 - URL shortening with [YOURLS](https://github.com/YOURLS/YOURLS)
-- customizing $http interceptors
-    - changing JSON from snake\_case to camelCase and back
+- customizing \$http interceptors
+  - changing JSON from snake_case to camelCase and back
 
 ### AngularJS Optimizations
 
@@ -38,7 +38,7 @@ As you can see by my stale timeline, I haven't updated this blog in awhile. I've
 
 ### AngularJS Unit Testing
 
-- [Angular $q promises in Jasmine](http://entwicklertagebuch.com/blog/2013/10/how-to-handle-angularjs-promises-in-jasmine-unit-tests/)
+- [Angular \$q promises in Jasmine](http://entwicklertagebuch.com/blog/2013/10/how-to-handle-angularjs-promises-in-jasmine-unit-tests/)
 - [testing directives via their controllers](http://daginge.com/technology/2014/03/03/testing-angular-directive-controllers-with-jasmine-and-karma/)
 - [testing directive controllers with controllerAs and bindToController](http://www.syntaxsuccess.com/viewarticle/unit-testing-bindtocontroller-and-controlleras)
 - [Jasmine spies](http://jasmine.github.io/2.0/introduction.html#section-Spies)

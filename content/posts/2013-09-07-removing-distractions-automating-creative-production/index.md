@@ -2,7 +2,7 @@
 title: "Removing Distractions and Automating Production"
 date: "2013-09-07"
 tags:
- - goals
+  - goals
 ---
 
 It is amazing how much you can accomplish in 15-25 minutes. I have used [writeordie.com](http://writeordie.com) to help me focus on slamming out 300-500 words at a time. It provides a distraction free page that will flash red when you stop writing for a few seconds and eventually will play horribly obnoxious sounds after 30 seconds or so. The only other interface elements it has is a countdown timer and word count. This allows me to focus on one goal: finish writing 300 words. Once I pick a topic and start the timer, it's easy to just sort of open my brain and let the words flow out.

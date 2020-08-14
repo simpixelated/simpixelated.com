@@ -2,9 +2,9 @@
 title: "33 of the Best Front-End Development Resources"
 date: "2013-12-07"
 tags:
- - development
- - JavaScript
- - Backbone.js
+  - development
+  - JavaScript
+  - Backbone.js
 ---
 
 These links have been sitting in my bookmarks for months now. There's a lot of tutorials, documentation, and free books. Many are resources that I still reference regularly, especially when developing a new feature or app, or whenever I run into a problem.
@@ -16,7 +16,7 @@ These links have been sitting in my bookmarks for months now. There's a lot of t
 - [Functions Explained - Mark Daggett's Blog](http://markdaggett.com/blog/2013/02/15/functions-explained/) - deep dive into functions and how they are used to scope
 - [Understanding JavaScript OOP — Sorella's Basement](http://killdream.github.io/2011/10/09/understanding-javascript-oop.html) - explains in detail what's happening when you create and modify objects and their properties
 - [Eloquent JavaScript](http://eloquentjavascript.net/) - free intro to JS book
-- [Promise Pipelines in JavaScript](http://sitr.us/2012/07/31/promise-pipelines-in-javascript.html) - helped me understand $.Deferred and promises in general
+- [Promise Pipelines in JavaScript](http://sitr.us/2012/07/31/promise-pipelines-in-javascript.html) - helped me understand \$.Deferred and promises in general
 - [JSbooks - free javascript books](http://jsbooks.revolunet.com/)
 
 ### Backbone

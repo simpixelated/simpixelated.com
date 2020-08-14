@@ -2,8 +2,8 @@
 title: "JavaScript, failure, a baby, and other upcoming blog topics."
 date: "2012-09-16"
 tags:
- - life
- - work
+  - life
+  - work
 ---
 
 A lot has been going on in my life lately. Just in this past year, [my wife](http://goofycancook.com) and I celebrated our 1st anniversary: we traveled to the Bahamas on a Disney Cruise for 7 days straight. We visited San Diego, CA just before my parents started their move to Orlando, Florida. I left [SiteGoals](http://blog.sitegoals.com) after almost 4 years for a position as a UI Engineer at [Incisent Technologies](http://incisent.com). We moved, I sold [my GTI](http://simpixelated.com/vw-gti/ "VW GTI") and I am now walking to work. The biggest news of all: Karen is pregnant and we are expecting our first child in late February!

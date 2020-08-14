@@ -2,8 +2,8 @@
 title: "Blogging 101: How to Setup Wordpress"
 date: "2012-06-09"
 tags:
- - WordPress
- - blogging
+  - WordPress
+  - blogging
 ---
 
 **Time to get started!**
@@ -20,7 +20,7 @@ Ultimately the **best and most recommended solution is a self-hosted Wordpress 
 
 **Okay, so, Wordpress. What now?**
 
-1\. Get a domain, through something like [Namecheap](http://www.namecheap.com/) and get some hosting. There are lots of reliable hosts with dirt cheap pricing. You do not need to pay a premium for hosting. I wouldn't spend more than $10/month and that might be pushing it. Personally I like [Lithium](http://forums.somethingawful.com/showthread.php?threadid=2818800), but I've also used [apis networks](http://forums.somethingawful.com/showthread.php?threadid=577837) and they were fine. Whichever you pick, start with the lowest price and work your way up as you need more bandwidth.
+1\. Get a domain, through something like [Namecheap](http://www.namecheap.com/) and get some hosting. There are lots of reliable hosts with dirt cheap pricing. You do not need to pay a premium for hosting. I wouldn't spend more than \$10/month and that might be pushing it. Personally I like [Lithium](http://forums.somethingawful.com/showthread.php?threadid=2818800), but I've also used [apis networks](http://forums.somethingawful.com/showthread.php?threadid=577837) and they were fine. Whichever you pick, start with the lowest price and work your way up as you need more bandwidth.
 
 2\. Install Wordpress, theme, plugins, and setup your pages and initial posts. [Here's a list of recommended plugins](https://github.com/retlehs/roots/wiki/Plugins). At the very least I suggest installing [Wordpress SEO (by Yoast)](http://yoast.com/wordpress/seo/) or anything that lets you set meta values and create an XML sitemap.
 
@@ -30,6 +30,6 @@ Ultimately the **best and most recommended solution is a self-hosted Wordpress 
 
 There is no best theme. There are literally thousands of very good choices and as long as you are in control of your sitemaps, your heading tags, and your URLs, it will be hard to go wrong. I would always suggest you pay for a theme from a reputable site like [ThemeForest](http://themeforest.net), [Mojo Themes](http://mojo-themes.com), or [Woothemes](http://woothemes.com) and not by Googling "free Wordpress theme". Why? Because half the time (or more) those "free" themes have hidden backlinks or other malicious code. Not to mention the quality of the design will almost always be lower and your blog will look like a cookie cutter, spammy blog.
 
-A professional, well designed theme typically runs $35. I always count this cost as part of the required blog investment along with domain name and hosting. Don't skimp.
+A professional, well designed theme typically runs \$35. I always count this cost as part of the required blog investment along with domain name and hosting. Don't skimp.
 
 If you want a more detailed guide on how to setup everything for Wordpress, including detail on most of the steps I've outline above, I highly recommend this post: [A Comprehensive Checklist To Creating The Perfect WordPress Website](http://wp.smashingmagazine.com/2011/12/14/15-step-checklist-creating-perfect-wordpress-website/)

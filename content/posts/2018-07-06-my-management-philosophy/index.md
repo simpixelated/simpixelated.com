@@ -2,7 +2,7 @@
 title: "My Management Philosophy"
 date: "2018-07-06"
 tags:
- - management
+  - management
 ---
 
 _Photo by [rawpixel](https://unsplash.com/photos/h7EIo10-yrQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/partnership?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
@@ -42,7 +42,7 @@ Although clear communication is key for any company, I think it's the most impor
 - Staying on top of blockers and distractions that take developers out of their flow. This translates to scheduling meetings in blocks instead of throughout the day and responding to questions or feedback from QA, product, or upper management so that developers don't have to.
 - Streamlining CI/CD integration.
 - Adding automatic error tracking (Sentry), type checking (TypeScript), and style guide enforcement (ESLint).
-- Facilitating [mob programming](https://www.agilealliance.org/glossary/mob-programming/#q=~(filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'mob*20programming))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) (like pair programming, except with the entire team).
+- Facilitating [mob programming](<https://www.agilealliance.org/glossary/mob-programming/#q=~(filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'mob*20programming))~searchTerm~'~sort~false~sortDirection~'asc~page~1)>) (like pair programming, except with the entire team).
 
 ### How do I deal with different levels of experience?
 

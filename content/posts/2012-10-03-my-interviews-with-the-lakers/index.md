@@ -2,8 +2,8 @@
 title: "My Interview with the Los Angeles Lakers"
 date: "2012-10-03"
 tags:
- - interviewing
- - Lakers
+  - interviewing
+  - Lakers
 ---
 
 I could have been sitting courtside, rubbing shoulders with Jack Nicholson and listening to bad Kobe Bryant jokes... okay more like editing bad photos of Kobe while sitting at a desk in El Segundo, miles away from every home Laker game. Still, ever since I realized that [Lakers.com](http://www.lakers.com) existed, I've considered it the white whale of webmaster jobs. I had no idea how much they paid, how much work was involved, or even where their offices were. I just knew that my passion for web development would be in perfect synergy with my passion for the Lakers, in a perfect union.

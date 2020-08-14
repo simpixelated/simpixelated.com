@@ -2,8 +2,8 @@
 title: "Install Homebrew for OS X"
 date: "2014-03-18"
 tags:
- - development
- - Homebrew
+  - development
+  - Homebrew
 ---
 
 After more than a decade of Windows use, I finally made the switch to an Apple. I started using a Macbook Pro at Rapid7 last year and although I was mostly using Ubuntu in a VM, I got addicted to the simplicity and power of these sleek machines. Since I had to give the company property back when I switched jobs, I had to buy my own. I figured it was a good investment, since I work from home.

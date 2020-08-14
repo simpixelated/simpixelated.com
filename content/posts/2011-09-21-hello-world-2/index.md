@@ -2,7 +2,7 @@
 title: "And we're back!"
 date: "2011-09-21"
 tags:
- - blogging
+  - blogging
 ---
 
 Well, it took a year for me to recover from my blog being hacked, but my blog is finally back. A lot has happened since my last post. I got married to my best friend, I started a blog about the [Fiat 500 Abarth](http://www.fiat500abarth.us "Fiat 500 Abarth Blog"), and I moved (down the street). After my blog was hacked I decided it was easier and more productive to turn simpixelated.com into a permanent resume. It has served me well, but I'm currently at a job I love and I want to start blogging again.

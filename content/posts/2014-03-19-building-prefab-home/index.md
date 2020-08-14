@@ -2,12 +2,12 @@
 title: "Prefab and Modular Home Builders"
 date: "2014-03-19"
 tags:
- - prefab
- - modular
- - housing
+  - prefab
+  - modular
+  - housing
 ---
 
-For the first time home buyer in San Diego (as I am), it can be hard to find a modern, energy efficient, single family home for less than $500k. Especially when you also want some acreage (as I do). So I'm considering having a house built, in a year or two. I want it to be energy efficient, possibly net zero, possibly passive, and possibly capable of being off the grid. I also want it to be somewhat modern, to look good, and be high quality. All of that is hard to find at a decent price. Which is why I started looking at prefab and modular homes.
+For the first time home buyer in San Diego (as I am), it can be hard to find a modern, energy efficient, single family home for less than \$500k. Especially when you also want some acreage (as I do). So I'm considering having a house built, in a year or two. I want it to be energy efficient, possibly net zero, possibly passive, and possibly capable of being off the grid. I also want it to be somewhat modern, to look good, and be high quality. All of that is hard to find at a decent price. Which is why I started looking at prefab and modular homes.
 
 My search started with [Prefabulous + Almost Off the Grid](http://www.amazon.com/gp/product/1419703250/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1419703250&linkCode=as2&tag=simpixelated-20), which includes lots of beautiful examples and plenty of references. Combined with my own research, I've put together a list of the prefab/modular home builders in the United States. I've included the location and year founded, when it was easy to find.
 
