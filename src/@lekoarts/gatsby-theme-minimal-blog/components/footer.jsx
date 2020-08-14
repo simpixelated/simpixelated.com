@@ -19,18 +19,23 @@ const Footer = () => {
       }}
     >
       <div>
+        <Link
+          aria-label="Link to the license"
+          href="https://github.com/simpixelated/simpixelated.com/blob/stable/README.md#license"
+        >
+          &copy; {new Date().getFullYear()} by Jordan Kohl. All rights reserved.
+        </Link>{" "}
         Made with{" "}
         <span role="img" aria-label="love">
           ❤️
         </span>{" "}
-        in San Diego. &copy; {new Date().getFullYear()} by Jordan Kohl. All
-        rights reserved.
+        in San Diego.
       </div>
       <Link
         aria-label="Link to the changelog"
         href="https://github.com/simpixelated/simpixelated.com/blob/stable/CHANGELOG.md"
       >
-        Version {version}
+        v{version}
       </Link>
     </footer>
   )
