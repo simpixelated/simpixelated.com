@@ -23,7 +23,9 @@
   },
   "devDependencies": {
     "gatsby-cli": "^2.12.87",
-    "prettier": "2.0.5"
+    "husky": "^4.2.5",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1"
   },
   "repository": {
     "type": "git",
@@ -31,5 +33,10 @@
   },
   "bugs": {
     "url": "https://github.com/simpixelated/simpixelated.com/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
