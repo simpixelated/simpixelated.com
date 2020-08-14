@@ -53,7 +53,7 @@ Current Tech Stack:
 - [ ] add email link
 - [ ] add Google analytics
 - [ ] add 404 page
-- [ ] default to dark theme
+- [x] default to dark theme
 
 ## License
 
