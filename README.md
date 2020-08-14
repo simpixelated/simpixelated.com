@@ -10,20 +10,6 @@ Like many other developers struggling to find time to work on side projects, I'v
 - headless WordPress with custom static export
 - now back to Gatsby 2.24
 
-Goals:
-
-- improve on https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com: 57 (mobile) / 81 (desktop)
-- improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
-- [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
-- [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
-- improve [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 48
-- static export (no server-side code in production)
-- create posts in Markdown
-- CI/CD for layout and content changes
-- source code + content all in Git
-- eliminate hosting fees
-- maintain SSL, custom domain
-
 Current Tech Stack:
 
 - [Gatsby.js](https://www.gatsbyjs.com/docs/)
@@ -35,6 +21,18 @@ Current Tech Stack:
 
 ### Roadmap
 
+- [x] static export - no server-side code in production (Gatsby)
+- [x] create posts in Markdown
+- [x] CI/CD for layout and content changes (Netlify)
+- [x] source code + content all in Git (GitHub)
+- [ ] improve on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 50
+- [ ] improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
+  - [ ] [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
+  - [ ] [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
+- [ ] improve Lighthouse: 48
+- [ ] eliminate hosting fees
+- [ ] custom domain
+- [ ] SSL
 - [ ] update footer:
   - [ ] switch copyright to "Jordan Kohl"
   - [ ] update theme credit
