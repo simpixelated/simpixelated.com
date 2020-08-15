@@ -35,10 +35,6 @@ module.exports = {
             title: `Blog`,
             slug: `/blog`,
           },
-          {
-            title: "Resume",
-            slug: "/resume-jordan-kohl.pdf",
-          },
         ],
         externalLinks: [
           {
