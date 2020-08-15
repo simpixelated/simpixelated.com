@@ -10,7 +10,7 @@ Like many other developers struggling to find time to work on side projects, I'v
 - headless WordPress with custom static export
 - now back to Gatsby 2.x
 
-Current Tech Stack:
+Built with:
 
 - [Gatsby.js](https://www.gatsbyjs.com/docs/)
 - GitHub
