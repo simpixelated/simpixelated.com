@@ -27,10 +27,9 @@ const Navigation = ({ nav }) => {
             Blog
           </TLink>
           <TLink
-            as={Link}
             activeClassName="active"
             variant="nav"
-            to="/resume-jordan-kohl.pdf"
+            href="/resume-jordan-kohl.pdf"
             download
           >
             Resume
