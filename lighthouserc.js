@@ -8,7 +8,6 @@ module.exports = {
       assertions: {
         "color-contrast": "off",
         "errors-in-console": "off",
-        // "image-alt": "off",
         "installable-manifest": "off",
         "maskable-icon": "off",
         "offline-start-url": "off",

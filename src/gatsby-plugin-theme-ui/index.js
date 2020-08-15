@@ -26,8 +26,7 @@ const theme = merge(originalTheme, {
   styles: {
     a: {
       color: "text",
-      background:
-        "linear-gradient(to bottom, rgba(162, 122, 22, 0.4) 90%, rgb(162, 122, 22) 100%)",
+      backgroundImage: `linear-gradient(to bottom, rgba(236, 201, 75, 0.4) 90%, ${tailwind.colors.yellow[5]} 100%)`,
       backgroundPosition: "0 100%",
       backgroundRepeat: "repeat-x",
       backgroundSize: "10px 10px",
@@ -50,6 +49,17 @@ const theme = merge(originalTheme, {
     },
     secondary: {
       background: "none",
+    },
+    social: {
+      margin: 3,
+      svg: {
+        fill: "heading",
+        width: "48px",
+        height: "48px",
+        "&:hover": {
+          fill: tailwind.colors.yellow[5],
+        },
+      },
     },
   },
 })

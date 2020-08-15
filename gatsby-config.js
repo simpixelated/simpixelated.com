@@ -5,7 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
   siteMetadata: {
     // Used for the title template on pages other than the index site
     siteTitle: `simpixelated.com`,
@@ -31,8 +30,6 @@ module.exports = {
         showLineNumbers: false,
         formatString: "YYYY-MM-DD",
         feedTitle: "simpixelated.com",
-        // pagesPath: `${__dirname}/content/pages/`,
-        // postsPath: `${__dirname}/content/posts/`,
         navigation: [
           {
             title: `Blog`,
@@ -53,6 +50,14 @@ module.exports = {
             url: `https://www.linkedin.com/in/jordankohl/`,
           },
         ],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
       },
     },
     `gatsby-plugin-netlify`,
