@@ -23,6 +23,7 @@ const Navigation = ({ nav }) => {
               key={item.slug}
               as={Link}
               activeClassName="active"
+              variant="nav"
               to={replaceSlashes(`/${basePath}/${item.slug}`)}
             >
               {item.title}
