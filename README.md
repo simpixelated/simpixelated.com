@@ -8,7 +8,7 @@ Like many other developers struggling to find time to work on side projects, I'v
 - Gatsby 1.0
 - Next.js 5.0
 - headless WordPress with custom static export
-- now back to Gatsby 2.24
+- now back to Gatsby 2.x
 
 Current Tech Stack:
 
@@ -18,41 +18,11 @@ Current Tech Stack:
 - [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
 - [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog)
 - [Theme UI](https://theme-ui.com/home)
+- [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 
 ### Roadmap
 
-- [x] static export - no server-side code in production (Gatsby)
-- [x] create posts in Markdown
-- [x] CI/CD for layout and content changes (Netlify)
-- [x] source code + content all in Git (GitHub)
-- [x] add a changelog
-- [x] add git commit hook for prettier
-- [x] update license to match package.json
-- [x] display version in footer, link to changelog/source
-- [x] remove about link
-- [x] update footer:
-  - [x] switch copyright to "Jordan Kohl"
-  - [x] update theme credit
-- [x] add resume to top nav
-- [x] add link highlighting "animation"
-- [x] default to dark theme
-- [ ] improve on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 50
-- [ ] improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
-  - [ ] [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
-  - [ ] [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
-- [ ] setup [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
-- [ ] improve Lighthouse: 48
-- [ ] eliminate hosting fees
-- [ ] custom domain
-- [ ] SSL
-- [ ] update hero:
-  - [ ] add social media icon links: Twitter, Flickr, GitHub, LinkedIn
-- [ ] migrate cover images
-- [ ] convert resume to HTML with print formatting for easy PDF export (similar to [David Clark](http://davidtheclark.github.io/resume/))
-- [ ] add Ghost Inspector GitHub action
-- [ ] add email link
-- [ ] add Google analytics
-- [ ] add 404 page
+See [issues](https://github.com/simpixelated/simpixelated.com/issues)
 
 ## License
 
