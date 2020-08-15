@@ -33,6 +33,9 @@ Current Tech Stack:
 - [x] update footer:
   - [x] switch copyright to "Jordan Kohl"
   - [x] update theme credit
+- [x] add resume to top nav
+- [x] add link highlighting "animation"
+- [x] default to dark theme
 - [ ] improve on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 50
 - [ ] improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
   - [ ] [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
@@ -44,16 +47,12 @@ Current Tech Stack:
 - [ ] SSL
 - [ ] update hero:
   - [ ] add social media icon links: Twitter, Flickr, GitHub, LinkedIn
-- [x] add resume to top nav
 - [ ] migrate cover images
 - [ ] convert resume to HTML with print formatting for easy PDF export (similar to [David Clark](http://davidtheclark.github.io/resume/))
-- [ ] "borrow" some juicy animations from [Bolby theme](https://pxltheme.com/html/bolby/demo/index-3-dark.html), [jnnt.co](http://jntt.co/about.html)
-- [ ] "borrow" some color palettes from [DF](http://danielfiller.com/blog/visceral-contextual-transitions/)
 - [ ] add Ghost Inspector GitHub action
 - [ ] add email link
 - [ ] add Google analytics
 - [ ] add 404 page
-- [x] default to dark theme
 
 ## License
 
