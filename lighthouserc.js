@@ -18,6 +18,7 @@ module.exports = {
         "uses-responsive-images": "off",
         "works-offline": "off",
         "tap-targets": "off",
+        "is-crawlable": "off",
       },
     },
   },
