@@ -22,5 +22,5 @@ jobs:
           urls: |
             ${{ steps.netlify.outputs.url }}
             ${{ steps.netlify.outputs.url }}/two-year-work-retrospective
-          configPath: "lighthouserc.json"
+          configPath: "./.lighthouserc.json"
           temporaryPublicStorage: true
