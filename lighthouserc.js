@@ -18,6 +18,7 @@ module.exports = {
         "unused-javascript": "off",
         "uses-responsive-images": "off",
         "works-offline": "off",
+        "tap-targets": "off",
       },
     },
   },
