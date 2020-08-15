@@ -7,7 +7,6 @@ module.exports = {
       preset: "lighthouse:recommended",
       assertions: {
         "color-contrast": "off",
-        "errors-in-console": "off",
         "installable-manifest": "off",
         "maskable-icon": "off",
         "offline-start-url": "off",
