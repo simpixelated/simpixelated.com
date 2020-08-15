@@ -18,17 +18,23 @@ const Navigation = ({ nav }) => {
             ".active": { color: `heading` },
           }}
         >
-          {nav.map(item => (
-            <TLink
-              key={item.slug}
-              as={Link}
-              activeClassName="active"
-              variant="nav"
-              to={replaceSlashes(`/${basePath}/${item.slug}`)}
-            >
-              {item.title}
-            </TLink>
-          ))}
+          <TLink
+            as={Link}
+            activeClassName="active"
+            variant="nav"
+            to={replaceSlashes(`/${basePath}/blog/`)}
+          >
+            Blog
+          </TLink>
+          <TLink
+            as={Link}
+            activeClassName="active"
+            variant="nav"
+            to="/resume-jordan-kohl.pdf"
+            download
+          >
+            Resume
+          </TLink>
         </nav>
       )}
     </React.Fragment>
