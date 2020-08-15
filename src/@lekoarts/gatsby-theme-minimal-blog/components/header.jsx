@@ -41,6 +41,7 @@ const Header = () => {
       >
         <Image
           src={imageAvatar}
+          alt="illustration of Jordan Kohl"
           sx={{
             width: "68px",
             mr: 4,
