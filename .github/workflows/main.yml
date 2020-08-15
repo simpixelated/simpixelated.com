@@ -1,22 +1,29 @@
-name: CI
-on: [push]
+name: Lighthouse CI for Netlify sites
+on: pull_request
 jobs:
-  lhci:
-    name: Lighthouse
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 10.x
+      - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
-      - name: npm install, build
+          node-version: 12.x
+      - name: Install & Build
         run: |
           npm install
           npm run build
-      - name: run Lighthouse CI
-        env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-        run: |
-          npm install -g @lhci/cli@0.4.x
-          lhci autorun
+      - name: Wait for the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1
+        id: netlify
+        with:
+          site_name: "simpixelated"
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v3
+        with:
+          urls: |
+            ${{ steps.netlify.outputs.url }}
+            ${{ steps.netlify.outputs.url }}/two-year-work-retrospective
+          configPath: "./lighthouserc.js"
+          uploadArtifacts: true
