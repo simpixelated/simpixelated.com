@@ -16,10 +16,10 @@ jobs:
           site_name: "simpixelated"
           max_timeout: 120
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v3
+        uses: treosh/lighthouse-ci-action@3.0.0
         with:
           urls: |
             ${{ steps.netlify.outputs.url }}
             ${{ steps.netlify.outputs.url }}/two-year-work-retrospective
-          configPath: "./lighthouserc.json"
+          configPath: "../lighthouserc.js"
           temporaryPublicStorage: true
