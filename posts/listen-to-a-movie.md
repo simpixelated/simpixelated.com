@@ -1,9 +1,0 @@
----
-title: "Listen to a Movie"
-date: "04/04/2007"
-slug: "listen-to-a-movie"
----
-
-If you sit at a computer all day, say working in an office like I do, you probably listen to the radio or CDs or podcasts, or something audible in nature to help pass the time. My work involves updating a lot of webpages, which usually consists of adding or deleting a line of text or sometimes messing with fonts and colors. So the majority of my work doesn't take a lot of deep thinking. This means that I have my headphones on throughout the day. Unfortunately I crave something more engaging than just music. I get enough background music at home and in the car. [Rob, Arnie, & Dawn](http://www.robarnieanddawn.com/) have been my staple audio meal since I discovered they posted MP3s online. Unfortunately I consume their daily handful of clips rather quickly. I listen to PTI whenever they talk about something besides baseball, but that's still only 20 minutes per day. I already plowed through the [Ricky Gervais](http://www.rickygervais.com/podcasts2.php) archives. So what's left?
-
-I was loading up my musical playlist with disdain until someone linked this wonderful site from the Something Awful forums (which provides all the visual entertainment I need during breaks). The site is called [Listen to a Movie](http://power.listentoamovie.com/) and the title is very descriptive of its function. I couldn't be happier being able to listen to _The Big Lewboski_ while I work. They have also posted a bunch of stand-up comedy DVDs which are perfect for this. The best part is that it's all free and streams very quickly.

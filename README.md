@@ -1,48 +1,59 @@
-This is a work in progress rebuild of my blog at simpixelated.com. I am in the process of converting it from Wordpress to a JavaScript based static site generator using React.js, Next.js, and Markdown.
+This is a work in progress rebuild of my blog at simpixelated.com. I am in the process of converting it from WordPress to a JavaScript based static site generator using React.js, Gatsby.js, and Markdown.
 
 ### History
 
-Looked at a bunch of different options. Started with Gatsby, switched to Next.js, looked into using WP REST API, currently landing on static export with no API. Was not able to get static export working. I think it's a pipe dream without manually creating the html files first. Next.js static export is fairly limited that way, because it doesn't really support dynamic pages out of the box.
+Like many other developers struggling to find time to work on side projects, I've started but never finished refactoring my blog from WordPress to just about anything else, many times over the years. Here's just a few of the frameworks I've tried out:
 
-Performance:
-- improve on https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com
-- 57 (mobile) / 81 (desktop)
+- React.js
+- Gatsby 1.0
+- Next.js 5.0
+- headless WordPress with custom static export
+- now back to Gatsby 2.24
 
-References:
-- https://github.com/jxson/front-matter
-- https://github.com/fridays/next-routes
-- https://expressjs.com/en/guide/routing.html
-- https://medium.com/@antonioval/making-array-iteration-easy-when-using-async-await-6315c3225838
-- https://github.com/jaketrent/daily-bread/blob/master/server/repo.js
-- https://jaketrent.com/post/serve-markdown-nextjs-server/
-- https://github.com/elmasse/nextein
-- https://github.com/tscanlin/next-blog
-- https://github.com/probablyup/markdown-to-jsx
-- https://timber.io/blog/building-a-blog-with-next-js/
-- https://github.com/expressjs/serve-favicon
+Current Tech Stack:
 
-### ROADMAP
+- [Gatsby.js](https://www.gatsbyjs.com/docs/)
+- GitHub
+- [Netlify](https://docs.netlify.com/#get-started)
+- [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
+- [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog)
+- [Theme UI](https://theme-ui.com/home)
 
-- [x] create dynamic slug to .md file route
-- [x] display all posts on homepage
-- [x] insert slug into exported .md
-- [x] link to each post by slug
-- [x] fetch single post by slug
-- [x] sort by date
-- [x] filter drafts
-- [x] dynamic <title>
-- [x] display date next to blog post title
-- [ ] figure out how to export static from markdown -- would likely require [dynamically creating pages](https://github.com/zeit/next.js/blob/canary/examples/with-static-export/next.config.js)
-- [ ] pick specific posts to save
-- [ ] filter requests for files with extensions
-- [ ] recreate styles from existing WP template
-- ~~enable search~~
-- [ ] build contact page / form
-- [ ] build resume page
-- [ ] Typescript
-- [ ] tslint
-- [ ] unit tests
-- [ ] publish baseline similar to next-blog
-- [ ] fork/push/PR wordpress-to-markdown changes
-- [ ] resume (e.g. http://davidtheclark.github.io/resume/)
-- [ ] [deploy to GitHub pages](https://github.com/zeit/next.js/wiki/Deploying-a-Next.js-app-into-GitHub-Pages)
+### Roadmap
+
+- [x] static export - no server-side code in production (Gatsby)
+- [x] create posts in Markdown
+- [x] CI/CD for layout and content changes (Netlify)
+- [x] source code + content all in Git (GitHub)
+- [x] add a changelog
+- [x] add git commit hook for prettier
+- [x] update license to match package.json
+- [x] display version in footer, link to changelog/source
+- [x] remove about link
+- [x] update footer:
+  - [x] switch copyright to "Jordan Kohl"
+  - [x] update theme credit
+- [x] add resume to top nav
+- [x] add link highlighting "animation"
+- [x] default to dark theme
+- [ ] improve on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com): 50
+- [ ] improve [Webpagetest](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/):
+  - [ ] [F security score](https://snyk.io/test/website-scanner/?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&utm_medium=referral&utm_source=webpagetest&utm_campaign=website-scanner)
+  - [ ] [F cache static assets](https://webpagetest.org/performance_optimization.php?test=200813_Z5_44a758e1f23a43624841b0d687f06c09&run=1#cache_static_content)
+- [ ] setup [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md)
+- [ ] improve Lighthouse: 48
+- [ ] eliminate hosting fees
+- [ ] custom domain
+- [ ] SSL
+- [ ] update hero:
+  - [ ] add social media icon links: Twitter, Flickr, GitHub, LinkedIn
+- [ ] migrate cover images
+- [ ] convert resume to HTML with print formatting for easy PDF export (similar to [David Clark](http://davidtheclark.github.io/resume/))
+- [ ] add Ghost Inspector GitHub action
+- [ ] add email link
+- [ ] add Google analytics
+- [ ] add 404 page
+
+## License
+
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE.md).
