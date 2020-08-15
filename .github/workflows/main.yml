@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -16,6 +15,7 @@ jobs:
         with:
           site_name: "simpixelated"
           max_timeout: 120
+      - uses: actions/checkout@v2
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@3.0.0
         with:
