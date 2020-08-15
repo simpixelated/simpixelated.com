@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Avatar, Link, Flex } from "@theme-ui/components"
+import { Link, Flex } from "@theme-ui/components"
 import TwitterIcon from "./assets/twitter.svg"
 import FlickrIcon from "./assets/flickr.svg"
 import GitHubIcon from "./assets/github.svg"
@@ -9,16 +9,32 @@ import LinkedInIcon from "./assets/linkedin.svg"
 export const SocialLinks = () => {
   return (
     <Flex>
-      <Link variant="social" href="https://twitter.com/simpixelated">
+      <Link
+        aria-label="Twitter"
+        variant="social"
+        href="https://twitter.com/simpixelated"
+      >
         <TwitterIcon />
       </Link>
-      <Link variant="social" href="https://github.com/simpixelated">
+      <Link
+        aria-label="GitHub"
+        variant="social"
+        href="https://github.com/simpixelated"
+      >
         <GitHubIcon />
       </Link>
-      <Link variant="social" href="https://linkedin.com/in/jordankohl">
+      <Link
+        aria-label="LinkedIn"
+        variant="social"
+        href="https://linkedin.com/in/jordankohl"
+      >
         <LinkedInIcon />
       </Link>
-      <Link variant="social" href="https://flickr.com/people/38375540@N08/">
+      <Link
+        aria-label="Flickr"
+        variant="social"
+        href="https://flickr.com/people/38375540@N08/"
+      >
         <FlickrIcon />
       </Link>
     </Flex>
