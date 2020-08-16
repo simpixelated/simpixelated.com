@@ -36,16 +36,6 @@ module.exports = {
             slug: `/blog`,
           },
         ],
-        externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/simpixelated`,
-          },
-          {
-            name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/jordankohl/`,
-          },
-        ],
       },
     },
     {
@@ -54,6 +44,19 @@ module.exports = {
         rule: {
           include: /assets/,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-4495054-4",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Defers execution of google analytics script after page load
+        defer: false,
       },
     },
     `gatsby-plugin-netlify`,
