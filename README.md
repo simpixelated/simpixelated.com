@@ -1,5 +1,7 @@
 This is a work in progress rebuild of my blog at simpixelated.com. I am in the process of converting it from WordPress to a JavaScript based static site generator using React.js, Gatsby.js, and Markdown.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3afc92b8-982b-4986-91b4-eec61af3b2f3/deploy-status)](https://app.netlify.com/sites/simpixelated/deploys)
+
 ### History
 
 Like many other developers struggling to find time to work on side projects, I've started but never finished refactoring my blog from WordPress to just about anything else, many times over the years. Here's just a few of the frameworks I've tried out:
