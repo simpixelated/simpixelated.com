@@ -59,6 +59,12 @@ module.exports = {
         defer: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://simpixelated.com`,
+      },
+    },
     `gatsby-plugin-netlify`,
   ],
 }
