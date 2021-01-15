@@ -30,3 +30,5 @@ As a developer, I have all the autonomy I could ever wish for. There are constan
 - wrote [several](https://ghostinspector.com/blog/ghost-inspector-wordpress-plugin/) [different](https://ghostinspector.com/blog/develop-wordpress-plugin-with-webpack-and-react/) [blog](https://ghostinspector.com/blog/automated-ui-testing-for-wordpress/) [posts](https://ghostinspector.com/blog/continuous-integration-testing-for-wordpress/)
 
 All of this is possible because we have a rock-solid customer base, a stable system for our application, a team who trusts and respects each other, and a CEO who enables us to do our best work. I'm really happy to have joined the team.
+
+Follow me on [Twitter](https://twitter.com/simpixelated) and don't hesitate to send me a message if you have any questions about moving from management back to individual contributor, or using the good parts of agile, or how to avoid meetings! Or leave a [comment on HackerNews](https://news.ycombinator.com/item?id=25759512).
