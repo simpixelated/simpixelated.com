@@ -20,6 +20,7 @@ module.exports = {
         "tap-targets": "off",
         "is-crawlable": "off",
         "unsized-images": "off",
+        canonical: "warn",
       },
     },
   },
