@@ -27,7 +27,7 @@ Like many other developers struggling to find time to work on side projects, I'v
 - headless WordPress with custom static export
 - now back to Gatsby 2.x
 
-Read about how/why I decided on Gatsby.js in my [recent blog post](https://github.com/simpixelated/simpixelated.com/blob/stable/ content/posts/2021-01-20-converting-from-word-press-to-gatsby-js/index.md).
+Read about how/why I decided on Gatsby.js in my [recent blog post](https://github.com/simpixelated/simpixelated.com/blob/stable/content/posts/2021-01-20-converting-from-word-press-to-gatsby-js/index.md).
 
 ## License
 
