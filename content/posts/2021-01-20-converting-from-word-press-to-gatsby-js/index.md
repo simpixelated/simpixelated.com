@@ -16,6 +16,13 @@ Early last year, the hosting service I used for over a decade, [Lithium Hosting]
 
 I've attempted to rebuild my blog with both Next.js and Gatsby.js; as of today, I don't think you can go wrong with either choice. If your website is mostly just a blog, I've found Gatsby to be a bit quicker setup, with an ecosystem of plugins for accomplishing all the common tasks. However if you really need to customize your setup, especially when it comes to routing or whatever, then Next.js might be a better fit. I went with Gatsby.js and so far I've been very happy.
 
+My main goals for the conversion were:
+
+- local content management (no more security risk from a publicly accessible admin)
+- write blog posts in Markdown, with version control
+- 100% static export able to be hosted for free on Netlify (or GitHub pages)
+- massively improve page speed performance
+
 Here are the main tools that I used to convert from WordPress to Gatsby.js:
 
 - [Gatsby.js](https://www.gatsbyjs.com/docs/) (obviously)
@@ -32,5 +39,7 @@ The general process of converting was:
 1. Export my posts from WordPress (using the tool within the admin)
 1. Convert my posts from WordPress HTML to Markdown using [this tool](https://github.com/lonekorean/wordpress-export-to-markdown)
 1. Manually cleanup anything broken during the conversion
+
+By switching from WordPress to Gatsby.js, my PageSpeed Insights score went from 50 to [about 80](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com%2F). My Web Page Performance test scores went from [three Fs](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/) to [all As](https://webpagetest.org/result/210120_Di6V_b2767bdf7f5f5bdf683d2ab4270c2deb/).
 
 In the end, I'm extremely happy with the change. I probably spent way too much time tweaking the link colors (still don't love them). However the ability to write posts with Markdown, in VS Code, and push changes via GitHub, is in a word: awesome! I don't really miss any of the headaches of WordPress and it's nice being able to save $15/month.
