@@ -43,3 +43,5 @@ The general process of converting was:
 By switching from WordPress to Gatsby.js, my PageSpeed Insights score went from 50 to [about 80](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fsimpixelated.com%2F). My Web Page Performance test scores went from [three Fs](https://webpagetest.org/result/200813_Z5_44a758e1f23a43624841b0d687f06c09/) to [all As](https://webpagetest.org/result/210120_Di6V_b2767bdf7f5f5bdf683d2ab4270c2deb/).
 
 In the end, I'm extremely happy with the change. I probably spent way too much time tweaking the link colors (still don't love them). However the ability to write posts with Markdown, in VS Code, and push changes via GitHub, is in a word: awesome! I don't really miss any of the headaches of WordPress and it's nice being able to save $15/month.
+
+Send me a message on [Twitter](https://twitter.com/simpixelated) if you have any comments/questions about setting up a blog with Gatsby.js.
