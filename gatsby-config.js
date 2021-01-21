@@ -9,13 +9,13 @@ module.exports = {
     // Used for the title template on pages other than the index site
     siteTitle: `simpixelated.com`,
     // Default title of the page
-    siteTitleAlt: `Front End Developer Jordan Kohl`,
+    siteTitleAlt: `Software Engineer Jordan Kohl`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `Thoughts on urbanism, software engineering, management, and life by Jordan Kohl.`,
+    siteHeadline: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice navigating software as a career.`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://simpixelated.com`,
     // Used for SEO
-    siteDescription: `Thoughts on urbanism, software engineering, management, and life by Jordan Kohl.`,
+    siteDescription: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice navigating software as a career.`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder

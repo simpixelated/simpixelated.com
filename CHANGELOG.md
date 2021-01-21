@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2021-01-21
+
+## Added
+
+- og banner image
+
+## Changed
+
+- dependency updates
+- updated SEO/OG/Twitter meta tags
+
+## [1.0.2] - 2021-01-20
+
+## Added
+
+- conical URLs [#30](https://github.com/simpixelated/simpixelated.com/pull/30)
+
+## Changed
+
+- dependency updates
+- updated README
+
 ## [1.0.0] - 2020-08-16
 
 ### Added
