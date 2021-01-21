@@ -11,11 +11,11 @@ module.exports = {
     // Default title of the page
     siteTitleAlt: `Software Engineer Jordan Kohl`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice navigating software as a career.`,
+    siteHeadline: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice for navigating software as a career.`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://simpixelated.com`,
     // Used for SEO
-    siteDescription: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice navigating software as a career.`,
+    siteDescription: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice for navigating software as a career.`,
     // Will be set on the <html /> tag
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
