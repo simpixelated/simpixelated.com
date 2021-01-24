@@ -13,6 +13,8 @@ banner: ./undraw_interview_rmcf.png
 
 From 2012 to 2013 I managed to increase my annual salary from $35,000 to $130,000 by changing jobs and negotiating major salary increases. It took months of job hunting after gaining years of experience, but I gained nearly a hundred thousand dollars in just a few conversations. One reason for the large jump in pay is that I was being paid well below my worth prior to 2013. Nonetheless, without negotiating, I could have easily been stuck under six figures for much longer.
 
+![image of salary history](./salary-table.png)
+
 Hopefully this post inspires anyone who thinks they are stuck in a low paying job. This post isn't for the Stanford graduate or someone with a ton of connections. I didn’t study Cracking the Coding Interview to land a job at Google or Facebook. None of my salary has ever come in the form of RSUs. So this post isn’t for the kind of person looking for tips on how to get that $500K FAANG payday. This is for the software developer who dropped out or never went to college, living in Omaha, or San Diego, or wherever else outside of Silicon Valley, working for a company that no one has heard of, but wants to finally get paid what they are worth.
 
 ### Where I Started
