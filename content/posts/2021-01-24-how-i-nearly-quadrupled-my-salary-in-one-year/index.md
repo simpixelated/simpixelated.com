@@ -8,7 +8,7 @@ tags:
   - money
 ---
 
-## Or How I Was Vastly Underpaid at the Start of My Career
+### Or How I Was Vastly Underpaid at the Start of My Career
 
 From 2012 to 2013 I managed to increase my annual salary from $35,000 to $130,000 by changing jobs and negotiating major salary increases. It took months of job hunting after gaining years of experience, but I gained nearly a hundred thousand dollars in just a few conversations. One reason for the large jump in pay is that I was being paid well below my worth prior to 2013. Nonetheless, without negotiating, I could have easily been stuck under six figures for much longer.
 
@@ -34,6 +34,6 @@ Instead of just my salary + 10%, in mid 2013, I was given an offer 62% higher th
 
 ### Where I’m At Now
 
-Since then, I haven’t achieved anywhere near that level of growth. In reality, I probably spent the first four years of my career being underpaid and it wasn’t until my third job that I finally got up to a healthy baseline. Or maybe I’m deluding myself and I’m still underpaid! Either way, I’m pretty [happy in my current position](/2020-07-14-two-year-work-retrospective/), for more than just financial reasons, so I’m not in the same rush I used to be to chase that major salary growth.
+Since then, I haven’t achieved anywhere near that level of growth. In reality, I probably spent the first four years of my career being underpaid and it wasn’t until my third job that I finally got up to a healthy baseline. Or maybe I’m deluding myself and I’m still underpaid! Either way, I’m pretty [happy in my current position](/two-year-work-retrospective/), for more than just financial reasons, so I’m not in the same rush I used to be to chase that major salary growth.
 
 Follow me on [Twitter](https://twitter.com/simpixelated) if you want to hear more on salary negotiation, job hunting, interviewing, and career advanced in software development. If you're wondering if you are underpaid, send me a DM! Or let me know if you got an even bigger raise by negotiating.
