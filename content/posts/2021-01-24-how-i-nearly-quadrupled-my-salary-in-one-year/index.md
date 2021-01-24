@@ -6,6 +6,7 @@ tags:
   - career
   - interviewing
   - money
+banner: ./undraw_interview_rmcf.png
 ---
 
 ### Or How I Was Vastly Underpaid at the Start of My Career
