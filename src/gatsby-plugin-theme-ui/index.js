@@ -29,7 +29,7 @@ const theme = merge(originalTheme, {
       backgroundImage: `linear-gradient(to bottom, rgba(236, 201, 75, 0.4) 90%, ${tailwind.colors.yellow[5]} 100%)`,
       backgroundPosition: "0 100%",
       backgroundRepeat: "repeat-x",
-      backgroundSize: "10px 10px",
+      backgroundSize: "10px 2px",
       transition: "background-size .2s",
       textDecoration: `none`,
       "&:hover": {
