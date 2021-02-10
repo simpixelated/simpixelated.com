@@ -21,7 +21,7 @@ jobs:
       - if: always()
         uses: ouzi-dev/commit-status-updater@v1.1.0
         with:
-          status: ${{ env.commit_status }}
+          status: success
           url: https://app.ghostinspector.com/suites/${{ env.SUITE_ID }}
           description: "this is my status check"
           name: "name of my status check"
