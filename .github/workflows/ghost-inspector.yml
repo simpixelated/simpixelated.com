@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # sets status to pending (default)
-      - uses: ouzi-dev/commit-status-updater@v1.1.0
+      - uses: ouzi-dev/commit-status-updater@v1.0.7
       - name: Output Staging Tests
         env:
           API_KEY: ${{ secrets.GI_API_KEY }}
@@ -21,7 +21,7 @@ jobs:
       - if: always()
         uses: ouzi-dev/commit-status-updater@v1.1.0
         with:
-          status: success
+          status: ${{ env.commit_status }}
           url: https://app.ghostinspector.com/suites/${{ env.SUITE_ID }}
           description: "this is my status check"
           name: "name of my status check"
