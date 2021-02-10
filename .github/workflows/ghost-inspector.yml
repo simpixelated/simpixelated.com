@@ -16,7 +16,7 @@ jobs:
         run: |
           GI_PASSING=$(curl 'https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1' | jq '.data[0].passing' | tr -d '"')
           echo $GI_PASSING
-          if [[ "$GI_PASSING" == "false" ]]; then
+          if [[ "$GI_PASSING" != "true" ]]; then
             exit 1
           fi
       # # update commit status based on results of above API request
