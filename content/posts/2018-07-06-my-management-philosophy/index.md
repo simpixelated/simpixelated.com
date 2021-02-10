@@ -3,9 +3,9 @@ title: "My Management Philosophy"
 date: "2018-07-06"
 tags:
   - management
+  - career
+banner: ./joshua-hoehne-unsplash.jpg
 ---
-
-_Photo by [rawpixel](https://unsplash.com/photos/h7EIo10-yrQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/partnership?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 This is the start of my [Manager README](https://medium.com/@kawomersley/why-and-how-to-share-your-manager-readme-plus-heres-mine-8a4fe188ee1b). If you're just starting out in management, or looking for help managing a remote team, hopefully my experience can help.
 
@@ -23,13 +23,13 @@ One of the most important lessons I have learned is that software development is
 
 ### What do I value?
 
-When I started at Native Axis, I wanted to create a remote software development company that embraced flexibility and **trust** in it's employees to enable huge productivity gains. By removing the physical requirements of being colocated, everyone on the team was able focus on doing their best work instead of being distracted and stressed by commuting and sharing office space.
+When I started at Native Axis, I wanted to create a remote software development company that embraced flexibility and **trust** in it's employees to enable huge productivity gains. By removing the physical requirements of being co-located, everyone on the team was able focus on doing their best work instead of being distracted and stressed by commuting and sharing office space.
 
 My philosophy on management aligns very well with how remote companies have to function: on trust. I want to work with people that I can trust.
 
 > \[Y\]ou need to learn to manage by expectations rather than by "butts in seat," so make sure you can show trust in those you hire. - [Wade Foster, CEO of Zapier](https://zapier.com/learn/remote-work/how-manage-remote-team/)
 
-My goal as am anager is to enable them to do their best work without micromanagement. I really like how [Help Scout prioritizes "players"](https://www.helpscout.net/blog/effective-teams/) (relative to management "coaches") and follows "servant leadership". This aligns well with how I tend to manage my own teams. I believe it is my job to improve the health and productivity of their team through **optimism**, **empathy**, and **leverage-based** thinking.
+My goal as a manager is to enable them to do their best work without micromanagement. I really like how [Help Scout prioritizes "players"](https://www.helpscout.net/blog/effective-teams/) (relative to management "coaches") and follows "servant leadership". This aligns well with how I tend to manage my own teams. I believe it is my job to improve the health and productivity of their team through **optimism**, **empathy**, and **leverage-based** thinking.
 
 Although clear communication is key for any company, I think it's the most important aspect of a remote company. Without the nuance and context of body language and tone of voice, it's easy to misread any Slack message. I always assume the best of intentions from everyone else and infuse my communication with **optimism** to avoid negative conclusions by anyone else.
 
@@ -51,3 +51,5 @@ I have worked with and managed junior engineers fresh from code school, as well 
 ### Do I still still code?
 
 Sometimes I do miss being an individual contributor, but I believe that as a manager you have to give up on many of the "fun" projects to allow your team to enjoy their work and learn from those new experiences. I also do several things to stay close to the code. For one, I review every pull request, so that I'm up to date on the codebase and can share my knowledge with the rest of the team on a daily basis. When I do have time to code, I tend to focus on changes that will boost productivity for the entire team (see "leverage-based thinking" above).
+
+Follow me on [Twitter](https://twitter.com/simpixelated) if you want to hear more thoughts on management and working in software development.
