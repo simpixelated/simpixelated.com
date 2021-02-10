@@ -19,7 +19,7 @@ jobs:
           echo $GI_RESULT
       # update commit status based on results of above API request
       - if: always()
-        uses: ouzi-dev/commit-status-updater@v1.1.0
+        uses: ouzi-dev/commit-status-updater@v1.0.7
         with:
           status: ${{ env.commit_status }}
           url: https://app.ghostinspector.com/suites/${{ env.SUITE_ID }}
