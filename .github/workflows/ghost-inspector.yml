@@ -11,9 +11,9 @@ jobs:
       - name: Output Staging Tests
         env:
           API_KEY: ${{ secrets.GI_API_KEY }}
-          SUITE_ID: ${{ secrets.GI_TEST }}
-          run: |
-            RESULT=$(curl "https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1"  | jq '.data[0] | if .countFailing > 0 then "failure" elif .countUnknown > 0 then "error" else "success" end')  >> $GITHUB_ENV
+          SUITE_ID: ${{ secrets.GI_SUITE_ID }}
+        run: |
+          RESULT=$(curl "https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1"  | jq '.data[0] | if .countFailing > 0 then "failure" elif .countUnknown > 0 then "error" else "success" end')  >> $GITHUB_ENV
       # update commit status based on results of above API request
       - if: always()
         uses: ouzi-dev/commit-status-updater@v1.1.0
