@@ -16,7 +16,7 @@ jobs:
           RESULT: "error"
         run: |
           GI_RESULT=$(curl "https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1"  | jq '.data[0] | if .countFailing > 0 then "failure" elif .countUnknown > 0 then "error" else "success" end')
-          echo "::set-output name=status::$(echo $GI_RESULT)"
+          echo "::set-output name=status::$GI_RESULT"
       # update commit status based on results of above API request
       - if: always()
         uses: ouzi-dev/commit-status-updater@v1.0.7
