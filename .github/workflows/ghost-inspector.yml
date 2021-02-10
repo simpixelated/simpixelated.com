@@ -14,13 +14,14 @@ jobs:
           SUITE_ID: ${{ secrets.GI_SUITE_ID }}
           RESULT: "error"
         run: |
-          GI_RESULT=$(curl "https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1"  | jq '.data[0] | if .countFailing > 0 then "failure" elif .countUnknown > 0 then "error" else "success" end')  >> $GITHUB_ENV
+          GI_RESULT=$(curl "https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1"  | jq '.data[0] | if .countFailing > 0 then "failure" elif .countUnknown > 0 then "error" else "success" end')
+          echo "commit_status=GI_RESULT" >> $GITHUB_ENV
           echo $GI_RESULT
       # update commit status based on results of above API request
       - if: always()
         uses: ouzi-dev/commit-status-updater@v1.1.0
         with:
-          status: "${{ env.GI_RESULT }}"
+          status: "${{ env.commit_status }}"
           url: https://app.ghostinspector.com/suites/${{ env.SUITE_ID }}
           description: "this is my status check"
           name: "name of my status check"
