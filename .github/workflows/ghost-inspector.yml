@@ -3,27 +3,24 @@ name: Test Ghost Inspector
 on: [pull_request]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
+    container:
+      image: node:12-alpine
+      # this will be used by the Ghost Inspector container
+      options: --network-alias node-app
     steps:
-      # sets status to pending (default)
-      # - uses: ouzi-dev/commit-status-updater@v1.0.7
-      - name: Output Staging Tests
-        # id: output_staging_tests
-        env:
-          API_KEY: ${{ secrets.GI_API_KEY }}
-          SUITE_ID: ${{ secrets.GI_SUITE_ID }}
+      - uses: actions/checkout@v2
+      - name: install, build, and run app
         run: |
-          GI_PASSING=$(curl 'https://api.ghostinspector.com/v1/suites/$SUITE_ID/results/?apiKey=$API_KEY&count=1' | jq '.data[0].passing' | tr -d '"')
-          echo $GI_PASSING
-          if [[ "$GI_PASSING" != "true" ]]; then
-            exit 1
-          fi
-      # # update commit status based on results of above API request
-      # - if: always()
-      #   uses: ouzi-dev/commit-status-updater@v1.0.7
-      #   with:
-      #     status: ${{ steps.output_staging_tests.outputs.status }}
-      #     url: https://app.ghostinspector.com/suites/${{ env.SUITE_ID }}
-      #     description: "this is my status check"
-      #     name: "name of my status check"
+          npm install
+          npm run build
+          npm start &
+      - name: execute Ghost Inspector suite
+        env:
+          GI_API_KEY: ${{ secrets.GI_API_KEY }}
+          GI_SUITE: ${{ secrets.GI_SUITE }}
+          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+          # this uses the network-alias defined in the container options
+          APP_PORT: node-app:3000
+        uses: docker://ghostinspector/test-runner-standalone
