@@ -17,6 +17,6 @@ jobs:
       - name: run-ghost-inspector-suite
         uses: DATADEER/run-ghost-inspector-suite-action@v1.2
         with:
-          suiteID: ${{ secrets.GI_SUITE }}
+          suiteID: 5c05786d4a85d01c0224a7f1 # ${{ secrets.GI_SUITE }}
           startURL: ${{ steps.netlify.outputs.url }}
           GHOST_INSPECTOR_API_KEY: ${{ secrets.GI_API_KEY }}
