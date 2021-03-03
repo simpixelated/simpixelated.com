@@ -7,20 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:12-alpine
-      # this will be used by the Ghost Inspector container
-      options: --network-alias node-app
     steps:
-      # - uses: actions/checkout@v2
-      # - name: install, build, and run app
-      #   run: |
-      #     npm install
-      #     npm run build
-      #     npm start &
-      - name: execute Ghost Inspector suite
-        env:
-          GI_API_KEY: ${{ secrets.GI_API_KEY }}
-          GI_SUITE: ${{ secrets.GI_SUITE }}
-          NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
-          # this uses the network-alias defined in the container options
-          APP_PORT: node-app:3000
-        uses: docker://ghostinspector/test-runner-standalone
+      - name: Wait for the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1
+        id: netlify
+        with:
+          site_name: "simpixelated"
+          max_timeout: 120
+      - name: run-ghost-inspector-suite
+        uses: DATADEER/run-ghost-inspector-suite-action@v1.2
+        with:
+          suiteID: ${{ secrets.GI_SUITE }}
+          startURL: ${{ steps.netlify.outputs.url }}
+          GHOST_INSPECTOR_API_KEY: ${{ secrets.GI_API_KEY }}
