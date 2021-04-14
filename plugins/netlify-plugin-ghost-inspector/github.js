@@ -22,8 +22,8 @@ exports.updateGithubStatus = async ({
 
   try {
     await octokit.request("POST /repos/{owner}/{repo}/statuses/{sha}", {
-      owner: "jacobarriola",
-      repo: "personal-site",
+      owner: "simpixelated",
+      repo: "simpixelated.com",
       sha,
       state,
       description,
