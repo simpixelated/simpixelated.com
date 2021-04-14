@@ -1,0 +1,15 @@
+{
+  "name": "netlify-plugin-ghost-inspector",
+  "version": "1.0.0",
+  "description": "Netlify build plugin for triggering Ghost Inspector tests against deploy previews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.5.2",
+    "cross-fetch": "^3.1.4"
+  }
+}
