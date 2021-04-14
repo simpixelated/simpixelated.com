@@ -1,0 +1,3 @@
+# Configuration for a local plugin
+[[plugins]]
+package = "/plugins/netlify-plugin-ghost-inspector"
