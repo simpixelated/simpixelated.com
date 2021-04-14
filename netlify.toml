@@ -1,3 +1,4 @@
 # Configuration for a local plugin
 [[plugins]]
+package = "@netlify/plugin-local-install-core"
 package = "/plugins/netlify-plugin-ghost-inspector"
