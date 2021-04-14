@@ -112,7 +112,7 @@ module.exports = {
         })
 
         return utils.build.failPlugin(
-          `🚫 At least one Ghost Inspector test failed. Visit https://app.ghostinspector.com/suites/${suiteId} for details. Failed tests:
+          `🚫 At least one Ghost Inspector test failed. Visit [https://app.ghostinspector.com/suites/${suiteId}](https://app.ghostinspector.com/suites/${suiteId}) for details. Failed tests:
           ${testResult}`
         )
       }
