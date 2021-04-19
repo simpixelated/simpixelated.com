@@ -94,8 +94,11 @@ module.exports = {
         })
 
         // Send a failure status to the GitHub commit
-        const githubApiToken = process.env.GITHUB_API_TOKEN
-        if (githubApiToken) {
+        try {
+          const githubApiToken = process.env.GITHUB_API_TOKEN
+          if (!githubApiToken) {
+            throw `No GitHub token found; commit status will not be updated.`
+          }
           await updateGithubStatus({
             auth: githubApiToken,
             sha: process.env.COMMIT_REF,
@@ -103,6 +106,8 @@ module.exports = {
             target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
             description: "At least one test failed",
           })
+        } catch (error) {
+          console.warn(error)
         }
 
         return utils.build.failPlugin(
