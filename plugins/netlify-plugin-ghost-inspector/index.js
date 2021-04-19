@@ -1,4 +1,4 @@
-const fetch = require("cross-fetch")
+const ghostInspectorClient = require("ghost-inspector")
 const { updateGithubStatus } = require("./github")
 
 module.exports = {
@@ -49,12 +49,13 @@ module.exports = {
     }
 
     // Check to ensure we have our API key
-    const ghostInspectorapiKey = process.env.GHOST_INSPECTOR_API_KEY
-    if (!ghostInspectorapiKey) {
+    const ghostInspectorApiKey = process.env.GHOST_INSPECTOR_API_KEY
+    if (!ghostInspectorApiKey) {
       return utils.build.failPlugin(
         `Missing env variable for GHOST_INSPECTOR_API_KEY`
       )
     }
+    const GhostInspector = ghostInspectorClient(ghostInspectorApiKey)
 
     // Check to ensure we have our Suite ID
     const suiteId = process.env.GHOST_INSPECTOR_SUITE
@@ -69,20 +70,13 @@ module.exports = {
       console.log(`👻 Starting Ghost Inspector E2E tests on ${deployUrl} ...`)
 
       // Make API request to Ghost Inspector API
-      const res = await fetch(
-        `https://api.ghostinspector.com/v1/suites/${suiteId}/execute/?apiKey=${ghostInspectorapiKey}&startUrl=${deployUrl}`
+      const [results, passing] = await GhostInspector.executeSuite(
+        suiteId,
+        options
       )
 
-      if (res.status >= 400) {
-        throw new Error(`Bad response from Ghost Inspector server.`)
-      }
-
-      const result = await res.json()
-
-      const didTestsPass = result.data.every(test => test.passing === true)
-
-      if (false === didTestsPass) {
-        const testResult = result.data.map(({ name, passing }) => {
+      if (!passing) {
+        const testResult = results.map(({ name, passing }) => {
           return { name, passing }
         })
 
