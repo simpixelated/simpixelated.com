@@ -16,16 +16,12 @@ module.exports = {
       return
     }
 
-    // Bail if no GitHub API token is found
-    const githubApiToken = process.env.GITHUB_API_TOKEN
-    if (!githubApiToken) {
-      // eslint-disable-next-line no-console
-      console.log(`Not GitHub token found. Skipping Ghost Inspector tests.`)
-      return
-    }
-
-    // Add pending status so PR authors know a Ghost Inspector check is pending
     try {
+      const githubApiToken = process.env.GITHUB_API_TOKEN
+      if (!githubApiToken) {
+        throw `No GitHub token found; commit status will not be updated.`
+      }
+      // Add pending status so PR authors know a Ghost Inspector check is pending
       await updateGithubStatus({
         auth: githubApiToken,
         sha: process.env.COMMIT_REF,
@@ -75,11 +71,6 @@ module.exports = {
       )
     }
 
-    const githubApiToken = process.env.GITHUB_API_TOKEN
-    if (!githubApiToken) {
-      return utils.build.failPlugin(`Missing env variable GITHUB_API_TOKEN`)
-    }
-
     try {
       // eslint-disable-next-line no-console
       console.log(`👻 Starting Ghost Inspector E2E tests on ${deployUrl} ...`)
@@ -103,13 +94,16 @@ module.exports = {
         })
 
         // Send a failure status to the GitHub commit
-        await updateGithubStatus({
-          auth: githubApiToken,
-          sha: process.env.COMMIT_REF,
-          state: "failure",
-          target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
-          description: "At least one test failed",
-        })
+        const githubApiToken = process.env.GITHUB_API_TOKEN
+        if (githubApiToken) {
+          await updateGithubStatus({
+            auth: githubApiToken,
+            sha: process.env.COMMIT_REF,
+            state: "failure",
+            target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
+            description: "At least one test failed",
+          })
+        }
 
         return utils.build.failPlugin(
           `🚫 At least one Ghost Inspector test failed. Visit [https://app.ghostinspector.com/suites/${suiteId}](https://app.ghostinspector.com/suites/${suiteId}) for details. Failed tests:
@@ -120,14 +114,16 @@ module.exports = {
       // eslint-disable-next-line no-console
       console.log(`✅ All Ghost Inspector tests passed!`)
 
-      // Send a success status to the Github commit
-      await updateGithubStatus({
-        auth: githubApiToken,
-        sha: process.env.COMMIT_REF,
-        state: "success",
-        target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
-        description: `All tests passed!`,
-      })
+      if (githubApiToken) {
+        // Send a success status to the Github commit
+        await updateGithubStatus({
+          auth: githubApiToken,
+          sha: process.env.COMMIT_REF,
+          state: "success",
+          target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
+          description: `All tests passed!`,
+        })
+      }
 
       return utils.status.show({
         title: `Ghost Inspector E2E tests`,
