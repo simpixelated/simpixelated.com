@@ -16,21 +16,14 @@ module.exports = {
       return
     }
 
-    try {
-      const githubApiToken = process.env.GITHUB_API_TOKEN
-      if (!githubApiToken) {
-        throw `No GitHub token found; commit status will not be updated.`
-      }
+    if (process.env.GITHUB_API_TOKEN) {
       // Add pending status so PR authors know a Ghost Inspector check is pending
       await updateGithubStatus({
-        auth: githubApiToken,
+        auth: process.env.GITHUB_API_TOKEN,
         sha: process.env.COMMIT_REF,
         state: "pending",
         description: "Waiting for Netlify deploy to complete",
       })
-    } catch (error) {
-      // eslint-disable-next-line no-console
-      console.warn(error)
     }
   },
   onSuccess: async ({ utils }) => {
@@ -94,20 +87,14 @@ module.exports = {
         })
 
         // Send a failure status to the GitHub commit
-        try {
-          const githubApiToken = process.env.GITHUB_API_TOKEN
-          if (!githubApiToken) {
-            throw `No GitHub token found; commit status will not be updated.`
-          }
+        if (process.env.GITHUB_API_TOKEN) {
           await updateGithubStatus({
-            auth: githubApiToken,
+            auth: process.env.GITHUB_API_TOKEN,
             sha: process.env.COMMIT_REF,
             state: "failure",
             target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
             description: "At least one test failed",
           })
-        } catch (error) {
-          console.warn(error)
         }
 
         return utils.build.failPlugin(
@@ -119,10 +106,10 @@ module.exports = {
       // eslint-disable-next-line no-console
       console.log(`✅ All Ghost Inspector tests passed!`)
 
-      if (githubApiToken) {
+      if (process.env.GITHUB_API_TOKEN) {
         // Send a success status to the Github commit
         await updateGithubStatus({
-          auth: githubApiToken,
+          auth: process.env.GITHUB_API_TOKEN,
           sha: process.env.COMMIT_REF,
           state: "success",
           target_url: `https://app.ghostinspector.com/suites/${suiteId}`,
