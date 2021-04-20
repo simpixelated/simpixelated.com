@@ -6,12 +6,10 @@ module.exports = {
     // Only run this in PR deploys
     const context = process.env.CONTEXT
     if (!context) {
-      // eslint-disable-next-line no-console
       console.log(`No context. Skipping Ghost Inspector tests.`)
       return
     }
     if (context !== "deploy-preview") {
-      // eslint-disable-next-line no-console
       console.log(`Not in deploy-preview. Skipping Ghost Inspector tests.`)
       return
     }
@@ -30,12 +28,10 @@ module.exports = {
     // Only run this in PR deploys
     const context = process.env.CONTEXT
     if (!context) {
-      // eslint-disable-next-line no-console
       console.log(`No context. Skipping Ghost Inspector tests.`)
       return
     }
     if (context !== "deploy-preview") {
-      // eslint-disable-next-line no-console
       console.log(`Not in deploy-preview. Skipping Ghost Inspector tests.`)
       return
     }
@@ -43,7 +39,6 @@ module.exports = {
     // Check to make sure we have a public URL to test against
     const deployUrl = process.env.DEPLOY_PRIME_URL
     if (!deployUrl) {
-      // eslint-disable-next-line no-console
       console.log(`No deployUrl. Skipping Ghost Inspector tests.`)
       return
     }
@@ -66,7 +61,6 @@ module.exports = {
     }
 
     try {
-      // eslint-disable-next-line no-console
       console.log(`👻 Starting Ghost Inspector E2E tests on ${deployUrl} ...`)
 
       // Make API request to Ghost Inspector API
@@ -96,7 +90,6 @@ module.exports = {
         )
       }
 
-      // eslint-disable-next-line no-console
       console.log(`✅ All Ghost Inspector tests passed!`)
 
       if (process.env.GITHUB_API_TOKEN) {
