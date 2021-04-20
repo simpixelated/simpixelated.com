@@ -4,12 +4,7 @@ const { updateGithubStatus } = require("./github")
 module.exports = {
   onPreBuild: async () => {
     // Only run this in PR deploys
-    const context = process.env.CONTEXT
-    if (!context) {
-      console.log(`No context. Skipping Ghost Inspector tests.`)
-      return
-    }
-    if (context !== "deploy-preview") {
+    if (process.env.CONTEXT !== "deploy-preview") {
       console.log(`Not in deploy-preview. Skipping Ghost Inspector tests.`)
       return
     }
@@ -26,12 +21,7 @@ module.exports = {
   },
   onSuccess: async ({ utils }) => {
     // Only run this in PR deploys
-    const context = process.env.CONTEXT
-    if (!context) {
-      console.log(`No context. Skipping Ghost Inspector tests.`)
-      return
-    }
-    if (context !== "deploy-preview") {
+    if (process.env.CONTEXT !== "deploy-preview") {
       console.log(`Not in deploy-preview. Skipping Ghost Inspector tests.`)
       return
     }
