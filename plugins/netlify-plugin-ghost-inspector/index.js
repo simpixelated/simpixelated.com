@@ -70,10 +70,9 @@ module.exports = {
       console.log(`👻 Starting Ghost Inspector E2E tests on ${deployUrl} ...`)
 
       // Make API request to Ghost Inspector API
-      const [results, passing] = await GhostInspector.executeSuite(
-        suiteId,
-        options
-      )
+      const [results, passing] = await GhostInspector.executeSuite(suiteId, {
+        startUrl: deployUrl,
+      })
 
       if (!passing) {
         const testResult = results.map(({ name, passing }) => {
