@@ -1,7 +1,2 @@
-# required to install local plugin dependencies
 [[plugins]]
-package = "@netlify/plugin-local-install-core"
-
-# Configuration for a local plugin
-[[plugins]]
-package = "/plugins/netlify-plugin-ghost-inspector"
+package = "netlify-plugin-ghost-inspector"
