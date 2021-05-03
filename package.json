@@ -27,7 +27,7 @@
   "devDependencies": {
     "gatsby-cli": "^2.18.0",
     "husky": "^4.3.8",
-    "netlify-plugin-ghost-inspector": "^1.0.0",
+    "netlify-plugin-ghost-inspector": "^1.0.1",
     "prettier": "2.2.1",
     "pretty-quick": "^3.1.0"
   },
