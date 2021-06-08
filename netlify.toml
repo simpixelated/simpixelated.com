@@ -1,2 +1,4 @@
 [[plugins]]
 package = "netlify-plugin-ghost-inspector"
+
+environment = { NODE_VERSION = "14.16.0", NPM_FLAGS = "--legacy-peer-deps" }
