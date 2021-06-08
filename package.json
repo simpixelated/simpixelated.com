@@ -42,5 +42,9 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "engines": {
+    "node": ">=14",
+    "npm": ">=7"
   }
 }
