@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - tweaked anchor styles for improved readability
+- updated dependencies (Gatsby v3)
+- updated location (moved from SD to PNW)
 
 ## [1.0.3] - 2021-01-21
 

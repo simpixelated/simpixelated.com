@@ -67,4 +67,7 @@ module.exports = {
     },
     `gatsby-plugin-netlify`,
   ],
+  flags: {
+    FAST_DEV: true,
+  },
 }

@@ -29,7 +29,7 @@ const Footer = () => {
         <span role="img" aria-label="love">
           ❤️
         </span>{" "}
-        in San Diego.
+        in the PNW.
       </div>
       <Link
         aria-label="Link to the changelog"
