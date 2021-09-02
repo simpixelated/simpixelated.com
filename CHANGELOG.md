@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2021-09-02
+
+### Added
+
+- added projects to footer
+- added my Polywork timeline to header nav
+- added About page
+
+### Changed
+
+- updated dependencies
+- changed intro text
+
 ## [1.0.4] - 2021-06-08
 
 ### Changed
