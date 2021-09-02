@@ -2,3 +2,48 @@
 title: About
 slug: "/about"
 ---
+
+##### Software Engineer, technical writer, tweeter
+
+Hey, I'm Jordan! I'm a software engineer working in the Pacific Northwest. Here are a few random facts about me:
+
+- I built my first website on Geocities in 1999
+- I learned PHP and created a fan club (forum) in 2000 for [Penny Arcade](https://penny-arcade.com) which had over 5,000 members
+- I have probably owned over 100,000 LEGO pieces at one time, in various levels of being sorted
+- My favorite book is The Wind-Up Bird Chronicle
+- My favorite video games of all time are Sim City 2000 and The Witcher 3
+- I've been writing this blog since 2003
+
+#### Connect
+
+You can email me at **kohl** dot **jordan** at **gmail** to say hello! I'm always open to chat.
+
+- [Twitter](https://twitter.com/simpixelated)
+- [Polywork](https://polywork.com/simpixelated)
+- [LinkedIn](https://www.linkedin.com/in/jordankohl/)
+- [GitHub](https://github.com/simpixelated)
+
+#### Software Used to Build this Website
+
+- This website is built with [Gatsby.js](https://www.gatsbyjs.com/docs/), hosted on [Netlify](https://docs.netlify.com/#get-started), with the code living on [GitHub](https://github.com/simpixelated/simpixelated.com). It uses the [minimal blog theme](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog) by LekoArts. I converted it from WordPress using [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown).
+
+#### Publications
+
+- [Testing Before Releasing with Ghost Inspector and Netlify](https://ghostinspector.com/blog/testing-before-releasing-with-ghost-inspector-and-netlify/)
+
+  - _Ghost Inspector, May 24, 2021_
+
+- [Continuous Integration Testing for WordPress](https://ghostinspector.com/blog/continuous-integration-testing-for-wordpress/)
+
+  - _Ghost Inspector, May 28, 2019_
+
+- [Automated UI Testing for WordPress](https://ghostinspector.com/blog/automated-ui-testing-for-wordpress/)
+
+  - _Ghost Inspector, May 15, 2019_
+
+- [Develop a WordPress Plugin Using Webpack and React](https://ghostinspector.com/blog/develop-wordpress-plugin-with-webpack-and-react/)
+
+  - _Ghost Inspector, April 1, 2019_
+
+- [Downtown Mobility Plan – Member Point of View](https://bikesd.org/advocacy/downtown-mobility-plan-member-point-of-view/)
+  - _BikeSD, June 9, 2016_

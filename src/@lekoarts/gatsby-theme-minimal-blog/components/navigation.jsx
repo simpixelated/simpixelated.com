@@ -27,12 +27,23 @@ const Navigation = ({ nav }) => {
             Blog
           </TLink>
           <TLink
+            as={Link}
+            activeClassName="active"
+            variant="nav"
+            to={replaceSlashes(`/${basePath}/about/`)}
+          >
+            About
+          </TLink>
+          <TLink
             activeClassName="active"
             variant="nav"
             href="/resume-jordan-kohl.pdf"
             download
           >
             Resume
+          </TLink>
+          <TLink variant="nav" href="https://changelog.simpixelated.com">
+            Changelog
           </TLink>
         </nav>
       )}
