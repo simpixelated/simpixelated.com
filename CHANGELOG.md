@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- blog post on salary negotiation
+
+### Changed
+
+- updated dependencies
+- updated resume to latest
+
 ## [1.0.5] - 2021-09-02
 
 ### Added
