@@ -9,7 +9,7 @@ tags:
 banner: ./undraw_Agreement_re_d4dv.png
 ---
 
-I chose to include "Always" in the title because you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. Negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Anywhere that would rescind an offer or absolutely refused to budge over $5K is not a company you want to be working for anyway.
+I chose to include "Always" in the title because you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. Negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Any company that would rescind an offer or absolutely refuse to budge over $5K is not a company you want to be working for anyway.
 
 These are the tactics that have worked for me. Are they the best? No. Are they the only option? No. I'm just sharing what I know so that hopefully you can apply what works for you and maybe combine it with tips from someone else. Ultimately I just want everyone in tech (and outside tech) to know their worth, understand the game of negotiation, and get paid what they deserve.
 
@@ -41,7 +41,7 @@ Never tell the recruiter or hiring manager your current or past salary. Why? Anc
 - overall compensation package is more important than just salary
 - **best option**: what’s the range for this position?
 
-Companies always have a target salary in mind. It could be based on existing bands or by doing the exact same research you can do on Glassdoor, etc. Either way, your goal is to get them to tell _you_ their number first. Anchoring is a psychological effect and negotiation tactic, where the first number “anchors” the future discussion near that number. If you are the first person to suggest a number for your salary, they will now look to offer you that exact number, plus or minus about ten percent. There are times when you can benefit by naming number first, but it’s extremely rare. If you know the company will struggle to afford you (but still want the job), naming a high number to the negotiation first could help.
+Companies always have a target salary in mind. It could be based on existing bands or by doing the exact same research you can do on Glassdoor, etc. Either way, your goal is to get them to tell you _their_ number first. Anchoring is a psychological effect and negotiation tactic, where the first number “anchors” the future discussion near that number. If you are the first person to suggest a number for your salary, they will now look to offer you that exact number, plus or minus about ten percent. There are times when you can benefit by naming number first, but it’s extremely rare. If you know the company will struggle to afford you (but still want the job), naming a high number to the negotiation first could help.
 
 ##### Be Fearless
 
