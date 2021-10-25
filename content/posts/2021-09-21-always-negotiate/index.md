@@ -9,7 +9,9 @@ tags:
 banner: ./undraw_Agreement_re_d4dv.png
 ---
 
-These are the tactics that have worked for me. Are they the best? No. Are they the only option? No. But its what I know and I'm sharing so that hopefully you can apply what works for you and maybe combine it with tips from someone else. Ultimately I just want everyone in tech (and outside tech) to know their worth, understand the game of negotiation, and get paid what they deserve.
+I chose to include "Always" in the title because you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. Negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Anywhere that would rescind an offer or absolutely refused to budge over $5K is not a company you want to be working for anyway.
+
+These are the tactics that have worked for me. Are they the best? No. Are they the only option? No. I'm just sharing what I know so that hopefully you can apply what works for you and maybe combine it with tips from someone else. Ultimately I just want everyone in tech (and outside tech) to know their worth, understand the game of negotiation, and get paid what they deserve.
 
 ##### Make Yourself Desirable
 
@@ -28,13 +30,7 @@ Ideally, you want to be working towards multiple offers at the same time. This c
 - if you like your current job, you can choose to stay
 - knowing there will always be another job offer in the future
 
-Having a BATNA can be as simple as imagining a better offer in your mind. Regardless, you need to **know your worth**. Do the research to discover market rates on sites like:
-
-- [Levels.fyi](https://levels.fyi)
-- [Payscale](https://www.payscale.com/)
-- [Salary.com](https://www.salary.com/)
-- [Comparably](https://comparably.com)
-- [Glassdoor](https://glassdoor.com)
+Having a BATNA can be as simple as imagining a better offer in your mind. Regardless, you need to **know your worth**. Do the research to discover market rates on sites like [Levels.fyi](https://levels.fyi), [Payscale](https://www.payscale.com/), [Salary.com](https://www.salary.com/), [Comparably](https://comparably.com), or [Glassdoor](https://glassdoor.com).
 
 ##### Never Name a Number
 
