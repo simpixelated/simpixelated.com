@@ -1,5 +1,5 @@
 ---
-date: "2021-09-21"
+date: "2021-10-25"
 title: "Always Negotiate Your Salary"
 tags:
   - salary
