@@ -21,6 +21,6 @@ jobs:
         with:
           urls: |
             ${{ steps.netlify.outputs.url }}
-            ${{ steps.netlify.outputs.url }}/two-year-work-retrospective
+            ${{ steps.netlify.outputs.url }}/two-year-work-retrospective/
           configPath: "./.github/lighthouserc.js"
           temporaryPublicStorage: true
