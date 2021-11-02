@@ -37,6 +37,7 @@ const theme = merge(originalTheme, {
         color: "heading",
         textDecoration: `none`,
       },
+      willChange: "background-size",
     },
   },
   links: {
