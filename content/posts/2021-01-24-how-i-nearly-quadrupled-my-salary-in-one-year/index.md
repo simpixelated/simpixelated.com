@@ -11,7 +11,7 @@ banner: ./undraw_interview_rmcf.png
 
 ### Or How I Was Vastly Underpaid at the Start of My Career
 
-From 2012 to 2013 I managed to increase my annual salary from $35,000 to $130,000 by changing jobs and negotiating major salary increases. It took months of job hunting after gaining years of experience, but I gained nearly a hundred thousand dollars in just a few conversations. One reason for the large jump in pay is that I was being paid well below my worth prior to 2013. Nonetheless, without negotiating, I could have easily been stuck under six figures for much longer.
+From 2012 to 2013 I managed to increase my annual salary from $35,000 to $130,000 by changing jobs and [negotiating major salary increases](/always-negotiate-your-salary). It took months of job hunting after gaining years of experience, but I gained nearly a hundred thousand dollars in just a few conversations. One reason for the large jump in pay is that I was being paid well below my worth prior to 2013. Nonetheless, without negotiating, I could have easily been stuck under six figures for much longer.
 
 ![image of salary history](./salary-table.png)
 
