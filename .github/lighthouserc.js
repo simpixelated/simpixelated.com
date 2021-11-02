@@ -21,6 +21,8 @@ module.exports = {
         "is-crawlable": "off",
         "unsized-images": "off",
         canonical: "warn",
+        "offscreen-images": "warn", // incorrectly flags negative margin avatar in header
+        "uses-rel-preconnect": "warn", // flags Netlify scripts on deploy preview
       },
     },
   },

@@ -42,11 +42,14 @@ const Header = () => {
         <Image
           src={imageAvatar}
           alt="illustration of Jordan Kohl"
+          width="68"
+          height="68"
           sx={{
             width: "68px",
             mr: 4,
             mb: "-58px",
             transition: "all 400ms cubic-bezier(.47,1.64,.41,.8)",
+            willChange: "margin-bottom",
           }}
         />
         <Navigation nav={nav} />
