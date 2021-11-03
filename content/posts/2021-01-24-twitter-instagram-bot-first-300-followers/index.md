@@ -8,7 +8,6 @@ tags:
   - api
   - javascript
   - node.js
-banner: ./ryan-quintal-US9Tc9pKNBU-unsplash.jpg
 ---
 
 My LEGO photo bot recently reached 300 followers on [Twitter](https://twitter.com/InspiringMocs) and is nearly there on [Instagram](https://www.instagram.com/inspiringmocs/) in a fraction of the time. On both social networks my bot posts at least daily, a picture of a LEGO MOC ("My Own Creation" in the LEGO world; basically any build that's not officially from the company). These come from my favorites on Flickr.

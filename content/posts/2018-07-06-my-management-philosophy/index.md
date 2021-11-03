@@ -4,7 +4,6 @@ date: "2018-07-06"
 tags:
   - management
   - career
-banner: ./joshua-hoehne-unsplash.jpg
 ---
 
 This is the start of my [Manager README](https://medium.com/@kawomersley/why-and-how-to-share-your-manager-readme-plus-heres-mine-8a4fe188ee1b). If you're just starting out in management, or looking for help managing a remote team, hopefully my experience can help.
