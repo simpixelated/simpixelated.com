@@ -6,7 +6,6 @@ tags:
   - career
   - interviewing
   - money
-banner: ./undraw_Agreement_re_d4dv.png
 ---
 
 I chose to include "Always" in the title because you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. Negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Any company that would rescind an offer or absolutely refuse to budge over $5K is not a company you want to be working for anyway.
