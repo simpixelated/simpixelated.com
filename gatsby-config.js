@@ -66,6 +66,34 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-react-social-cards`,
+      options: {
+        query: `
+          {
+            allPost {
+              nodes {
+                slug,
+                title,
+                timeToRead,
+                date,
+              }
+            }
+          }
+        `,
+        queryToPages: result => {
+          return result.data.allPost.nodes.map(post => {
+            const slugWithoutSlashes = post.slug.replace(/\//g, "")
+            return {
+              slug: `/${slugWithoutSlashes}`,
+              pageContext: post,
+            }
+          })
+        },
+        component: require.resolve("./src/components/social-card.js"),
+        imageFolder: "static/banners",
+      },
+    },
   ],
   flags: {
     FAST_DEV: true,

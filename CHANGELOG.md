@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- updated dependencies (Gatsby v4)
+- added backlinks in previous blog posts
+- ignored false negatives in Lighthouse CI audit
+
 ## [1.0.6] - 2021-10-25
 
 ### Added
