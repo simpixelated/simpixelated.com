@@ -8,7 +8,7 @@ import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replac
 const Post = props => {
   const { basePath } = useMinimalBlogConfig()
   const socialCard = replaceSlashes(
-    `/${basePath}/${props.data.post.slug}-social-card.png`
+    `/${basePath}/banners/${props.data.post.slug}-social-card.png`
   )
   // creates File object similar to what gatsby-transformer would create and what the theme expects
   // allows using the generated social cards in /static/, since these will not be processed by Gatsby
