@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0]
+
+### Added
+
+- added [Splitbee](https://splitbee.io/) analytics to replace Google
+
+### Changed
+
+- social share card styling
+- fixed a few build warnings
+
 ## [1.1.0]
 
 ### Added
