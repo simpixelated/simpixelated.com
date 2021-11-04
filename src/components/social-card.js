@@ -1,5 +1,4 @@
 import React from "react"
-import { unstable_createPortal } from "react-dom"
 import { Box, Flex, Heading, Image, Paragraph, useColorMode } from "theme-ui"
 
 const SocialCard = ({
