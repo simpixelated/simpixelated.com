@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Link } from "theme-ui"
-import { version } from "../../../../package.json"
+import config from "../../../../package.json"
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
         aria-label="Link to the changelog"
         href="https://github.com/simpixelated/simpixelated.com/blob/stable/CHANGELOG.md"
       >
-        v{version}
+        v{config.version}
       </Link>
     </footer>
   )

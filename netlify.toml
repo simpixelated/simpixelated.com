@@ -3,3 +3,19 @@
 
 [build]
   environment = { NODE_VERSION = "14.16.0", NPM_FLAGS = "--legacy-peer-deps" }
+
+[context.deploy-preview.processing]
+  skip_processing = false
+
+[context.deploy-preview.processing.images]
+  compress = false
+
+[[redirects]]
+  from = "/bee.js"
+  to = "https://cdn.splitbee.io/sb.js"
+  status = 200
+
+[[redirects]]
+  from = "/_hive/*"
+  to = "https://hive.splitbee.io/:splat"
+  status = 200

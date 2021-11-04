@@ -1,5 +1,4 @@
 import React from "react"
-import { unstable_createPortal } from "react-dom"
 import { Box, Flex, Heading, Image, Paragraph, useColorMode } from "theme-ui"
 
 const SocialCard = ({
@@ -37,9 +36,9 @@ const SocialCard = ({
     width: "100%",
   }
   const pStyles = {
-    color: `secondary`,
+    color: "#96a8c3",
     mt: 3,
-    fontSize: [3],
+    fontSize: [4],
     textShadow: "0px 1px 0px black",
   }
   const [, setColorMode] = useColorMode()
@@ -64,7 +63,7 @@ const SocialCard = ({
               {timeToRead && <span>{timeToRead} min read</span>}
             </Paragraph>
             <Paragraph sx={pStyles}>simpixelated.com{slug}</Paragraph>
-            <Paragraph sx={{ ...pStyles, fontSize: [5] }}>
+            <Paragraph sx={{ ...pStyles, fontSize: [6] }}>
               @simpixelated
             </Paragraph>
           </Box>
