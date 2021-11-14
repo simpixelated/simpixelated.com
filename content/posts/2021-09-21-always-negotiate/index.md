@@ -8,7 +8,13 @@ tags:
   - money
 ---
 
-I chose to include "Always" in the title because you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. Negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Any company that would rescind an offer or absolutely refuse to budge over $5K is not a company you want to be working for anyway.
+I wrote this post from my perspective as a cis white male, with all the privilege that includes. In my experience and based on anecdotal evidence from my peers (mostly other white males), there's little to no downside to negotiating. But that's because white men have nearly unlimited options in tech. If I don't like the company I'm working for, I know I can go out and get several offers within a month or two. I know that my demands for more compensation will be treated with respect. Any company that doesn't, isn't one that I would want to work for. But that's simply not always true for underrepresented minorities.
+
+For someone without my privilege, they may only get one offer and negotiating just isn't worth the risk, especially with so many stories of [women having their offers rescinded](https://twitter.com/RandallKanna/status/1459279851831975937) for daring to do so. If you're not a cis white male, please take this advice and anything like it with a huge grain of salt. **What has worked for me, may not work for you.**
+
+---
+
+I chose to include "Always" in the title because (if you're a white man) you should absolutely always attempt to negotiate your salary and overall compensation. I think it applies broadly to almost any industry, but it is especially true in software. There is always some amount of wiggle room in the budget. In my experience, negotiating is not a turn-off for companies and is in fact expected at most companies. Without following any specific tactics, simply asking for more than the initial offer is all but guaranteed to get you an additional $5-10K. Any company that would rescind an offer or absolutely refuse to budge over $5K is not a company I would want to be working for anyway.
 
 These are the tactics that have [worked for me](/how-i-nearly-quadrupled-my-salary-in-one-year). Are they the best? No. Are they the only option? No. I'm just sharing what I know so that hopefully you can apply what works for you and maybe combine it with tips from someone else. Ultimately I just want everyone in tech (and outside tech) to know their worth, understand the game of negotiation, and get paid what they deserve.
 
