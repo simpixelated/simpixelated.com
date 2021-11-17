@@ -85,5 +85,6 @@ How much negotiation is too much? It’s a fine line, but if you ask for X and t
 - [Exploding offers are bullshit](https://erikbern.com/2016/03/16/exploding-offers-are-bullshit.html)
 - [We don’t have the budget](https://workchronicles.com/we-dont-have-the-budget/)
 - [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- [How to Negotiate the Tech Salary You Deserve](https://thenewstack.io/how-to-negotiate-the-tech-salary-you-deserve/)
 
 Follow me on [Twitter](https://twitter.com/simpixelated) if you want to hear more on salary negotiation. Send me a DM if you're looking for specific help!
