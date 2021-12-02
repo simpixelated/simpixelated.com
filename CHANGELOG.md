@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1]
+
+## Changed
+
+- updated employer in intro (hero text)
+- updated dependencies
+
+## Removed
+
+- Google Analytics
+
 ## [1.2.0]
 
 ### Added
