@@ -46,4 +46,8 @@ You can email me at **kohl** dot **jordan** at **gmail** to say hello! I'm alway
   - _Ghost Inspector, April 1, 2019_
 
 - [Downtown Mobility Plan – Member Point of View](https://bikesd.org/advocacy/downtown-mobility-plan-member-point-of-view/)
+
   - _BikeSD, June 9, 2016_
+
+- [Open Letter to Mayor Kevin Faulconer](https://simpixelated.github.io/san-diego-downtown-mobility-plan/open-letter-to-mayor-faulconer/)
+  - _Ride Safe San Diego, March 12, 2016_

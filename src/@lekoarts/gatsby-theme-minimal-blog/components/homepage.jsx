@@ -22,7 +22,7 @@ const Homepage = ({ posts }) => {
       </section>
       <Title text="Latest Posts">
         <Link to={replaceSlashes(`/${basePath}/${blogPath}`)}>
-          Read all posts
+          See all posts
         </Link>
       </Title>
       <Listing posts={posts} showTags={false} />
