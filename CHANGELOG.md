@@ -7,14 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2]
+
+### Changed
+
+- fixed [#64](https://github.com/simpixelated/simpixelated.com/issues/64)
+- fixed [#65](https://github.com/simpixelated/simpixelated.com/issues/65)
+- fixed [#25](https://github.com/simpixelated/simpixelated.com/issues/25)
+- updated dependencies
+
 ## [1.2.1]
 
-## Changed
+### Changed
 
 - updated employer in intro (hero text)
 - updated dependencies
 
-## Removed
+### Removed
 
 - Google Analytics
 
