@@ -8,13 +8,13 @@ tags:
 
 Last year, in a span of about two months, I managed to get interviewed for thirty five different Senior Software Engineer positions without filling out a single application. I made it to the final stages with seven companies, received four offers, and eventually accepted an offer that doubled my previous total compensation! In this post I'll explain how I did it.
 
-The fall of 2021 and continuing through to the spring of 2022 has been an insanely hot job market. Between the "Great Resignation", massive shift to remote work, and software continuing to eat the world, the demand for software engineers is sky-high. Senior software engineers have always been in high demand, but with almost every position being 100% remote during COVID and many likely to continue post-pandemic, senior engineers are even more coveted by companies unwilling to put in the work to mentor junior developers (lame). If you have a few years of experience and haven't had a significant pay raise recently, now is the time to explore the market.
+The fall of 2021 was an insanely hot job market (and 2022 is just as hot, as of this writing). Between the "Great Resignation", massive shift to remote work, and software continuing to eat the world, the demand for software engineers is sky-high. Senior software engineers have always been in high demand, but with almost every position being 100% remote during COVID and many likely to continue post-pandemic, senior engineers are even more coveted by companies unwilling to put in the work to mentor junior developers (lame). If you have a few years of experience and haven't had a significant pay raise recently, now is the time to explore the market.
 
 I was extremely happy with my [previous position](/two-year-work-retrospective), but I felt like I had hit a ceiling for growth. The comfort of my job was a good fallback and so I was only willing to accept an offer that was a dramatic jump in both compensation and career growth opportunity. I wasn't desperate. Without any stress in my day job, I had a higher bandwidth for the stress of interviewing. I wanted to line up multiple offers at once, to ratchet up the leverage and [negotiate the best compensation](/always-negotiate-your-salary) possible. With these goals in mind I set out on my job search.
 
 ##### Avoiding the Job Application Black Hole
 
-The typical job application process is a complete waste of time. You have to submit the same basic form, over and over again, usually without ever getting a response, with the hope that you are lucky enough to stand out among the hundreds of other applicants. Each application takes at least 30 minutes because:
+The typical job application process is a complete waste of time. You have to submit the same basic form, over and over again, usually without ever getting a response, with the hope that you are lucky enough to stand out among the hundreds of other applicants. Each application takes ten minutes or more because:
 
 - most of the time you have to enter everything manually, despite also uploading your resume
 - you can't copy and paste because each line is a separate form field
@@ -66,6 +66,8 @@ Some of the best feedback I received was:
 - I was told via an external recruiter that one company thought that I didn’t sound technically experienced enough. Despite having twelve years of experience and coding daily, I came across as more of a manager than an individual contributor. This is partially because my previous two positions were in management, so I think people already made assumptions about me and I didn’t do enough to sway their opinion. I realized I needed to go in with more technical details (depending on the audience of course) and show my enthusiasm for coding.
 
 It’s important to be able to craft a narrative about your experience, whether it’s a decade of professional experience or your first job. Considering how little time you have to explain your entire life story, it’s important to be able to condense important details into an arc that is interesting to listen to. Every question you answer should reinforce that story, whatever it is.
+
+Your narrative should also be targeted towards the role you want, not your complete history. It's okay to remove certain technologies from your resume if you haven't used them in years and don't plan to in the future. For example, I don't typically include PHP on my resume anymore, even though I spent the first three years of my career developing with it. I wouldn't want to take a PHP job now, nor would I would be capable of taking about any specifics.
 
 Ultimately, working with recruiters via LinkedIn messaging made this the least stressful job application process I've ever experienced. Instead, I ended up being exhausted by the interview process. But I learned so much from each one. I'm really happy how it all turned out and I hope this helps you in some way.
 
