@@ -22,15 +22,17 @@ The typical job application process is a complete waste of time. You have to sub
 
 If you're lucky, you'll get a quick rejection. Most of the time however, you won't hear back until long after you've already accepted an offer somewhere else, if you hear back at all. The entire process is mentally and emotionally draining.
 
-This time I was inspired by the course [How Social Media Can Land You Your Dream Job](https://egghead.io/talks/egghead-how-social-media-can-land-you-your-dream-job) by [Taylor Desseyn](https://twitter.com/tdesseyn). I decided it was time to apply everything that I had learned and flip the job application process on its head. I wanted to have the jobs come to me.
+This time I was inspired by the course: [How Social Media Can Land You Your Dream Job](https://egghead.io/talks/egghead-how-social-media-can-land-you-your-dream-job) by [Taylor Desseyn](https://twitter.com/tdesseyn). I decided it was time to apply everything that I had learned and flip the job application process on its head. I wanted to have the jobs come to me.
+
+Following Taylor's course, I updated my [Twitter](https://twitter.com/simpixelated) and [LinkedIn](https://www.linkedin.com/in/jordankohl/) profiles with a good picture, a nice looking banner with some additional info, and tweaked my bios and headlines to match the keywords I knew recruiters would be looking for. My career history was up to date, with fairly decent examples of positive outcomes my work generated. I had over five hundred connections already, probably mostly recruiters, but also anyone I had worked with previously.
+
+Then I turned on "looking for work" on LinkedIn and the flood gates opened. As a software engineer, I have been messaged by recruiters on a regular basis. But nothing like this. I went from a couple of messages per month to 15-20 per day.
+
+Note: my experience may not match yours, even if you follow the same steps. The job market might be different by the time you read this. I had over twelve years of experience in Front End Development, which is particularly in-demand at the moment. I'm a white male with a European last name. All these things likely helped me skip ahead in addition to the proactive steps I took.
 
 ##### Using LinkedIn Messaging As My Job Portal
 
-Following Taylor's course, I updated my [Twitter](https://twitter.com/simpixelated) and [LinkedIn](https://www.linkedin.com/in/jordankohl/) profiles with a good picture, a nice looking banner with some additional info, and tweaked my bios and headlines to match the keywords I knew recruiters would be looking for. Then I turned on "looking for work" on LinkedIn and the flood gates opened. As a software engineer, I have been messaged by recruiters on a regular basis. But nothing like this. I went from a couple of messages per month to 15-20 per day.
-
-Note: my experience may not match yours, even if you follow the same steps. The job market might be different by the time you read this. I had over 12 years of experience in Front End Development, which is particularly in-demand at the moment. I'm a white male with a European last name. All these things likely helped me skip ahead in addition to the proactive steps I took.
-
-With so many messages to respond to, I had to get systematic. Initially, I just said yes to everything that wasn't an immediate turn-off. But as I started doing interviews, I had to be more selective with my time. Before I even started, I knew that my ultimate goal would be to work for a public company (something I had never done before). But, considering I didn't have a college degree and I wasn't up to date with LeetCode algorithm trivia, I thought that might be impossible. So I came up with a criteria that could fit both private and public companies:
+With so many messages to respond to, I had to get systematic. Initially, I just said yes to everything that wasn't an immediate turn-off (like Amazon). But as I started doing interviews, I had to be more selective with my time. Before I even started, I knew that my ultimate goal would be to work for a public company (something I had never done before). But, considering I didn't have a college degree and I wasn't up to date with LeetCode algorithm trivia, I thought that might be impossible. So I came up with a criteria that could fit both private and public companies:
 
 - $200K base salary
 - 25+ days of PTO

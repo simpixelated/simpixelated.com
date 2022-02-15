@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.2.2]
+## [1.3.0]
+
+### Added
+
+- added blog post: 35-interviews-with-0-applications
+
+### Changed
+
+- updated dependencies
 
 ### Changed
 
