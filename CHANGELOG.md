@@ -5,21 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## Unreleased
 
-## [1.3.2]
+## 1.3.2 - 2022-10-08
 
 ### Changed
 
 - added publication and interview to [about](/about)
-
-## [1.3.1]
-
-### Changed
-
 - updated dependencies (minor)
 
-## [1.3.0]
+## 1.3.0
 
 ### Added
 
@@ -36,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fixed [#25](https://github.com/simpixelated/simpixelated.com/issues/25)
 - updated dependencies
 
-## [1.2.1]
+## 1.2.1
 
 ### Changed
 
@@ -47,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Google Analytics
 
-## [1.2.0]
+## 1.2.0
 
 ### Added
 
@@ -58,7 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - social share card styling
 - fixed a few build warnings
 
-## [1.1.0]
+## 1.1.0
 
 ### Added
 
@@ -70,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added backlinks in previous blog posts
 - ignored false negatives in Lighthouse CI audit
 
-## [1.0.6] - 2021-10-25
+## 1.0.6 - 2021-10-25
 
 ### Added
 
@@ -81,7 +76,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updated dependencies
 - updated resume to latest
 
-## [1.0.5] - 2021-09-02
+## 1.0.5 - 2021-09-02
 
 ### Added
 
@@ -94,7 +89,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updated dependencies
 - changed intro text
 
-## [1.0.4] - 2021-06-08
+## 1.0.4 - 2021-06-08
 
 ### Changed
 
@@ -102,7 +97,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updated dependencies (Gatsby v3)
 - updated location (moved from SD to PNW)
 
-## [1.0.3] - 2021-01-21
+## 1.0.3 - 2021-01-21
 
 ### Added
 
@@ -113,7 +108,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - dependency updates
 - updated SEO/OG/Twitter meta tags
 
-## [1.0.2] - 2021-01-20
+## 1.0.2 - 2021-01-20
 
 ### Added
 
@@ -124,14 +119,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - dependency updates
 - updated README
 
-## [1.0.0] - 2020-08-16
+## 1.0.0 - 2020-08-16
 
 ### Added
 
 - deployed to [simpixelated.com](http://simpixelated.com) via Netlify!
 - added Google Analytics
 
-## [0.1.0] - 2020-08-14
+## 0.1.0 - 2020-08-14
 
 ### Added
 
