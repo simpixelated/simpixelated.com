@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-## 1.3.2 - 2022-10-08
+## 1.3.3 - 2022-10-09
 
 ### Changed
 
 - added publication and interview to [about](/about)
 - updated dependencies (minor)
+- upgraded theme to [v5.0.1](https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/CHANGELOG.md#501)
 
 ## 1.3.0
 
