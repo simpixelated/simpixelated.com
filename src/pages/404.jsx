@@ -1,7 +1,6 @@
 import * as React from "react"
 import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 import { Text } from "theme-ui"
-// import FourOhFour from "../texts/404"
 
 const NotFound = () => {
   return (
