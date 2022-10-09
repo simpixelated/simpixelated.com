@@ -16,8 +16,6 @@ module.exports = {
     siteUrl: `https://simpixelated.com`,
     // Used for SEO
     siteDescription: `JavaScript software development tips, strategies for salary negotiation, and other helpful advice for navigating software as a career.`,
-    // Will be set on the <html /> tag
-    siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner.jpg`,
     // Twitter Handle
