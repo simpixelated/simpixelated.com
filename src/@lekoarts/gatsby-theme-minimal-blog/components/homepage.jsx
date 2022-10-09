@@ -5,6 +5,7 @@ import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 import Title from "@lekoarts/gatsby-theme-minimal-blog/src/components/title"
 import Listing from "@lekoarts/gatsby-theme-minimal-blog/src/components/listing"
 import List from "@lekoarts/gatsby-theme-minimal-blog/src/components/list"
+import Seo from "@lekoarts/gatsby-theme-minimal-blog/src/components/seo"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
 import Bottom from "../texts/bottom"
@@ -49,3 +50,4 @@ const Homepage = ({ posts }) => {
 }
 
 export default Homepage
+export const Head = () => <Seo />
