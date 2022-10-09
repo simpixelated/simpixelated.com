@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Heading } from "theme-ui"
+import { jsx, Heading, Link as ThemeLink } from "theme-ui"
 import { Link } from "gatsby"
 import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 import Title from "@lekoarts/gatsby-theme-minimal-blog/src/components/title"
@@ -29,10 +29,10 @@ const Homepage = ({ posts }) => {
         <p>
           I'm a developer currently living in the Pacific Northwest,
           specializing in JavaScript, HTML, and CSS. I currently work for{" "}
-          <a href="https://segment.com">Segment</a>. I'm passionate about
-          React.js, improving software development, fair compensation, and
-          building an equitable space in tech. You can read some of my opinions
-          below.
+          <ThemeLink href="https://segment.com">Segment</ThemeLink>. I'm
+          passionate about React.js, improving software development, fair
+          compensation, and building an equitable space in tech. You can read
+          some of my opinions below.
         </p>
         <SocialLinks />
       </section>
