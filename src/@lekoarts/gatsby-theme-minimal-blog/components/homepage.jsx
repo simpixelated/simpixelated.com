@@ -7,7 +7,6 @@ import Listing from "@lekoarts/gatsby-theme-minimal-blog/src/components/listing"
 import List from "@lekoarts/gatsby-theme-minimal-blog/src/components/list"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
-import Hero from "../texts/hero"
 import Bottom from "../texts/bottom"
 import SocialLinks from "../../../components/social-link"
 
@@ -17,7 +16,23 @@ const Homepage = ({ posts }) => {
   return (
     <Layout>
       <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
-        <Hero />
+        <Heading
+          sx={{ fontSize: [4, 5, 6], fontWeight: `bold`, color: `heading` }}
+          as="h1"
+        >
+          Hi, I'm Jordan!{" "}
+          <span role="img" aria-label="waving hello">
+            👋
+          </span>
+        </Heading>
+        <p>
+          I'm a developer currently living in the Pacific Northwest,
+          specializing in JavaScript, HTML, and CSS. I currently work for{" "}
+          <a href="https://segment.com">Segment</a>. I'm passionate about
+          React.js, improving software development, fair compensation, and
+          building an equitable space in tech. You can read some of my opinions
+          below.
+        </p>
         <SocialLinks />
       </section>
       <Title text="Latest Posts">
