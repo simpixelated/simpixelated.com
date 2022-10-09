@@ -1,7 +1,7 @@
-/** @jsx jsx */
 import * as React from "react"
-import { jsx } from "theme-ui"
-import ThemePost from "@lekoarts/gatsby-theme-minimal-blog/src/components/post"
+import ThemePost, {
+  Head,
+} from "@lekoarts/gatsby-theme-minimal-blog/src/components/post"
 import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
 import replaceSlashes from "@lekoarts/gatsby-theme-minimal-blog/src/utils/replaceSlashes"
 
@@ -21,3 +21,4 @@ const Post = props => {
 }
 
 export default Post
+export { Head }

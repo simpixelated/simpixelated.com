@@ -21,7 +21,7 @@ const Footer = () => {
       <div>
         <Link
           aria-label="Link to the license"
-          href="https://github.com/simpixelated/simpixelated.com/blob/stable/README.md#license"
+          href="https://github.com/simpixelated/simpixelated.com/blob/stable/LICENSE.md"
         >
           &copy; {new Date().getFullYear()} by Jordan Kohl. All rights reserved.
         </Link>{" "}
