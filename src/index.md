@@ -11,8 +11,12 @@ I'm a developer currently living in the Pacific Northwest, specializing in JavaS
 
 ## Latest Posts
 
-{% include "post-list.html" %}
+<ul>
+  {% for post in collections.posts | reverse | limit(5) %}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a> <span>{{ post.data.date }}</span></li>
+  {% endfor %}
+</ul>
 
-[See all posts]()
+[See all posts](/blog)
 
 [TODO: bottom]

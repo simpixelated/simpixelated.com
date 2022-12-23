@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/css/")
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
   eleventyConfig.addShortcode("version", () => config.version)
+  eleventyConfig.addFilter("limit", function (array, limit) {
+    return array.slice(0, limit)
+  })
   return {
     dir: {
       input: "src",
