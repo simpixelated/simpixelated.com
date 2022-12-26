@@ -19,4 +19,10 @@ I'm a developer currently living in the Pacific Northwest, specializing in JavaS
 
 [See all posts](/blog)
 
-[TODO: bottom]
+## Projects
+
+- [Twitter Flickr Bot](https://github.com/simpixelated/robirb) - Twitter bot that will post photos from Flickr (written in Node.js)
+- [My LEGO MOCs on Flickr](https://www.flickr.com/photos/38375540@N08/) - MOC = My Own Creation and LEGO was my pandemic hobby
+- [Ghost Inspector WordPress Plugin](https://github.com/ghost-inspector/wordpress-plugin) - displays the status of your QA tests in your admin
+- [Ride Safe San Diego](https://simpixelated.github.io/san-diego-downtown-mobility-plan/) - advocacy for improving bicycle safety in the city of San Diego
+- [SD Dev List](https://sd-dev-list.netlify.app/) - a list of new developments planned or under construction in downtown San Diego
