@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
+    <title>{{ title }} — simpixelated.com</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <h1>{{ title }}</h1>
+      <h2><a href="/">simpixelated.com</a></h2>
     </header>
+    <nav>
+      <ul>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/">Resume</a></li>
+        <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
+      </ul>
+    </nav>
     <main>{{ content | safe }}</main>
     <footer>{% include "footer.html" %}</footer>
   </body>

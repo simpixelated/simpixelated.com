@@ -1,6 +1,6 @@
 ---
 title: About
-slug: "/about"
+layout: base.html
 ---
 
 ##### Software Engineer, technical writer, tweeter
