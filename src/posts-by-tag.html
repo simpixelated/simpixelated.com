@@ -7,6 +7,7 @@ permalink: /tag/{{ tag | slug }}/
 ---
 
 <h1>Tagged “{{ tag }}”</h1>
+<p><a href="/tag">View all tags</a></p>
 
 <ol>
   {% set taglist = collections[ tag ] %} {% for post in taglist | reverse %}

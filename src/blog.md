@@ -3,6 +3,7 @@ title: Blog
 layout: base.html
 ---
 
+<p><a href="/tag">View all tags</a></p>
 <ul>
   {% for post in collections.posts | reverse %}
   <li>

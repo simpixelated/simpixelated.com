@@ -3,6 +3,7 @@ title: Tags
 layout: base.html
 ---
 
+<p><a href="/blog">View all posts</a></p>
 <ul>
   {% for tag in collections.tagList %}
   <li>
