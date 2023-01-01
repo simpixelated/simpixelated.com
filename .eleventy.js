@@ -1,5 +1,21 @@
 const config = require("./package.json")
 
+// inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
+const getAllTags = collections => {
+  const tags = collections
+    .getAll()
+    .filter(
+      item => !!item.data.tags && !["post", "all"].includes(item.data.tags)
+    )
+    .reduce((tags, item) => tags.concat(item.data.tags), [])
+  return Array.from(new Set(tags))
+    .sort()
+    .map(tag => ({
+      title: tag,
+      count: collections.getFilteredByTag(tag).length,
+    }))
+}
+
 // inspired by https://github.com/JKC-Codes/eleventy-plugin-time-to-read
 const getPlainText = content => {
   const html = content.templateContent || content
@@ -26,6 +42,7 @@ const getReadTime = content => {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addCollection("tagList", getAllTags)
   eleventyConfig.addPassthroughCopy("./src/css")
   eleventyConfig.addWatchTarget("./src/css/")
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)

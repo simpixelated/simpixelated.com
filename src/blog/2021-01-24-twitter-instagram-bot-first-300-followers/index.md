@@ -6,7 +6,7 @@ tags:
   - instagram
   - bot
   - api
-  - javascript
+  - JavaScript
   - node.js
 ---
 
