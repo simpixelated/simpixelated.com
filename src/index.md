@@ -7,7 +7,12 @@ layout: base.html
 
 I'm a developer currently living in the Pacific Northwest, specializing in JavaScript, HTML, and CSS. I currently work for [Segment](https://segment.com). I'm passionate about React.js, improving software development, fair compensation, and building an equitable space in tech. You can read some of my opinions below.
 
-[TODO: social links]
+<ul class="social">
+  <li><a href="https://twitter.com/simpixelated">Twitter</a></li>
+  <li><a href="https://linkedin.com/in/jordankohl">LinkedIn</a></li>
+  <li><a href="https://github.com/simpixelated">GitHub</a></li>
+  <li><a href="https://flickr.com/people/38375540@N08/">Flickr</a></li>
+</ul>
 
 ## Latest Posts
 

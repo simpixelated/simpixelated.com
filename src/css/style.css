@@ -1,3 +1,71 @@
+:root,
+:root.light {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --background: rgb(247, 250, 252);
+  --color: rgb(45, 55, 72);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(26, 32, 44);
+    --color: rgb(160, 174, 192);
+    color-scheme: dark;
+  }
+}
+
+/* manual dark mode */
+:root.dark {
+  --background: rgb(26, 32, 44);
+  --color: rgb(160, 174, 192);
+  color-scheme: dark;
+}
+
 body {
-  font-family: sans-serif;
+  background: var(--background);
+  color: var(--color);
+}
+
+a,
+a:visited {
+  background-image: linear-gradient(
+    rgba(236, 201, 75, 0.4) 90%,
+    rgb(236, 201, 75) 100%
+  );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 10px 2px;
+  transition: background-size 0.2s;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+a:hover {
+  background-size: 10px 26px;
+}
+
+header nav a,
+header nav a:visited {
+  background: none;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.social a {
+  margin: 3px;
+}
+
+.social a svg {
+  fill: "heading";
+  width: 48px;
+  height: 48px;
+}
+
+.social a:hover svg {
+  fill: yellow;
 }

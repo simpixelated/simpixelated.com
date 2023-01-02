@@ -44,6 +44,7 @@ const getReadTime = content => {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("tagList", getAllTags)
   eleventyConfig.addPassthroughCopy("./src/css")
+  eleventyConfig.addPassthroughCopy("./src/global.js")
   eleventyConfig.addWatchTarget("./src/css/")
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
   eleventyConfig.addShortcode("version", () => config.version)

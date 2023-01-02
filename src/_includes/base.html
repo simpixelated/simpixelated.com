@@ -9,16 +9,25 @@
   <body>
     <header>
       <h2><a href="/">simpixelated.com</a></h2>
+      <nav>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Resume</a></li>
+          <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
+          <li>
+            <input
+              type="checkbox"
+              aria-label="Toggle Dark Mode"
+              title="Toggle Dark Mode"
+              id="toggle-dark"
+            />
+          </li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <ul>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/">Resume</a></li>
-        <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
-      </ul>
-    </nav>
     <main>{{ content | safe }}</main>
     <footer>{% include "footer.html" %}</footer>
+    <script type="text/javascript" src="/global.js"></script>
   </body>
 </html>
