@@ -9,23 +9,31 @@
   <body>
     <header>
       <h2><a href="/">simpixelated.com</a></h2>
-      <nav>
-        <ul>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/">Resume</a></li>
-          <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
-          <li>
-            <button
-              aria-label="Toggle Dark Mode"
-              title="Toggle Dark Mode"
-              id="toggle-color-mode"
-            >
-              <div></div>
-            </button>
-          </li>
-        </ul>
-      </nav>
+      <div>
+        <img
+          src="/static/profile-drawn.png"
+          alt="illustration of Jordan Kohl"
+          width="60"
+          height="60"
+        />
+        <nav>
+          <ul>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/">Resume</a></li>
+            <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
+            <li>
+              <button
+                aria-label="Toggle Dark Mode"
+                title="Toggle Dark Mode"
+                id="toggle-color-mode"
+              >
+                <div></div>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>{{ content | safe }}</main>
     <footer>{% include "footer.html" %}</footer>
