@@ -115,10 +115,15 @@ video {
   --secondary-color: aliceblue;
   --tertiary-color: #cbd5e0;
   color-scheme: light;
+  --duration: 0.5s;
+  --timing: ease;
 }
 
 /* Typography */
 body {
+  background-color: var(--background-color);
+  transition: color var(--duration) var(--timing),
+    background-color var(--duration) var(--timing);
   color: var(--text-color);
   margin: 0 auto;
   max-width: 75ch;
