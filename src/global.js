@@ -1,18 +1,21 @@
-if (
-  window.matchMedia &&
-  window.matchMedia("(prefers-color-scheme: dark)").matches
-) {
-  // document.body.classList.add('dark')
-  document.getElementById("toggle-dark").checked = true
-}
+const preferredColorMode =
+  window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light"
+const colorModeKey = "theme-ui-color-mode"
+const storedColorMode = localStorage.getItem(colorModeKey)
+let colorMode = storedColorMode ?? preferredColorMode
 
-document.getElementById("toggle-dark").addEventListener("change", e => {
-  console.log(e.target.checked)
-  if (e.target.checked === true) {
+document.documentElement.classList.add(colorMode)
+
+document.getElementById("toggle-dark").addEventListener("click", e => {
+  colorMode = colorMode === "dark" ? "light" : "dark"
+  if (colorMode === "dark") {
     document.documentElement.classList.remove("light")
     document.documentElement.classList.add("dark")
   } else {
     document.documentElement.classList.add("light")
     document.documentElement.classList.remove("dark")
   }
+  localStorage.setItem("theme-ui-color-mode", colorMode)
 })
