@@ -113,7 +113,7 @@ video {
   --primary-color: lightsteelblue;
   --primary-color-light: #5f6c80;
   --secondary-color: aliceblue;
-  --tertiary-color: whitesmoke;
+  --tertiary-color: #cbd5e0;
   color-scheme: light;
 }
 
@@ -410,7 +410,7 @@ sup {
     --primary-color: orange;
     --primary-color-light: #718096;
     --secondary-color: black;
-    --tertiary-color: #2d2d2d;
+    --tertiary-color: #2d3748;
     color-scheme: dark;
   }
 }
@@ -422,12 +422,32 @@ sup {
   --primary-color: orange;
   --primary-color-light: #718096;
   --secondary-color: black;
-  --tertiary-color: #2d2d2d;
+  --tertiary-color: #2d3748;
   color-scheme: dark;
 }
 /* end reset/color scheme */
 
 /* custom styling */
+header {
+  display: flex;
+  flex-flow: wrap;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--tertiary-color);
+  margin-bottom: 8rem;
+  align-items: center;
+  min-height: 68px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+header nav ul li {
+  margin: 0 2rem 0 0;
+}
+
 header nav a,
 header nav a:visited,
 header h2 a,
@@ -439,6 +459,89 @@ header h2 a:visited {
 
 header nav a:hover {
   text-decoration: underline;
+}
+
+#toggle-color-mode {
+  position: relative;
+  border-radius: 4px;
+  width: 40px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  appearance: none;
+}
+
+#toggle-color-mode div {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  transform: scale(1);
+  transition: all 0.45s ease;
+  overflow: hidden;
+  box-shadow: inset 8px -8px 0px 0px var(--text-color);
+}
+
+#toggle-color-mode.light div {
+  border: 4px solid var(--text-color);
+  background-color: var(--text-color);
+  transform: scale(0.55);
+  transition: transform 0.45s ease 0s;
+  overflow: visible;
+  box-shadow: none;
+}
+
+#toggle-color-mode div::before {
+  content: "";
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  height: 24px;
+  width: 24px;
+  border: none;
+  border-radius: 50%;
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: transform 0.45s ease;
+}
+#toggle-color-mode.light div::before {
+  border: 2px solid var(--text-color);
+  transform: translate(14px, -14px);
+  opacity: 0;
+  transition: transform 0.45s ease 0s;
+}
+#toggle-color-mode div::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: -4px 0 0 -4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
+    23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
+    15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
+    15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
+  transform: scale(0);
+  transition: all 0.35s ease;
+}
+#toggle-color-mode.light div::after {
+  box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
+    23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
+    15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
+    15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
+  transform: scale(1);
+  transition: all 0.35s ease 0s;
 }
 
 .social a {
