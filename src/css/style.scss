@@ -101,9 +101,7 @@ video {
   box-sizing: border-box;
 }
 
-/* Variables */
-:root,
-:root.light {
+@mixin light-mode-variables {
   --desktop-font-size: 1.2rem/1.55;
   --mobile-font-size: 1rem/1.45;
   --background-color: #f7fafc;
@@ -115,8 +113,51 @@ video {
   --secondary-color: aliceblue;
   --tertiary-color: #cbd5e0;
   color-scheme: light;
+}
+
+/* Variables */
+:root,
+:root.light {
+  @include light-mode-variables;
   --duration: 0.5s;
   --timing: ease;
+}
+
+@mixin dark-mode-variables {
+  --background-color: #1a202c;
+  --text-color: #a0aec0;
+  --primary-color: orange;
+  --primary-color-light: #718096;
+  --secondary-color: black;
+  --tertiary-color: #2d3748;
+  color-scheme: dark;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  input:focus,
+  input:active {
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+  }
+  table,
+  table tr,
+  table th:not(:last-of-type),
+  table td:not(:last-of-type) {
+    border-color: var(--text-color);
+  }
+  table thead th,
+  table tfoot th {
+    background-color: var(--primary-color-light);
+  }
+  :root {
+    @include dark-mode-variables;
+  }
+}
+
+/* manual dark mode (should match media query) */
+:root.dark {
+  @include dark-mode-variables;
 }
 
 /* Typography */
@@ -194,8 +235,7 @@ header h1 {
   border-bottom: 1px solid;
 }
 
-a,
-a:visited {
+a {
   background-image: linear-gradient(
     rgba(236, 201, 75, 0.4) 90%,
     rgb(236, 201, 75) 100%
@@ -206,14 +246,16 @@ a:visited {
   transition: background-size 0.2s;
   text-decoration: none;
   color: var(--text-color);
-}
-a:hover,
-a:focus,
-a:active {
-  background-size: 10px 26px;
-}
-a:visited {
-  color: var(--link-color-alt);
+
+  &:visited {
+    color: var(--link-color-alt);
+    text-decoration: none;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background-size: 10px 26px;
+  }
 }
 
 strong,
@@ -337,27 +379,27 @@ table {
   table-layout: fixed;
   text-align: left;
   width: 100%;
-}
-table caption {
-  margin: 2rem 0;
-}
-table tr {
-  border-bottom: 1px solid var(--primary-color);
-}
-table thead {
-  position: sticky;
-  top: 0;
-}
-table tbody tr:nth-child(even) {
-  background: var(--tertiary-color);
-}
-table th {
-  background: var(--secondary-color);
-  font-weight: bold;
-}
-table th,
-table td {
-  padding: 0.5rem;
+  caption {
+    margin: 2rem 0;
+  }
+  tr {
+    border-bottom: 1px solid var(--primary-color);
+  }
+  thead {
+    position: sticky;
+    top: 0;
+  }
+  tbody tr:nth-child(even) {
+    background: var(--tertiary-color);
+  }
+  th {
+    background: var(--secondary-color);
+    font-weight: bold;
+  }
+  th,
+  td {
+    padding: 0.5rem;
+  }
 }
 
 input {
@@ -366,12 +408,11 @@ input {
   display: block;
   margin: 0.5rem 0;
   padding: 0.8rem;
-}
-
-input:focus,
-input:active {
-  background-color: var(--secondary-color);
-  border-color: var(--link-color);
+  &:focus,
+  &:active {
+    background-color: var(--secondary-color);
+    border-color: var(--link-color);
+  }
 }
 
 sup {
@@ -391,45 +432,6 @@ sup {
     table-layout: auto;
   }
 }
-
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  input:focus,
-  input:active {
-    background-color: var(--text-color);
-    color: var(--secondary-color);
-  }
-  table,
-  table tr,
-  table th:not(:last-of-type),
-  table td:not(:last-of-type) {
-    border-color: var(--text-color);
-  }
-  table thead th,
-  table tfoot th {
-    background-color: var(--primary-color-light);
-  }
-  :root {
-    --background-color: #1a202c;
-    --text-color: #a0aec0;
-    --primary-color: orange;
-    --primary-color-light: #718096;
-    --secondary-color: black;
-    --tertiary-color: #2d3748;
-    color-scheme: dark;
-  }
-}
-
-/* manual dark mode (should match media query) */
-:root.dark {
-  --background-color: #1a202c;
-  --text-color: #a0aec0;
-  --primary-color: orange;
-  --primary-color-light: #718096;
-  --secondary-color: black;
-  --tertiary-color: #2d3748;
-  color-scheme: dark;
-}
 /* end reset/color scheme */
 
 /* custom styling */
@@ -442,52 +444,54 @@ header {
   margin-bottom: 8rem;
   align-items: center;
   min-height: 68px;
-}
 
-header h2 {
-  flex: auto;
-}
+  h2 {
+    flex: auto;
+    a,
+    a:visited {
+      background: none;
+      text-decoration: none;
+      color: var(--primary-color-light);
+    }
+  }
 
-header > div {
-  display: flex;
-  align-items: center;
-}
+  > div {
+    display: flex;
+    align-items: center;
 
-header > div > img {
-  height: auto;
-  width: 68px;
-  margin-right: 2rem;
-  margin-bottom: -58px;
-  transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
-  will-change: margin-bottom;
-}
-header:hover > div > img {
-  margin-bottom: -4px;
-}
+    > img {
+      height: auto;
+      width: 68px;
+      margin-right: 2rem;
+      margin-bottom: -58px;
+      transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+      will-change: margin-bottom;
+    }
+  }
+  &:hover > div > img {
+    margin-bottom: -4px;
+  }
 
-header nav ul {
-  list-style: none;
-  margin: 0;
-  display: flex;
-}
-header nav ul li {
-  margin: 0 2rem 0 0;
-}
-header nav ul li:last-child {
-  margin-right: 0;
-}
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      display: flex;
+      li:not(:last-child) {
+        margin: 0 2rem 0 0;
+      }
+    }
 
-header nav a,
-header nav a:visited,
-header h2 a,
-header h2 a:visited {
-  background: none;
-  text-decoration: none;
-  color: var(--primary-color-light);
-}
-
-header nav a:hover {
-  text-decoration: underline;
+    a,
+    a:visited {
+      background: none;
+      text-decoration: none;
+      color: var(--primary-color-light);
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 #toggle-color-mode {
@@ -505,72 +509,71 @@ header nav a:hover {
   cursor: pointer;
   padding: 0;
   appearance: none;
+
+  div {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    transform: scale(1);
+    transition: all 0.45s ease;
+    overflow: hidden;
+    box-shadow: inset 8px -8px 0px 0px var(--text-color);
+    &::before {
+      content: "";
+      position: absolute;
+      right: -9px;
+      top: -9px;
+      height: 24px;
+      width: 24px;
+      border: none;
+      border-radius: 50%;
+      transform: translate(0, 0);
+      opacity: 1;
+      transition: transform 0.45s ease;
+    }
+    &::after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin: -4px 0 0 -4px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
+        23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
+        15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
+        15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
+      transform: scale(0);
+      transition: all 0.35s ease;
+    }
+  }
 }
 
-#toggle-color-mode div {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: none;
-  background-color: transparent;
-  transform: scale(1);
-  transition: all 0.45s ease;
-  overflow: hidden;
-  box-shadow: inset 8px -8px 0px 0px var(--text-color);
-}
-
-#toggle-color-mode.light div {
+.dark #toggle-color-mode div {
   border: 4px solid var(--text-color);
   background-color: var(--text-color);
   transform: scale(0.55);
   transition: transform 0.45s ease 0s;
   overflow: visible;
   box-shadow: none;
-}
-
-#toggle-color-mode div::before {
-  content: "";
-  position: absolute;
-  right: -9px;
-  top: -9px;
-  height: 24px;
-  width: 24px;
-  border: none;
-  border-radius: 50%;
-  transform: translate(0, 0);
-  opacity: 1;
-  transition: transform 0.45s ease;
-}
-#toggle-color-mode.light div::before {
-  border: 2px solid var(--text-color);
-  transform: translate(14px, -14px);
-  opacity: 0;
-  transition: transform 0.45s ease 0s;
-}
-#toggle-color-mode div::after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  margin: -4px 0 0 -4px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
-    23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
-    15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
-    15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
-  transform: scale(0);
-  transition: all 0.35s ease;
-}
-#toggle-color-mode.light div::after {
-  box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
-    23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
-    15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
-    15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
-  transform: scale(1);
-  transition: all 0.35s ease 0s;
+  &::before {
+    border: 2px solid var(--text-color);
+    transform: translate(14px, -14px);
+    opacity: 0;
+    transition: transform 0.45s ease 0s;
+  }
+  &::after {
+    box-shadow: 0 -23px 0 var(--text-color), 0 23px 0 var(--text-color),
+      23px 0 0 var(--text-color), -23px 0 0 var(--text-color),
+      15px 15px 0 var(--text-color), -15px 15px 0 var(--text-color),
+      15px -15px 0 var(--text-color), -15px -15px 0 var(--text-color);
+    transform: scale(1);
+    transition: all 0.35s ease 0s;
+  }
 }
 
 .social a {

@@ -8,15 +8,12 @@ let colorMode = storedColorMode ?? preferredColorMode
 
 document.documentElement.classList.add(colorMode)
 
-const toggle = document.getElementById("toggle-color-mode")
-toggle.addEventListener("click", e => {
+document.getElementById("toggle-color-mode").addEventListener("click", e => {
   colorMode = colorMode === "dark" ? "light" : "dark"
   if (colorMode === "dark") {
-    toggle.classList.add("light")
     document.documentElement.classList.remove("light")
     document.documentElement.classList.add("dark")
   } else {
-    toggle.classList.remove("light")
     document.documentElement.classList.add("light")
     document.documentElement.classList.remove("dark")
   }

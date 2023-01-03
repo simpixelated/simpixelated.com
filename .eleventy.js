@@ -1,3 +1,4 @@
+const sass = require("sass")
 const config = require("./package.json")
 
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
@@ -42,11 +43,32 @@ const getReadTime = content => {
 }
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("tagList", getAllTags)
-  eleventyConfig.addPassthroughCopy("./src/css")
+  // Creates the extension for use
+}
+
+module.exports = function (eleventyConfig) {
+  // css loading
+  eleventyConfig.addTemplateFormats("scss")
+  eleventyConfig.addExtension("scss", {
+    outputFileExtension: "css", // optional, default: "html"
+
+    // `compile` is called once per .scss file in the input directory
+    compile: async function (inputContent) {
+      let result = sass.compileString(inputContent)
+
+      // This is the render function, `data` is the full data cascade
+      return async data => {
+        return result.css
+      }
+    },
+  })
+
+  // js/image loading
   eleventyConfig.addPassthroughCopy("./src/global.js")
   eleventyConfig.addPassthroughCopy("./src/static")
-  eleventyConfig.addWatchTarget("./src/css/")
+
+  // template helpers
+  eleventyConfig.addCollection("tagList", getAllTags)
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
   eleventyConfig.addShortcode("version", () => config.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
