@@ -8,7 +8,7 @@ tags:
   - twitter
 ---
 
-2022 was a year of deciding not to do things, which is actually an accomplishment for me and my family. We’ve consistently moved and I have changed jobs almost every year, on average. We’ve been chasing the ideal city, home, and working conditions for most of our adult lives. While I know we’ll still move, probably sooner than later, I’m taking the win for not making any major changes last year.
+2022 was a year of deciding **not** to do things, which is actually an accomplishment for my family. We’ve consistently moved and I have changed jobs almost every year, on average. We’ve been chasing the ideal city, home, and working conditions for most of our adult lives. While I know we’ll still move, probably sooner than later, I’m taking the win for not making any major changes last year.
 
 That doesn’t mean we didn’t dabble with the idea of moving. Within the last six months we put in offers on two different houses, toyed with the idea of expatriating to Europe, and have been browsing houses in Portland on Redfin. But for the time being, we’re staying put.
 
@@ -22,8 +22,7 @@ Taking inspiration from [Ryan Boone](https://www.falldowngoboone.com/blog/year-e
 ### 2022 accomplishments
 
 - **[Guested on my first podcast.](https://www.youtube.com/watch?v=4tqnvAMSbkQ)** I was fortunate enough to be invited by superstar recruiter Taylor Desseyn onto his podcast to talk about my interview process leading up to getting hired at Twilio. It was fun, easy, and I’d like to do more in the future!
-- [\*\*Got published on the Segment blog](https://segment.com/blog/plan-sms-mfa-migration-for-thousands-users/)!\*\* Although I didn’t live up to the goals I set for my personal website, I was able to get over 2,000 words published on my employer’s blog, talking about the work that I’m doing.
-- **Resisted the urge to move.** I consider this an accomplishment because my partner and I have consistently moved almost every year, for most of our lives together. We just can’t seem to find the perfect place for everything we desire. I think we’re getting better at recognizing what makes us happy. We still plan to move, but in 2022 we set ourselves a goal to stay where we are until our daughter has to switch to middle school.
+- **[Got published on the Segment blog](https://segment.com/blog/plan-sms-mfa-migration-for-thousands-users/)!** Although I didn’t live up to the goals I set for my personal website, I was able to get over 2,000 words published on my employer’s blog, talking about the work that I’m doing.
 
 ### 2023 goals
 
