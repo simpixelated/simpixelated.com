@@ -1,5 +1,6 @@
 const sass = require("sass")
 const config = require("./package.json")
+const { DateTime } = require("luxon")
 
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
 const getAllTags = collections => {
@@ -73,6 +74,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("version", () => config.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
+  eleventyConfig.addFilter("postDate", dateString =>
+    DateTime.fromISO(dateString).toLocaleString(DateTime.DATE_MED)
+  )
   return {
     dir: {
       input: "src",

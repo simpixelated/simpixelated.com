@@ -3,9 +3,10 @@ title: Home
 layout: base.html
 ---
 
-# Hi, I'm Jordan! <span role="img" aria-label="waving hello">👋</span>
-
-I'm a developer currently living in the Pacific Northwest, specializing in JavaScript, HTML, and CSS. I currently work for [Segment](https://segment.com). I'm passionate about React.js, improving software development, fair compensation, and building an equitable space in tech. You can read some of my opinions below.
+<section class="hero">
+  <h1>Hi, I'm Jordan! <span role="img" aria-label="waving hello">👋</span></h1>
+  <p>I'm a JavaScript developer living in the Pacific Northwest. I currently work for <a href="https://twilio.com">Twilio</a>. I'm passionate about remote work, helping people get better at interviewing, and salary negotation. You can read some of my opinions below.</p>
+</section>
 
 <ul class="social">
   <li><a href="https://twitter.com/simpixelated">Twitter</a></li>
@@ -14,15 +15,21 @@ I'm a developer currently living in the Pacific Northwest, specializing in JavaS
   <li><a href="https://flickr.com/people/38375540@N08/">Flickr</a></li>
 </ul>
 
-## Latest Posts
+<section>
+  <header>
+    <h2>Latest Posts</h2>
+    <a href="/blog">See all posts</a>
+  </header>
 
-<ul>
-  {% for post in collections.posts | reverse | limit(5) %}
-  <li><a href="{{ post.url }}">{{ post.data.title }}</a> <span>{{ post.data.date }}</span></li>
+  <ul class="blog-list">
+  {% for post in collections.posts | reverse | limit(3) %}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a><br />
+    <time>{{ post.data.date | postDate }}</time>
+  </li>
   {% endfor %}
-</ul>
-
-[See all posts](/blog)
+  </ul>
+</section>
 
 ## Projects
 
