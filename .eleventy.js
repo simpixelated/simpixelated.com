@@ -1,6 +1,7 @@
 const sass = require("sass")
 const config = require("./package.json")
 const { DateTime } = require("luxon")
+const Image = require("@11ty/eleventy-img")
 
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
 const getAllTags = collections => {
@@ -67,6 +68,13 @@ module.exports = function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy("./src/global.js")
   eleventyConfig.addPassthroughCopy("./src/static")
+  eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
+    const metadata = await Image(`./src/_includes/assets/${filename}`, {
+      formats: ["svg"],
+      dryRun: true,
+    })
+    return metadata.svg[0].buffer.toString()
+  })
 
   // template helpers
   eleventyConfig.addCollection("tagList", getAllTags)

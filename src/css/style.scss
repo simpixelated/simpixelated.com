@@ -595,18 +595,25 @@ body > header {
   }
 }
 
-.social a {
-  margin: 3px;
-}
-
-.social a svg {
-  fill: "heading";
-  width: 48px;
-  height: 48px;
-}
-
-.social a:hover svg {
-  fill: yellow;
+.social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 1rem 0;
+  li {
+    margin: 0 1rem;
+  }
+  a {
+    svg {
+      fill: var(--secondary-color);
+      width: 48px;
+      height: 48px;
+    }
+    &:hover svg {
+      fill: #ecc94b;
+    }
+  }
 }
 
 main + footer {
