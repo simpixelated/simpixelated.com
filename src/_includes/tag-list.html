@@ -1,2 +1,1 @@
-{% set comma = joiner() %} {% for tag in post.data.tags %}{{ comma() }}
-<a href="/tag/{{ tag | slug }}/">{{ tag }}</a>{% endfor %}
+{% set comma = joiner() %}{% for tag in tags %}{{ comma() }} <a href="/tag/{{ tag | slug }}/">{{ tag }}</a>{% endfor %}

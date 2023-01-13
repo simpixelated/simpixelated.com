@@ -1,11 +1,8 @@
 ---
 layout: base.html
 ---
+{% set tags = tags | exclude('posts') %}
 
 <h1>{{ title }}</h1>
-<time datetime="{{ date }}">{{ date }}</time>
-{% if tags %} — {% set comma = joiner() %} {% for tag in tags %}{{ comma() }}
-<a href="/tag/{{ tag | slug }}/">{{ tag }}</a>{% endfor %} {% endif %} — {{
-content | timeToRead }} min read
-
+<time datetime="{{ date }}">{{ date }}</time>{% if tags | length %} - {% include "tag-list.html" %}{% endif %} — {{ content | timeToRead }} min read
 <article>{{ content | safe}}</article>

@@ -7,16 +7,13 @@ const Image = require("@11ty/eleventy-img")
 const getAllTags = collections => {
   const tags = collections
     .getAll()
-    .filter(
-      item => !!item.data.tags && !["post", "all"].includes(item.data.tags)
-    )
     .reduce((tags, item) => tags.concat(item.data.tags), [])
-  return Array.from(new Set(tags))
+    .filter(tag => !!tag && !["posts", "all"].includes(tag))
     .sort()
-    .map(tag => ({
-      title: tag,
-      count: collections.getFilteredByTag(tag).length,
-    }))
+  return Array.from(new Set(tags)).map(tag => ({
+    title: tag,
+    count: collections.getFilteredByTag(tag).length,
+  }))
 }
 
 // inspired by https://github.com/JKC-Codes/eleventy-plugin-time-to-read
@@ -85,6 +82,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("postDate", dateString =>
     DateTime.fromISO(dateString).toLocaleString(DateTime.DATE_MED)
   )
+  eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
+    if (!stringToFilter) {
+      return collection
+    }
+    return (collection ?? []).filter(item => item !== stringToFilter)
+  })
   return {
     dir: {
       input: "src",
