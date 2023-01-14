@@ -230,10 +230,6 @@ h5,
 h6 {
   font-size: 100%;
 }
-h5,
-h6 {
-  text-transform: uppercase;
-}
 
 a {
   transition: all 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -637,22 +633,22 @@ main + footer {
 
 main section {
   margin-bottom: 6rem;
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--tertiary-color);
-    padding-bottom: 1rem;
-    h2 {
-      margin: 0;
-      + a {
-        font-size: 90%;
-      }
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--tertiary-color);
+  padding-bottom: 1rem;
+  h2 {
+    margin: 0;
+    + a {
+      font-size: 90%;
     }
   }
 }
 
-.blog-list time {
+.post-meta {
   color: var(--primary-color-light);
-  font-size: 90%;
 }

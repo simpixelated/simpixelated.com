@@ -4,5 +4,5 @@ layout: base.html
 {% set tags = tags | exclude('posts') %}
 
 <h1>{{ title }}</h1>
-<time datetime="{{ date }}">{{ date }}</time>{% if tags | length %} - {% include "tag-list.html" %}{% endif %} — {{ content | timeToRead }} min read
+<p class="post-meta"><time datetime="{{ date }}">{{ date | postDate }}</time>{% if tags | length %} - {% include "tag-list.html" %}{% endif %} — {{ content | timeToRead }} min read</p>
 <article>{{ content | safe}}</article>
