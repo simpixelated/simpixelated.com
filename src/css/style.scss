@@ -195,7 +195,15 @@ blockquote,
 dl,
 img,
 figure {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p {
+  margin-top: 0;
 }
 
 p,
@@ -215,6 +223,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
+  font-family: "Avenir Next", "Helvetica Neue";
   line-height: 1.2;
   color: var(--secondary-color);
 }
@@ -416,9 +425,7 @@ sup {
 @media screen and (max-width: 75ch) {
   body,
   input {
-    font: var(--mobile-font-size) -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: var(--mobile-font-size);
   }
   table {
     table-layout: auto;
