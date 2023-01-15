@@ -42,10 +42,6 @@ const getReadTime = content => {
 }
 
 module.exports = function (eleventyConfig) {
-  // Creates the extension for use
-}
-
-module.exports = function (eleventyConfig) {
   // css loading
   eleventyConfig.addTemplateFormats("scss")
   eleventyConfig.addExtension("scss", {
@@ -65,7 +61,7 @@ module.exports = function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy("./src/global.js")
   eleventyConfig.addPassthroughCopy("./src/static")
-  eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
+  eleventyConfig.addShortcode("svgIcon", async filename => {
     const metadata = await Image(`./src/static/icons/${filename}`, {
       formats: ["svg"],
       dryRun: true,
