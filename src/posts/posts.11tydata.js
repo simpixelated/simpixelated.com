@@ -1,7 +1,7 @@
 module.exports = {
   eleventyComputed: {
     socialImage: data => {
-      return `/static/banners/${data.title
+      return `${data.site.url}/static/banners/${data.title
         .replaceAll(" ", "-")
         .toLowerCase()}-social-card.png`
     },
