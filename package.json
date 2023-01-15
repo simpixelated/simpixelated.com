@@ -8,6 +8,7 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
+    "build:social": "NODE_ENV=social npx @11ty/eleventy --serve",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
   },
   "keywords": [],
