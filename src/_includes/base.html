@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }} — simpixelated.com</title>
+    {% include "meta-info.html" %}
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" data-gatsby-head="true"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" data-gatsby-head="true"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" data-gatsby-head="true"/>
+    <script data-no-cookie="true" async="" src="https://cdn.splitbee.io/sb.js"></script>
   </head>
   <body>
     <header>
@@ -20,7 +24,7 @@
           <ul>
             <li><a {% if page.url === '/blog/' %} aria-current="page"{% endif %} href="/blog">Blog</a></li>
             <li><a {% if page.url === '/about/' %} aria-current="page"{% endif %} href="/about">About</a></li>
-            <li><a href="/">Resume</a></li>
+            <li><a href="/static/resume-jordan-kohl.pdf">Resume</a></li>
             <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
             <li>
               <button
