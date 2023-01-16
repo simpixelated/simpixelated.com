@@ -2,7 +2,7 @@
   "name": "simpixelated.com",
   "version": "2.0.0",
   "description": "personal website and blog of Jordan Kohl (simpixelated)",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "author": "Jordan Kohl",
   "license": "MIT",
   "scripts": {
