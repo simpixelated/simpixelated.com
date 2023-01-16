@@ -45,7 +45,7 @@ const main = async slug => {
   const destinationFile = join(
     process.cwd(),
     DEFAULT_IMAGE_FOLDER,
-    `${slug}.png`
+    `${slug}-social-card.png`
   )
   takeScreenshot(
     `${DEFAULT_BASE_URL}/${slug}`,
