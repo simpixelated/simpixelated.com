@@ -61,11 +61,12 @@ module.exports = function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy("./src/global.js")
   eleventyConfig.addPassthroughCopy("./src/static")
-  eleventyConfig.addShortcode("svgIcon", async filename => {
-    const metadata = await Image(`./src/static/icons/${filename}`, {
+  eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
+    const metadata = await Image(`./src/_includes/assets/${filename}`, {
       formats: ["svg"],
       dryRun: true,
     })
+    console.log(metadata)
     return metadata.svg[0].buffer.toString()
   })
 
