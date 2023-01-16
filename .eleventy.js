@@ -66,7 +66,6 @@ module.exports = function (eleventyConfig) {
       formats: ["svg"],
       dryRun: true,
     })
-    console.log(metadata)
     return metadata.svg[0].buffer.toString()
   })
 
