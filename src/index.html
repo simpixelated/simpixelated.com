@@ -1,0 +1,44 @@
+---
+title: simpixelated.com
+layout: base.html
+---
+
+<section class="hero">
+  <h1 id="skip-nav">Hi, I'm Jordan! <span role="img" aria-label="waving hello">👋</span></h1>
+  <p>I'm a software developer living in the Pacific Northwest. I currently work for <a href="https://twilio.com">Twilio</a>. I like to <a href="/blog">write</a> about code, working remotely, interviewing, and life. I like LEGO, comic books, video games, and riding my bike.</p>
+  <ul class="social">
+    <li><a href="https://twitter.com/simpixelated" aria-label="Twitter">{% svgIcon 'twitter.svg' %}</a></li>
+    <li><a href="https://linkedin.com/in/jordankohl" aria-label="LinkedIn">{% svgIcon 'linkedin.svg' %}</a></li>
+    <li><a href="https://github.com/simpixelated" aria-label="GitHub">{% svgIcon 'github.svg' %}</a></li>
+    <li><a href="https://flickr.com/people/38375540@N08/" aria-label="Flickr">{% svgIcon 'flickr.svg' %}</a></li>
+  </ul>
+</section>
+
+<section>
+  <header>
+    <h2>Latest Posts</h2>
+    <a href="/blog">See all posts</a>
+  </header>
+
+  <ul>
+    {% for post in collections.posts | reverse | limit(3) %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a><br />
+      <small class="post-meta"><time>{{ post.data.date | postDate }}</time></small>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <header>
+    <h2>Projects</h2>
+  </header>
+  <ul>
+    <li><a href="https://github.com/simpixelated/robirb">Twitter Flickr Bot</a> - Twitter bot that will post photos from Flickr (written in Node.js)</li>
+    <li><a href="https://www.flickr.com/photos/38375540@N08/">My LEGO MOCs on Flickr</a> - MOC = My Own Creation and LEGO was my pandemic hobby</li>
+    <li><a href="https://github.com/ghost-inspector/wordpress-plugin">Ghost Inspector WordPress Plugin</a> - displays the status of your QA tests in your admin</li>
+    <li><a href="https://simpixelated.github.io/san-diego-downtown-mobility-plan/">Ride Safe San Diego</a> - advocacy for improving bicycle safety in the city of San Diego</li>
+    <li><a href="https://sd-dev-list.netlify.app/">SD Dev List</a> - a list of new developments planned or under construction in downtown San Diego</li>
+  </ul>
+</section>

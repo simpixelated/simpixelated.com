@@ -1,4 +1,4 @@
-# Dependency directories
+# dependencies installed by npm
 node_modules
 .npm
 logs
@@ -8,8 +8,6 @@ npm-debug.log*
 # Mac files
 .DS_Store
 
-# gatsby files
-.cache/
+# build artifacts
 public
-# Local Netlify folder
 .netlify

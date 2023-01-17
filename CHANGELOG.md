@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.0.0 - 2023-01-16
+
+### Changed
+
+- converted from Gatsby to Eleventy
+- styling tweaks
+- organized blog posts by year
+- text on home, about
+
 ## 1.3.3 - 2022-10-09
 
 ### Changed

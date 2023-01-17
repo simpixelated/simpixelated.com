@@ -1,17 +1,12 @@
-This is the completely open source of my personal blog that lives at [simpixelated.com](https://simpixelated.com). This is a conversion from WordPress to a JavaScript based static site generator using React.js, Gatsby.js, and Markdown.
+This is the source code and content of my personal blog that lives at [simpixelated.com](https://simpixelated.com).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3afc92b8-982b-4986-91b4-eec61af3b2f3/deploy-status)](https://app.netlify.com/sites/simpixelated/deploys)
 
 Built with:
 
-- [Gatsby.js](https://www.gatsbyjs.com/docs/)
-- GitHub
+- [Eleventy](https://www.11ty.dev)
 - [Netlify](https://docs.netlify.com/#get-started)
-- [wordpress-export-to-markdown](https://github.com/lonekorean/wordpress-export-to-markdown)
-- [@lekoarts/gatsby-theme-minimal-blog](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog)
-- [Theme UI](https://theme-ui.com/home)
-- [Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
-- [new-gatsby-post-cli](https://github.com/luftywiranda13/new-gatsby-post-cli)
+- GitHub
 
 ### Roadmap
 
@@ -25,9 +20,10 @@ Like many other developers struggling to find time to work on side projects, I'v
 - Gatsby 1.0
 - Next.js 5.0
 - headless WordPress with custom static export
-- now back to Gatsby 2.x
+- Gatsby 2.0 - 5.0
+- now Eleventy
 
-Read about how/why I decided on Gatsby.js in my [recent blog post](https://github.com/simpixelated/simpixelated.com/blob/stable/content/posts/2021-01-20-converting-from-word-press-to-gatsby-js/index.md).
+Read about how and why I decided to switch from Gatsby.js to Eleventy in my [recent blog post](TBD).
 
 ## License
 
