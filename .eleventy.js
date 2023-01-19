@@ -43,19 +43,10 @@ const getReadTime = content => {
 
 module.exports = function (eleventyConfig) {
   // css loading
-  eleventyConfig.addTemplateFormats("scss")
-  eleventyConfig.addExtension("scss", {
-    outputFileExtension: "css", // optional, default: "html"
-
-    // `compile` is called once per .scss file in the input directory
-    compile: async function (inputContent) {
-      let result = sass.compileString(inputContent)
-
-      // This is the render function, `data` is the full data cascade
-      return async data => {
-        return result.css
-      }
-    },
+  // inspired by https://github.com/higby/eleventy-plugin-inline-sass/blob/main/eleventy.config.js
+  // requires file named after folder/template (e.g. src/index.scss or folder/folder.scss)
+  eleventyConfig.addDataExtension("scss", contents => {
+    return { scss: sass.compileString(contents, { style: "compressed" }).css }
   })
 
   // js/image loading
