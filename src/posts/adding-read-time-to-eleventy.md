@@ -17,18 +17,16 @@ Simple! To add this to Eleventy, you have to wrap the logic in a [filter](https:
 
 ```js
 eleventyConfig.addFilter("timeToRead", (content) => {
-  // inspired by
   const getPlainText = content => {
     const html = content.templateContent || content
     if (typeof html !== "string") {
       throw new Error("Time-to-read's input must be a string or template")
     }
 
-    // Remove html
     const htmlTags = String.raw`<\/?[a-z0-9]+\b[^>]*>`
-    //Regex = '<!--' + the minimal amount of 0 or more characters + '-->'
+    // regex = '<!--' + the minimal amount of 0 or more characters + '-->'
     const htmlComments = String.raw`<!--[^]*?-->`
-    // Regex = htmlTags or htmlComments
+    // remove any tags or comments
     return html.replace(
       new RegExp(String.raw`${htmlTags}|${htmlComments}`, "gi"),
       ""
