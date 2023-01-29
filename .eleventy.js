@@ -1,4 +1,4 @@
-const config = require("./package.json")
+const package = require("./package.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
@@ -89,7 +89,7 @@ module.exports = function (eleventyConfig) {
 
   // template helpers (shortcodes and filters)
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
-  eleventyConfig.addShortcode("version", () => config.version)
+  eleventyConfig.addShortcode("version", () => package.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
   eleventyConfig.addFilter("postDate", date => {
