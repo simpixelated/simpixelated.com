@@ -9,5 +9,5 @@ npm-debug.log*
 .DS_Store
 
 # build artifacts
-public
+dist
 .netlify

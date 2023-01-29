@@ -1,7 +1,7 @@
-const sass = require("sass")
 const config = require("./package.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
 const getAllTags = collections => {
@@ -43,19 +43,8 @@ const getReadTime = content => {
 
 module.exports = function (eleventyConfig) {
   // css loading
-  eleventyConfig.addTemplateFormats("scss")
-  eleventyConfig.addExtension("scss", {
-    outputFileExtension: "css", // optional, default: "html"
-
-    // `compile` is called once per .scss file in the input directory
-    compile: async function (inputContent) {
-      let result = sass.compileString(inputContent)
-
-      // This is the render function, `data` is the full data cascade
-      return async data => {
-        return result.css
-      }
-    },
+  eleventyConfig.setBrowserSyncConfig({
+    files: "./dist/css/**/*.css",
   })
 
   // js/image loading
@@ -90,9 +79,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("version", () => config.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
-  eleventyConfig.addFilter("postDate", dateString =>
-    DateTime.fromISO(dateString).toLocaleString(DateTime.DATE_MED)
-  )
+  eleventyConfig.addFilter("postDate", date => {
+    if (date && typeof date.getMonth === "function") {
+      return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED)
+    }
+    if (typeof date === "object") {
+      return DateTime.fromObject(date).toLocaleString(DateTime.DATE_MED)
+    }
+    return DateTime.fromISO(date).toLocaleString(DateTime.DATE_MED)
+  })
   eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
     if (!stringToFilter) {
       return collection
@@ -100,10 +95,12 @@ module.exports = function (eleventyConfig) {
     return (collection ?? []).filter(item => item !== stringToFilter)
   })
 
+  eleventyConfig.addPlugin(syntaxHighlight)
+
   return {
     dir: {
       input: "src",
-      output: "public",
+      output: "dist",
     },
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",

@@ -115,6 +115,27 @@ video {
   --tertiary-shadow-color: #ddd;
   --link-hover-color: #2d3748;
   --header-inner-highlight: #fff;
+  /* prism code highlighting */
+  --prism-text-color: #5c6e74;
+  --prism-text-shadow-color: rgba(194, 182, 146, 0.3);
+  --prism-background-color: #f8f5ec;
+  --prism-comment-color: #93a1a1;
+  --prism-punctuation-color: #999999;
+  --prism-class-color: #999999;
+  --prism-constant-color: #99cc99;
+  --prism-deleted-color: #990055;
+  --prism-number-color: #ff73fd;
+  --prism-selector-color: #669900;
+  --prism-variable-color: #ee9900;
+  --prism-operator-color: #a67f59;
+  --prism-entity-color: #ffffb6;
+  --prism-url-color: #96cbfe;
+  --prism-style-color: #a67f59;
+  --prism-attr-color: #0077aa;
+  --prism-function-color: #dd4a68;
+  --prism-regex-color: #ee9900;
+  --prism-important-color: #fd971f;
+  --prism-tag-color: #0077aa;
   color-scheme: light;
 }
 
@@ -128,6 +149,27 @@ video {
   --tertiary-shadow-color: #0a0c0f;
   --link-hover-color: #1a202c;
   --header-inner-highlight: #343f554d;
+  /* prism code highlighting */
+  --prism-text-color: #c5c8c6;
+  --prism-text-shadow-color: rgba(0, 0, 0, 0.3);
+  --prism-background-color: #1d1f21;
+  --prism-comment-color: #7c7c7c;
+  --prism-punctuation-color: #c5c8c6;
+  --prism-class-color: #ffffb6;
+  --prism-constant-color: #99cc99;
+  --prism-deleted-color: #f92672;
+  --prism-number-color: #ff73fd;
+  --prism-selector-color: #a8ff60;
+  --prism-variable-color: #c6c5fe;
+  --prism-operator-color: #ededed;
+  --prism-entity-color: #ffffb6;
+  --prism-url-color: #96cbfe;
+  --prism-style-color: #87c38a;
+  --prism-attr-color: #f9ee98;
+  --prism-function-color: #dad085;
+  --prism-regex-color: #e9c062;
+  --prism-important-color: #fd971f;
+  --prism-tag-color: #96cbfe;
   color-scheme: dark;
 }
 
@@ -309,8 +351,8 @@ var {
 }
 code,
 pre {
-  background: var(--tertiary-color);
-  border: 1px solid;
+  // background: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
   overflow: auto;
   padding: 0.25rem 0.5rem;
 }
@@ -673,3 +715,5 @@ main header {
 .post-meta {
   color: var(--primary-color-light);
 }
+
+@import "_prism-atom-dark";
