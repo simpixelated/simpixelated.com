@@ -12,8 +12,8 @@
     "build": "npm run build:sass & npm run build:eleventy",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve",
-	  "watch:sass": "npx sass src/scss:dist/css --watch",
-	  "start": "npm run watch:eleventy & npm run watch:sass"
+    "watch:sass": "npx sass src/scss:dist/css --watch",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
   "devDependencies": {

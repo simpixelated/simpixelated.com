@@ -3,6 +3,16 @@ const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 
+const config = {
+  dir: {
+    input: "src",
+    output: "dist",
+  },
+  markdownTemplateEngine: "njk",
+  dataTemplateEngine: "njk",
+  htmlTemplateEngine: "njk",
+}
+
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
 const getAllTags = collections => {
   const tags = collections
@@ -44,17 +54,20 @@ const getReadTime = content => {
 module.exports = function (eleventyConfig) {
   // css loading
   eleventyConfig.setBrowserSyncConfig({
-    files: "./dist/css/**/*.css",
+    files: `./${config.dir.output}/css/**/*.css`,
   })
 
   // js/image loading
-  eleventyConfig.addPassthroughCopy("./src/global.js")
-  eleventyConfig.addPassthroughCopy("./src/static")
+  eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
+  eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
-    const metadata = await Image(`./src/_includes/assets/${filename}`, {
-      formats: ["svg"],
-      dryRun: true,
-    })
+    const metadata = await Image(
+      `./${config.dir.input}/_includes/assets/${filename}`,
+      {
+        formats: ["svg"],
+        dryRun: true,
+      }
+    )
     return metadata.svg[0].buffer.toString()
   })
 
@@ -97,13 +110,5 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  return {
-    dir: {
-      input: "src",
-      output: "dist",
-    },
-    markdownTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-  }
+  return config
 }
