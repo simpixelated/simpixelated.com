@@ -1,7 +1,17 @@
-const sass = require("sass")
-const config = require("./package.json")
+const package = require("./package.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+
+const config = {
+  dir: {
+    input: "src",
+    output: "dist",
+  },
+  markdownTemplateEngine: "njk",
+  dataTemplateEngine: "njk",
+  htmlTemplateEngine: "njk",
+}
 
 // inspired by https://github.com/11ty/eleventy/issues/927#issuecomment-627703544
 const getAllTags = collections => {
@@ -43,29 +53,21 @@ const getReadTime = content => {
 
 module.exports = function (eleventyConfig) {
   // css loading
-  eleventyConfig.addTemplateFormats("scss")
-  eleventyConfig.addExtension("scss", {
-    outputFileExtension: "css", // optional, default: "html"
-
-    // `compile` is called once per .scss file in the input directory
-    compile: async function (inputContent) {
-      let result = sass.compileString(inputContent)
-
-      // This is the render function, `data` is the full data cascade
-      return async data => {
-        return result.css
-      }
-    },
+  eleventyConfig.setBrowserSyncConfig({
+    files: `./${config.dir.output}/css/**/*.css`,
   })
 
   // js/image loading
-  eleventyConfig.addPassthroughCopy("./src/global.js")
-  eleventyConfig.addPassthroughCopy("./src/static")
+  eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
+  eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
-    const metadata = await Image(`./src/_includes/assets/${filename}`, {
-      formats: ["svg"],
-      dryRun: true,
-    })
+    const metadata = await Image(
+      `./${config.dir.input}/_includes/assets/${filename}`,
+      {
+        formats: ["svg"],
+        dryRun: true,
+      }
+    )
     return metadata.svg[0].buffer.toString()
   })
 
@@ -87,12 +89,18 @@ module.exports = function (eleventyConfig) {
 
   // template helpers (shortcodes and filters)
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
-  eleventyConfig.addShortcode("version", () => config.version)
+  eleventyConfig.addShortcode("version", () => package.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
-  eleventyConfig.addFilter("postDate", dateString =>
-    DateTime.fromISO(dateString).toLocaleString(DateTime.DATE_MED)
-  )
+  eleventyConfig.addFilter("postDate", date => {
+    if (date && typeof date.getMonth === "function") {
+      return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED)
+    }
+    if (typeof date === "object") {
+      return DateTime.fromObject(date).toLocaleString(DateTime.DATE_MED)
+    }
+    return DateTime.fromISO(date).toLocaleString(DateTime.DATE_MED)
+  })
   eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
     if (!stringToFilter) {
       return collection
@@ -100,13 +108,7 @@ module.exports = function (eleventyConfig) {
     return (collection ?? []).filter(item => item !== stringToFilter)
   })
 
-  return {
-    dir: {
-      input: "src",
-      output: "public",
-    },
-    markdownTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-  }
+  eleventyConfig.addPlugin(syntaxHighlight)
+
+  return config
 }

@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.1.0 - 2023-01-29
+
+### Changed
+
+- fixed broken title on tag pages
+- switched to separate script step for compiling Sass
+- update `postDate` filter to handle different formats
+- changed output folder from "public" to "dist"
+
+### Added
+
+- added blog post: [Adding dynamic read time to Eleventy.js](src/posts/adding-read-time-to-eleventy.md)
+- added syntax highlighting with Prism.js
+
 ## 2.0.0 - 2023-01-16
 
 ### Changed
