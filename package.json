@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "build:eleventy": "npx @11ty/eleventy",
-    "build:social": "NODE_ENV=social npx @11ty/eleventy --serve",
     "build:sass": "npx sass src/scss:dist/css",
     "build": "npm run build:sass & npm run build:eleventy",
+    "serve:social": "NODE_ENV=social npx @11ty/eleventy --serve",
+    "build:images": "node ./scripts/generate-social-cards.js",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npx sass src/scss:dist/css --watch",

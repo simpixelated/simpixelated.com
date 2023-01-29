@@ -4,7 +4,7 @@ const { join } = require("path")
 const puppeteer = require("puppeteer")
 
 const DEFAULT_BASE_URL = "http://localhost:8080"
-const DEFAULT_IMAGE_FOLDER = "scripts"
+const DEFAULT_IMAGE_FOLDER = "./src/static/banners"
 const DEFAULT_DIMENSIONS = [
   {
     width: 1200,
