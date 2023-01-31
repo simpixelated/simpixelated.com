@@ -1,6 +1,6 @@
 ---
-title: "Becoming Better at JavaScript"
-date: "2013-05-15"
+title: Becoming Better at JavaScript
+date: 2013-05-15
 tags:
   - JavaScript
   - development

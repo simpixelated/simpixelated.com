@@ -1,6 +1,6 @@
 ---
 title: "Wealth"
-date: "2013-01-09"
+date: 2013-01-09
 tags:
   - money
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Getting Real vs REWORK"
-date: "2010-04-17"
+date: 2010-04-17
 tags:
   - work
 ---

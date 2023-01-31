@@ -1,6 +1,6 @@
 ---
 title: "Front-End Engineer / Developer Interview Questions"
-date: "2018-06-14"
+date: 2018-06-14
 tags:
   - interviewing
 ---

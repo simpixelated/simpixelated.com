@@ -1,6 +1,6 @@
 ---
 title: "33 of the Best Front-End Development Resources"
-date: "2013-12-07"
+date: 2013-12-07
 tags:
   - development
   - JavaScript

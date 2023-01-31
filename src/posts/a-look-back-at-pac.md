@@ -1,6 +1,6 @@
 ---
-title: "A Look Back at PAC"
-date: "2007-06-05"
+title: A Look Back at PAC
+date: 2007-06-05
 ---
 
 A week from today it will have been a year since pacult.com closed shop. Can time really have flown by that fast? Well, I’ll skip the cliché’s because obviously, it has. When we (Kristin, Bill and I) made the decision to close the forum and by extension the entire site, we talked of recreating it from the ground up. That, also obviously, has not happened. In fact other than a few times shortly after the closing we haven’t talked about the website at all. Everyone pretty much moved on. I was so shocked, annoyed, frustrated, and hurt by the reaction from the community that I distanced myself from it for almost a year now. I think we’ve both been better off for it. But am I still the people’s enemy? I wonder, but not enough to ask them. I also wouldn’t want to open any old wounds.

@@ -1,6 +1,6 @@
 ---
 title: "What I've Been Up To"
-date: "2012-07-14"
+date: 2012-07-14
 ---
 
 Between November 2011 and June 2012, I only published two posts: my introduction to blogging tutorials [part 1](http://simpixelated.com/introduction-to-blogging-choosing-the-right-keywords/ "Introduction to Blogging: Choosing the Right Keywords") and [part 2](http://simpixelated.com/blogging-101-how-to-setup-wordpress/ "Blogging 101: How to Setup WordPress"). It may seem like I fell of the edge of the world, but I was actually fairly busy. Now that I look back on it, I accomplished a lot in that short span of time.

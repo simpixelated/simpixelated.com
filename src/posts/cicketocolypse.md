@@ -1,6 +1,6 @@
 ---
-title: "Cricketocolypse"
-date: "2012-06-27"
+title: Cricketocolypse
+date: 2012-06-27
 ---
 
 Crickets of the house [Gryllidae, true crickets indeed](<http://en.wikipedia.org/wiki/Cricket_(insect)>), are in the late stages of a full scale invasion of our apartment. They are practically streaming in through every orifice of the building. We've closed off access to through the back door with duct tape, but that has only served to detour their attack route.  Six-legged Santas now come happily chirping down our chimney.

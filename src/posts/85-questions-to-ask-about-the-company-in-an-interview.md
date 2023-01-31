@@ -1,6 +1,6 @@
 ---
-title: "85 Questions To Ask About The Company In An Interview"
-date: "2018-08-10"
+title: 85 Questions To Ask About The Company In An Interview
+date: 2018-08-10
 tags:
   - interviewing
 ---

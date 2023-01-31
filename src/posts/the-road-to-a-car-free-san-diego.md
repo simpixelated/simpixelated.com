@@ -1,6 +1,6 @@
 ---
 title: "The Road to a Car-free San Diego"
-date: "2020-01-30"
+date: 2020-01-30
 tags:
   - urbanism
   - climate

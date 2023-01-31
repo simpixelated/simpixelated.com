@@ -1,6 +1,6 @@
 ---
 title: "7 Failures and 2 Reasons I'm Moving to Southern California"
-date: "2014-03-04"
+date: 2014-03-04
 tags:
   - goals
 ---

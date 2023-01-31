@@ -1,6 +1,6 @@
 ---
 title: "Two Year Work Retrospective"
-date: "2020-07-14"
+date: 2020-07-14
 tags:
   - work
   - Ghost Inspector

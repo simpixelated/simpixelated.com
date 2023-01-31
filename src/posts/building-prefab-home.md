@@ -1,6 +1,6 @@
 ---
-title: "Prefab and Modular Home Builders"
-date: "2014-03-19"
+title: Prefab and Modular Home Builders
+date: 2014-03-19
 tags:
   - prefab
   - modular

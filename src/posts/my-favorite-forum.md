@@ -1,6 +1,6 @@
 ---
 title: "My Favorite Forum"
-date: "2010-09-09"
+date: 2010-09-09
 ---
 
 Obviously I use Google Reader, I keep up on lots of RSS feeds. I read blogs, news websites, Twitter, all the usual suspects. But by a wide margin, I find the majority of my useful information from a more unexpected source: the [Something Awful forums](http://forums.somethingawful.com/). I was a fan of the website back when it first started and after "lurking" in the forums for a long time I finally bit the bullet and paid the \$10 fee to get an official membership. Since then I've checked it almost daily, staying up to date on a number of different subjects. That is the wonderful utility of the forums, they have so many members that there is a thread for just about any topic you could imagine.

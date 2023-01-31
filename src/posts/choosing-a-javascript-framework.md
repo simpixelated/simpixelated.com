@@ -1,6 +1,6 @@
 ---
-title: "Choosing a JavaScript Framework"
-date: "2013-07-04"
+title: Choosing a JavaScript Framework
+date: 2013-07-04
 tags:
   - JavaScript
   - Backbone.js

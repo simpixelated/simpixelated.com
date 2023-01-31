@@ -1,6 +1,6 @@
 ---
 title: "Super Mario Galaxy 2"
-date: "2010-06-26"
+date: 2010-06-26
 tags:
   - gaming
 ---

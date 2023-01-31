@@ -1,6 +1,6 @@
 ---
 title: "And we're back!"
-date: "2011-09-21"
+date: 2011-09-21
 tags:
   - blogging
 ---

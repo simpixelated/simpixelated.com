@@ -1,6 +1,6 @@
 ---
-date: "2021-01-24"
-title: "How I Nearly Quadrupled My Salary In One Year"
+date: 2021-01-24
+title: How I Nearly Quadrupled My Salary In One Year
 tags:
   - salary
   - career

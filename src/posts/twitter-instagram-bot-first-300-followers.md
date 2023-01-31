@@ -1,5 +1,5 @@
 ---
-date: "2021-09-05"
+date: 2021-09-05
 title: "Getting to 300 Followers with a Twitter Bot"
 tags:
   - twitter

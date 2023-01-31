@@ -1,6 +1,6 @@
 ---
 title: "My Interview with the Los Angeles Lakers"
-date: "2012-10-03"
+date: 2012-10-03
 tags:
   - interviewing
   - Lakers

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Blogging: Choosing the Right Keywords"
-date: "2012-02-26"
+date: 2012-02-26
 tags:
   - blogging
 ---

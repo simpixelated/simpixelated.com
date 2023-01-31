@@ -1,6 +1,6 @@
 ---
 title: "Civilization V: The Greatest Game"
-date: "2010-09-11"
+date: 2010-09-11
 tags:
   - gaming
 ---

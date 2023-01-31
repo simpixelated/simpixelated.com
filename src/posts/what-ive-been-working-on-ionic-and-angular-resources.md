@@ -1,6 +1,6 @@
 ---
 title: "What I've Been Working On (Ionic and Angular Resources)"
-date: "2015-09-29"
+date: 2015-09-29
 ---
 
 As you can see by my stale timeline, I haven't updated this blog in awhile. I've been busy building the [HomDNA app](https://homdna.com) for iOS and Android using Cordova, Ionic, and Angular. Here's what I've learned (more detailed posts to come):

@@ -1,6 +1,6 @@
 ---
 title: "Learning Object Oriented Javascript"
-date: "2012-06-14"
+date: 2012-06-14
 tags:
   - JavaScript
 ---

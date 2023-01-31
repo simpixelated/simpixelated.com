@@ -1,6 +1,6 @@
 ---
 title: "Passpack: Protecing Your Passwords Online"
-date: "2011-11-14"
+date: 2011-11-14
 ---
 
 Over the years, my password schema has evolved to be more and more complex. With huge, professional services like Sony PlayStation Online and Steam being compromised by hackers, it seems your passwords are not safe anywhere online. This means using the same password for everything you do just isn't smart. I have essentially three levels of passwords.

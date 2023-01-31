@@ -1,6 +1,6 @@
 ---
-date: "2021-10-25"
-title: "Always Negotiate Your Salary"
+date: 2021-10-25
+title: Always Negotiate Your Salary
 tags:
   - salary
   - career

@@ -1,6 +1,6 @@
 ---
 title: "Updating the Design"
-date: "2010-06-06"
+date: 2010-06-06
 tags:
   - design
 ---

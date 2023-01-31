@@ -1,5 +1,5 @@
 ---
-date: "2021-01-20"
+date: 2021-01-20
 title: "Converting From WordPress To Gatsby.js"
 tags:
   - JavaScript

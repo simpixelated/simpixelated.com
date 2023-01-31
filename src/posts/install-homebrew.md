@@ -1,6 +1,6 @@
 ---
 title: "Install Homebrew for OS X"
-date: "2014-03-18"
+date: 2014-03-18
 tags:
   - development
   - Homebrew

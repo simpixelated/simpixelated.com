@@ -1,6 +1,6 @@
 ---
 title: "Removing Distractions and Automating Production"
-date: "2013-09-07"
+date: 2013-09-07
 tags:
   - goals
 ---

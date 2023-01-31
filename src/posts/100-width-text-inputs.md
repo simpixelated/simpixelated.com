@@ -1,6 +1,6 @@
 ---
-title: "100% width text inputs"
-date: "2010-05-15"
+title: 100% width text inputs
+date: 2010-05-15
 tags:
   - CSS
 ---

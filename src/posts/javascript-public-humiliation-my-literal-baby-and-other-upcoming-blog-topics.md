@@ -1,6 +1,6 @@
 ---
 title: "JavaScript, failure, a baby, and other upcoming blog topics."
-date: "2012-09-16"
+date: 2012-09-16
 tags:
   - life
   - work

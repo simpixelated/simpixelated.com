@@ -1,6 +1,6 @@
 ---
-title: "Links of the Week"
-date: "2012-07-03"
+title: Links of the Week
+date: 2012-07-03
 tags:
   - JavaScript
   - CSS

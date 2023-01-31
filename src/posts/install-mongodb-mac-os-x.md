@@ -1,6 +1,6 @@
 ---
 title: "Install MongoDB on Mac OS X"
-date: "2014-03-23"
+date: 2014-03-23
 tags:
   - JavaScript
   - development

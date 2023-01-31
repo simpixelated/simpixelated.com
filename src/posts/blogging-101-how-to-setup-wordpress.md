@@ -1,6 +1,6 @@
 ---
 title: "Blogging 101: How to Setup Wordpress"
-date: "2012-06-09"
+date: 2012-06-09
 tags:
   - WordPress
   - blogging

@@ -1,6 +1,6 @@
 ---
 title: "Wordpress 101"
-date: "2010-07-24"
+date: 2010-07-24
 tags:
   - WordPress
   - blogging

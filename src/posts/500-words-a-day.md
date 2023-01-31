@@ -1,6 +1,6 @@
 ---
-title: "500 Words a Day"
-date: "2012-06-28"
+title: 500 Words a Day
+date: 2012-06-28
 tags:
   - goals
 ---

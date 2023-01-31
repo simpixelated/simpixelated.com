@@ -1,6 +1,6 @@
 ---
 title: "You Can't Beat LA (or so I hope)"
-date: "2010-06-16"
+date: 2010-06-16
 tags:
   - Lakers
 ---

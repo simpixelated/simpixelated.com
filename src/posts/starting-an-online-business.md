@@ -1,6 +1,6 @@
 ---
 title: "Starting an Online Business"
-date: "2010-06-26"
+date: 2010-06-26
 tags:
   - money
   - business

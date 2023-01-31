@@ -1,6 +1,6 @@
 ---
 title: "My Management Philosophy"
-date: "2018-07-06"
+date: 2018-07-06
 tags:
   - management
   - career

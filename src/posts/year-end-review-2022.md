@@ -1,5 +1,5 @@
 ---
-date: "2023-01-04"
+date: 2023-01-04
 title: "Year-end review 2022"
 tags:
   - blogging

@@ -1,6 +1,6 @@
 ---
 title: "Red Dead Redemption"
-date: "2010-06-17"
+date: 2010-06-17
 tags:
   - gaming
 ---

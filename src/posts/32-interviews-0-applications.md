@@ -1,6 +1,6 @@
 ---
-date: "2022-02-13"
-title: "35 Interviews With 0 Applications"
+date: 2022-02-13
+title: 35 Interviews With 0 Applications
 tags:
   - career
   - interviewing
