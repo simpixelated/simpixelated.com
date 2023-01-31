@@ -92,15 +92,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("version", () => package.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
-  eleventyConfig.addFilter("postDate", date => {
-    if (date && typeof date.getMonth === "function") {
-      return DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED)
-    }
-    if (typeof date === "object") {
-      return DateTime.fromObject(date).toLocaleString(DateTime.DATE_MED)
-    }
-    return DateTime.fromISO(date).toLocaleString(DateTime.DATE_MED)
-  })
+  eleventyConfig.addFilter("postDate", date =>
+    DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED)
+  )
   eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
     if (!stringToFilter) {
       return collection

@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.1.1 - 2023-01-30
+
+### Changed
+
+- fixed dark mode blockquote styling
+- removed parent folder for blog posts
+- simplified dates for blog posts
+
 ## 2.1.0 - 2023-01-29
 
 ### Changed
