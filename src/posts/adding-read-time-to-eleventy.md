@@ -4,6 +4,7 @@ date: 2023-01-29
 tags:
   - JavaScript
   - Eleventy
+  - development
 ---
 
 Prior to converting my blog to Eleventy.js, I was using the awesome [Gatsby Starter: Minimal Blog](https://github.com/LekoArts/gatsby-starter-minimal-blog) theme by LekoArts, which dynamically calculated the reading time for each post. This is a fairly common feature that you see on many websites (and you can still see at the top of this page), which I think was popularized by Medium. When I converted this blog from Gatsby, I had to recreate the functionality in Eleventy.

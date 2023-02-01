@@ -16,6 +16,7 @@ const renameFile = async dir => {
 const main = async () => {
   const directories = await getDirectories("./src/posts")
   await Promise.allSettled(directories.map(renameFile))
+  process.exit()
 }
 
 main()
