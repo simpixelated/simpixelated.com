@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - added blog post: [Adding posts by tag to Eleventy.js](src/posts/adding-posts-by-tag-to-eleventy.md)
+- added blog post: [Adding tag list with post count to Eleventy.js](src/posts/adding-tag-list-to-eleventy.md)
 
 ## 2.1.1 - 2023-01-30
 
