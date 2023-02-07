@@ -21,7 +21,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
-    "husky": "^8.0.2",
+    "husky": "^8.0.3",
     "path": "^0.12.7",
     "prettier": "^2.8.3",
     "puppeteer": "^19.5.2",
