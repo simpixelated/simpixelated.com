@@ -1,5 +1,5 @@
 ---
-title: I'm a software developer with 14 years of experience and I still fail live coding interviews
+title: After 14 years I still fail live coding interviews
 date: 2023-02-06
 tags:
   - interviewing
