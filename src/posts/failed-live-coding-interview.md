@@ -1,6 +1,6 @@
 ---
 title: After 14 years I still fail live coding interviews
-date: 2023-02-06
+date: 2023-02-07
 tags:
   - interviewing
   - career
