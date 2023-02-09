@@ -40,7 +40,7 @@ Along with their failures, several people also replied with success stories of g
 
 **Take home project that reflects actual work**
 
-> One of our engineers came up with a take home project that fits the type of work our company did, and then we gave candidates a week to do it. We even let them tell us when they wanted to do it, because life is crazy. Once completed, we had them bring their work in and demo it to some of our engineers. Doing this allows people to work in a more natural environment, with their own computer and their own tools. You can't cheat because we ask people to explain their code.
+> A few engineers came up with a take home project that fits the type of work our company did, and then we gave candidates a week to do it. We even let them tell us when they wanted to do it, because life is crazy. Once completed, we had them bring their work in and demo it to some of our engineers. Doing this allows people to work in a more natural environment, with their own computer and their own tools. You can't cheat because we ask people to explain their code.
 >
 > -- Mike Koser, Software Engineer III
 
