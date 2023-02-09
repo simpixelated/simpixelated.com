@@ -7,7 +7,7 @@ tags:
   - development
 ---
 
-Eleventy is really flexible about content dates and makes it easy to customize how they are displayed on your website. With a simple filter, you can change the default date output to anything you like. You can use any method or library, but I chose [luxon](https://moment.github.io/luxon/). This is what my date filter looks like now (which is identical to the suggestion from [11ty Rocks!](https://11ty.rocks/eleventyjs/dates/)):
+Eleventy is really flexible about content dates and makes it easy to customize how they are displayed on your website. With a simple [filter](https://www.11ty.dev/docs/filters/), you can change the default date output to anything you like. You can use any method or library, but I chose [luxon](https://moment.github.io/luxon/). This is what my date filter looks like now (which is identical to the suggestion from [11ty Rocks!](https://11ty.rocks/eleventyjs/dates/)):
 
 ```js
 eleventyConfig.addFilter("postDate", dateObj => {
