@@ -39,4 +39,4 @@ eleventyConfig.addFilter("postDate", date => {
 })
 ```
 
-This works, but is obviously fairly complicated. So I bit the bullet and updated the format of the dates in ever single one of my blog posts to be consistent so I could get back to a single line filter. Keep this in mind when you’re setting dates for the items in your Eleventy collections.
+This works, but is obviously fairly complicated. So I bit the bullet and updated the format of the dates in every single one of my blog posts to be consistent so I could get back to a single line filter. Keep this in mind when you’re setting dates for the items in your Eleventy collections.
