@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - added blog post: [Adding tag list with post count to Eleventy.js](src/posts/adding-tag-list-to-eleventy.md)
 - added blog post: [After 14 years I still fail live coding interviews](src/posts/failed-live-coding-interview.md)
 - added blog post: [Custom date formatting in Eleventy.js](src/posts/custom-date-formatting-in-eleventy.md)
+- added blog post: [Filtering tags within Eleventy.js collections](src/posts/filtering-tags-within-eleventy-collections.md)
 
 ## 2.1.1 - 2023-01-30
 
