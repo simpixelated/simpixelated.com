@@ -7,13 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.2.0 - 2023-02-18
+
 ### Added
 
-- added blog post: [Adding posts by tag to Eleventy.js](src/posts/adding-posts-by-tag-to-eleventy.md)
-- added blog post: [Adding tag list with post count to Eleventy.js](src/posts/adding-tag-list-to-eleventy.md)
-- added blog post: [After 14 years I still fail live coding interviews](src/posts/failed-live-coding-interview.md)
-- added blog post: [Custom date formatting in Eleventy.js](src/posts/custom-date-formatting-in-eleventy.md)
-- added blog post: [Filtering tags within Eleventy.js collections](src/posts/filtering-tags-within-eleventy-collections.md)
+- blog post: [Adding posts by tag to Eleventy.js](src/posts/adding-posts-by-tag-to-eleventy.md)
+- blog post: [Adding tag list with post count to Eleventy.js](src/posts/adding-tag-list-to-eleventy.md)
+- blog post: [After 14 years I still fail live coding interviews](src/posts/failed-live-coding-interview.md)
+- blog post: [Custom date formatting in Eleventy.js](src/posts/custom-date-formatting-in-eleventy.md)
+- blog post: [Filtering tags within Eleventy.js collections](src/posts/filtering-tags-within-eleventy-collections.md)
+- draft and future posts functionality
+
+### Changed
+
+- updated dependencies (11ty 2.0!)
 
 ## 2.1.1 - 2023-01-30
 

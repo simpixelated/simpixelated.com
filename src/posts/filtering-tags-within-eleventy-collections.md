@@ -1,6 +1,6 @@
 ---
 title: Filtering tags within Eleventy.js collections
-date: 2023-02-16
+date: 2023-02-21
 tags:
   - Eleventy
   - JavaScript

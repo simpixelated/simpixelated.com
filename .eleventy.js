@@ -102,6 +102,49 @@ module.exports = function (eleventyConfig) {
     return (collection ?? []).filter(item => item !== stringToFilter)
   })
 
+  const shouldHide = ({ date, draft }) => {
+    if (process.env.BUILD_DRAFTS) {
+      return false
+    }
+    const isDraft = draft
+    const isPageFromFuture = date && date.getTime() > Date.now()
+    return isDraft || isPageFromFuture
+  }
+
+  // When `permalink` is false, the file is not written to disk
+  eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
+    return data => {
+      // Always skip during non-watch/serve builds
+      if (shouldHide(data)) {
+        return false
+      }
+
+      return data.permalink
+    }
+  })
+
+  // When `eleventyExcludeFromCollections` is true, the file is not included in any collections
+  eleventyConfig.addGlobalData(
+    "eleventyComputed.eleventyExcludeFromCollections",
+    function () {
+      return data => {
+        // Always exclude from non-watch/serve builds
+        if (shouldHide(data)) {
+          return true
+        }
+
+        return data.eleventyExcludeFromCollections
+      }
+    }
+  )
+
+  eleventyConfig.on("eleventy.before", ({ runMode }) => {
+    // Set the environment variable
+    if (runMode === "serve" || runMode === "watch") {
+      process.env.BUILD_DRAFTS = true
+    }
+  })
+
   eleventyConfig.addPlugin(syntaxHighlight)
 
   return config
