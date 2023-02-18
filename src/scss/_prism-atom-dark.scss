@@ -28,12 +28,13 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: 0.5em 0;
+  margin: 0.5em 1em;
   overflow: auto;
   border-radius: 0.3em;
+  box-shadow: 0 0 5px 1px var(--tertiary-shadow-color);
 }
 
-:not(pre) > code[class*="language-"],
+:not(pre) > code,
 pre[class*="language-"] {
   background: var(--prism-background-color);
 }
