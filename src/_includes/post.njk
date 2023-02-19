@@ -1,0 +1,8 @@
+---
+layout: base.njk
+---
+{% set tags = tags | exclude('posts') %}
+
+<h1>{{ title }}</h1>
+<p class="post-meta"><time datetime="{{ date }}">{{ date | postDate }}</time>{% if tags | length %} - {% include "tag-list.njk" %}{% endif %} — {{ content | timeToRead }} min read</p>
+<article>{{ content | safe}}</article>

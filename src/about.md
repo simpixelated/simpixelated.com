@@ -1,6 +1,6 @@
 ---
 title: About
-layout: base.html
+layout: base.njk
 ---
 
 ##### Software Engineer, technical writer, tweeter
