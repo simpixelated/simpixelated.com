@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% include "meta-info.html" %}
+    {% include "meta-info.njk" %}
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" data-gatsby-head="true"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" data-gatsby-head="true"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" data-gatsby-head="true"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
     <script data-no-cookie="true" async="" src="https://cdn.splitbee.io/sb.js"></script>
   </head>
   <body>
@@ -25,7 +25,7 @@
             <li><a {% if page.url === '/blog/' %} aria-current="page"{% endif %} href="/blog">Blog</a></li>
             <li><a {% if page.url === '/about/' %} aria-current="page"{% endif %} href="/about">About</a></li>
             <li><a href="/static/resume-jordan-kohl.pdf">Resume</a></li>
-            <li><a href="https://changelog.simpixelated.com/">Changelog</a></li>
+            <li><a href="/feed.xml" aria-label="RSS" class="rss">RSS</a></li>
             <li>
               <button
                 aria-label="Toggle Dark Mode"
@@ -40,7 +40,7 @@
       </div>
     </header>
     <main>{{ content | safe }}</main>
-    <footer>{% include "footer.html" %}</footer>
+    <footer>{% include "footer.njk" %}</footer>
     <script type="text/javascript" src="/global.js"></script>
   </body>
 </html>

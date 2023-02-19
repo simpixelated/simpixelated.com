@@ -2,6 +2,7 @@ const package = require("./package.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const pluginRss = require("@11ty/eleventy-plugin-rss")
 
 const config = {
   dir: {
@@ -128,6 +129,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(syntaxHighlight)
+  eleventyConfig.addPlugin(pluginRss)
 
   return config
 }

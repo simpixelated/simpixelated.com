@@ -1,3 +1,9 @@
+@mixin vendor-prefix($name, $value) {
+  @each $vendor in ("-webkit-", "-moz-", "-ms-", "-o-", "") {
+    #{$vendor}#{$name}: #{$value};
+  }
+}
+
 /*
 CSS based on:
  - https://vanillacss.com
@@ -544,6 +550,24 @@ body > header {
     a[aria-current="page"] {
       color: var(--secondary-color);
     }
+
+    a.rss::after {
+      content: "";
+      width: 12px;
+      height: 12px;
+      margin-left: 5px;
+      margin-right: 1px;
+      background-color: var(--primary-color-light);
+      @include vendor-prefix(
+        "mask-image",
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 1920 1920' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M53.333 628.96c682.454 0 1237.76 555.2 1237.76 1237.76v53.333H882.24v-53.333c0-457.067-371.84-828.907-828.907-828.907H0V628.96Zm0-628.96C1082.56 0 1920 837.44 1920 1866.667V1920h-408.853v-53.333c0-803.84-653.974-1457.814-1457.814-1457.814H0V0ZM267.19 1386.667c146.774 0 266.134 119.36 266.134 266.133 0 146.773-119.36 266.24-266.134 266.24S.95 1799.573.95 1652.8c0-146.773 119.467-266.133 266.24-266.133Z' fill-rule='evenodd'/%3E%3C/svg%3E")
+      );
+      display: inline-block;
+      transition: background-color 0.5s cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+    a.rss:hover::after {
+      background-color: var(--secondary-color);
+    }
   }
 }
 
@@ -653,7 +677,7 @@ body > header {
   margin: 0;
   padding: 0;
   display: flex;
-  margin: 1rem 0;
+  margin: 2rem 0;
   li {
     margin: 0 1rem;
   }
@@ -713,6 +737,30 @@ main header {
 
 .post-meta {
   color: var(--primary-color-light);
+}
+
+article a[href^="http"],
+article a[href^="https://"]
+{
+  &::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    margin-left: 4px;
+    margin-right: 1px;
+    background-color: var(--text-color);
+    @include vendor-prefix(
+      "mask-image",
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E")
+    );
+    @include vendor-prefix("mask-position", center);
+    @include vendor-prefix("mask-repeat", no-repeat);
+    @include vendor-prefix("mask-size", contain);
+    display: inline-block;
+  }
+  &:hover::after {
+    background-color: var(--link-hover-color);
+  }
 }
 
 @import "_prism-atom-dark";
