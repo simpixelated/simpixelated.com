@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 2.3.0 - 2023-02-19
+
 ### Added
 
 - RSS feed [#142](https://github.com/simpixelated/simpixelated.com/pull/142)
 - Polywork icon and link on homepage
+- link to RSS feed in header
 
 ### Changed
 
