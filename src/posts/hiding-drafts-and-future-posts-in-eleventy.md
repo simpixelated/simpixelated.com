@@ -65,3 +65,5 @@ eleventyConfig.on("eleventy.before", ({ runMode }) => {
   }
 })
 ```
+
+Since my build output is still a static site, there's no way for the post to show up unless I do another build after the publish date. I haven't figured out an automated process for that yet, but I'm sure with Netlify it's possible. For now, I'll just manually trigger a new deploy through the UI.
