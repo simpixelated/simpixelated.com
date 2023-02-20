@@ -18,9 +18,9 @@ jobs:
         with:
           site_name: "simpixelated"
           max_timeout: 120
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@3.1.0
+        uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             ${{ steps.netlify.outputs.url }}
