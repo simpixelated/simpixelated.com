@@ -2,6 +2,7 @@ const package = require("./package.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const pluginRss = require("@11ty/eleventy-plugin-rss")
 
 const config = {
   dir: {
@@ -103,41 +104,23 @@ module.exports = function (eleventyConfig) {
   })
 
   const shouldHide = ({ date, draft }) => {
+    // Always skip during non-watch/serve builds
     if (process.env.BUILD_DRAFTS) {
       return false
     }
-    const isDraft = draft
-    const isPageFromFuture = date && date.getTime() > Date.now()
-    return isDraft || isPageFromFuture
+    // hide drafts and future posts
+    return draft || (date && date.getTime() > Date.now())
   }
-
   // When `permalink` is false, the file is not written to disk
-  eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
-    return data => {
-      // Always skip during non-watch/serve builds
-      if (shouldHide(data)) {
-        return false
-      }
-
-      return data.permalink
-    }
-  })
-
+  eleventyConfig.addGlobalData(
+    "eleventyComputed.permalink",
+    () => data => shouldHide(data) ? false : data.permalink
+  )
   // When `eleventyExcludeFromCollections` is true, the file is not included in any collections
   eleventyConfig.addGlobalData(
     "eleventyComputed.eleventyExcludeFromCollections",
-    function () {
-      return data => {
-        // Always exclude from non-watch/serve builds
-        if (shouldHide(data)) {
-          return true
-        }
-
-        return data.eleventyExcludeFromCollections
-      }
-    }
+    () => data => shouldHide(data) ? true : data.eleventyExcludeFromCollections
   )
-
   eleventyConfig.on("eleventy.before", ({ runMode }) => {
     // Set the environment variable
     if (runMode === "serve" || runMode === "watch") {
@@ -146,6 +129,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(syntaxHighlight)
+  eleventyConfig.addPlugin(pluginRss)
 
   return config
 }

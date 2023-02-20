@@ -1,6 +1,6 @@
 {
   "name": "simpixelated.com",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "personal website and blog of Jordan Kohl (simpixelated)",
   "main": ".eleventy.js",
   "author": "Jordan Kohl",
@@ -20,12 +20,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-img": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "husky": "^8.0.3",
     "path": "^0.12.7",
     "prettier": "^2.8.4",
     "puppeteer": "^19.7.1",
-    "sass": "^1.58.0"
+    "sass": "^1.58.3"
   },
   "repository": {
     "type": "git",
