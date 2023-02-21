@@ -8,6 +8,7 @@ module.exports = {
       assertions: {
         "uses-responsive-images": "warn",
         "is-crawlable": "off",
+        "uses-rel-preconnect": "warn", // flags Netlify scripts on deploy preview
         "csp-xss": "warn",
         deprecations: "warn",
       },
