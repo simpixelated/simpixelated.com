@@ -26,5 +26,27 @@ module.exports = {
         "non-composited-animations": "warn", // flags "Back to home" anchor
       },
     },
+    settings: {
+      budgets: [
+        {
+          timings: [
+            {
+              metric: "interactive",
+              budget: 3000,
+            },
+            {
+              metric: "first-meaningful-paint",
+              budget: 2000,
+            },
+          ],
+          resourceSizes: [
+            {
+              resourceType: "total",
+              budget: 500,
+            },
+          ],
+        },
+      ],
+    },
   },
 }
