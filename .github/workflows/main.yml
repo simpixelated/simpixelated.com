@@ -8,19 +8,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
+      - uses: actions/checkout@v3
       - name: Wait for the Netlify Preview
-        uses: jakepartusch/wait-for-netlify-action@v1
+        uses: jakepartusch/wait-for-netlify-action@v1.4
         id: netlify
         with:
           site_name: "simpixelated"
           max_timeout: 120
-      - uses: actions/checkout@v2
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@3.1.0
+        uses: treosh/lighthouse-ci-action@v9
         with:
           urls: |
             ${{ steps.netlify.outputs.url }}
