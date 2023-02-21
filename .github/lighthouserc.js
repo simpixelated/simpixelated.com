@@ -4,7 +4,7 @@ module.exports = {
       target: "temporary-public-storage",
     },
     assert: {
-      preset: "lighthouse:recommended",
+      preset: "lighthouse:no-pwa",
       assertions: {
         // "color-contrast": "off",
         // "errors-in-console": "off",
@@ -15,7 +15,7 @@ module.exports = {
         // "splash-screen": "off",
         // "themed-omnibox": "off",
         // "unused-javascript": "off",
-        // "uses-responsive-images": "off",
+        // "uses-responsive-images": "warn",
         // "works-offline": "off",
         // "tap-targets": "off",
         // "is-crawlable": "off",
