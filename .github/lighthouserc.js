@@ -6,25 +6,10 @@ module.exports = {
     assert: {
       preset: "lighthouse:no-pwa",
       assertions: {
-        // "color-contrast": "off",
-        // "errors-in-console": "off",
-        // "installable-manifest": "off",
-        // "maskable-icon": "off",
-        // "offline-start-url": "off",
-        // "service-worker": "off",
-        // "splash-screen": "off",
-        // "themed-omnibox": "off",
-        // "unused-javascript": "off",
-        // "uses-responsive-images": "warn",
-        // "works-offline": "off",
-        // "tap-targets": "off",
-        // "is-crawlable": "off",
-        // "unsized-images": "off",
-        // canonical: "warn",
-        // "offscreen-images": "warn", // incorrectly flags negative margin avatar in header
-        // "uses-rel-preconnect": "warn", // flags Netlify scripts on deploy preview
-        // "non-composited-animations": "warn", // flags "Back to home" anchor.
+        "uses-responsive-images": "warn",
+        "is-crawlable": "off",
         "csp-xss": "warn",
+        deprecations: "warn",
       },
     },
     settings: {
