@@ -1,7 +1,6 @@
 ---
 title: Hiding drafts and future posts in Eleventy.js
 date: 2023-03-07
-draft: true
 tags:
   - Eleventy
   - JavaScript
