@@ -11,6 +11,7 @@ module.exports = {
         "uses-rel-preconnect": "warn", // flags Netlify scripts on deploy preview
         "csp-xss": "warn",
         deprecations: "warn",
+        "bf-cache": "warn",
       },
     },
     settings: {
