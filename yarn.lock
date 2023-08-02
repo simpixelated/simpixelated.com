@@ -6,9 +6,9 @@
   version "2.0.1"
   resolved "https://registry.npmjs.org/@11ty/dependency-tree/-/dependency-tree-2.0.1.tgz"
 
-"@11ty/eleventy-dev-server@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/@11ty/eleventy-dev-server/-/eleventy-dev-server-1.0.3.tgz"
+"@11ty/eleventy-dev-server@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-dev-server/-/eleventy-dev-server-1.0.4.tgz#87c2cf182ed22f90ac2793e1e1337a0d9e32b318"
   dependencies:
     "@11ty/eleventy-utils" "^1.0.1"
     chokidar "^3.5.3"
@@ -16,11 +16,11 @@
     dev-ip "^1.0.1"
     finalhandler "^1.2.0"
     mime "^3.0.0"
-    minimist "^1.2.7"
-    morphdom "^2.6.1"
+    minimist "^1.2.8"
+    morphdom "^2.7.0"
     please-upgrade-node "^3.2.0"
     ssri "^8.0.1"
-    ws "^8.12.0"
+    ws "^8.13.0"
 
 "@11ty/eleventy-fetch@^3.0.0":
   version "3.0.0"
@@ -63,13 +63,14 @@
   dependencies:
     normalize-path "^3.0.0"
 
-"@11ty/eleventy@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@11ty/eleventy/-/eleventy-2.0.0.tgz"
+"@11ty/eleventy@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy/-/eleventy-2.0.1.tgz#d96104c401a83b59f69a207c96aa53ad42131b15"
   dependencies:
     "@11ty/dependency-tree" "^2.0.1"
-    "@11ty/eleventy-dev-server" "^1.0.3"
+    "@11ty/eleventy-dev-server" "^1.0.4"
     "@11ty/eleventy-utils" "^1.0.1"
+    "@11ty/lodash-custom" "^4.17.21"
     "@iarna/toml" "^2.2.5"
     "@sindresorhus/slugify" "^1.1.2"
     bcp-47-normalize "^1.1.1"
@@ -77,23 +78,20 @@
     cross-spawn "^7.0.3"
     debug "^4.3.4"
     dependency-graph "^0.11.0"
-    ejs "^3.1.8"
+    ejs "^3.1.9"
     fast-glob "^3.2.12"
-    graceful-fs "^4.2.10"
+    graceful-fs "^4.2.11"
     gray-matter "^4.0.3"
     hamljs "^0.6.2"
     handlebars "^4.7.7"
     is-glob "^4.0.3"
     iso-639-1 "^2.1.15"
     kleur "^4.1.5"
-    liquidjs "^10.4.0"
-    lodash.chunk "^4.2.0"
-    lodash.get "^4.4.2"
-    lodash.set "^4.3.2"
-    luxon "^3.2.1"
+    liquidjs "^10.7.0"
+    luxon "^3.3.0"
     markdown-it "^13.0.1"
     micromatch "^4.0.5"
-    minimist "^1.2.7"
+    minimist "^1.2.8"
     moo "^0.5.2"
     multimatch "^5.0.0"
     mustache "^4.2.0"
@@ -106,7 +104,11 @@
     pug "^3.0.2"
     recursive-copy "^2.0.14"
     semver "^7.3.8"
-    slugify "^1.6.5"
+    slugify "^1.6.6"
+
+"@11ty/lodash-custom@^4.17.21":
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/@11ty/lodash-custom/-/lodash-custom-4.17.21.tgz#a8d2e25a47ee3bb58b71cde4edc2ae8dd3d1b269"
 
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
@@ -604,9 +606,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz"
 
-ejs@^3.1.8:
-  version "3.1.8"
-  resolved "https://registry.npmjs.org/ejs/-/ejs-3.1.8.tgz"
+ejs@^3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-3.1.9.tgz#03c9e8777fe12686a9effcef22303ca3d8eeb361"
   dependencies:
     jake "^10.8.5"
 
@@ -805,9 +807,9 @@ glob@^9.2.0:
     minipass "^4.2.4"
     path-scurry "^1.6.1"
 
-graceful-fs@^4.1.4, graceful-fs@^4.2.10:
-  version "4.2.10"
-  resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz"
+graceful-fs@^4.1.4, graceful-fs@^4.2.11:
+  version "4.2.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
 
 gray-matter@^4.0.3:
   version "4.0.3"
@@ -1090,9 +1092,9 @@ linkify-it@^4.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
-liquidjs@^10.4.0:
-  version "10.5.0"
-  resolved "https://registry.npmjs.org/liquidjs/-/liquidjs-10.5.0.tgz"
+liquidjs@^10.7.0:
+  version "10.7.0"
+  resolved "https://registry.yarnpkg.com/liquidjs/-/liquidjs-10.7.0.tgz#bf801aac4fba4131d1f8f4e72a076645f390b529"
   dependencies:
     commander "^10.0.0"
 
@@ -1100,21 +1102,9 @@ list-to-array@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/list-to-array/-/list-to-array-1.1.0.tgz"
 
-lodash.chunk@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/lodash.chunk/-/lodash.chunk-4.2.0.tgz"
-
 lodash.deburr@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/lodash.deburr/-/lodash.deburr-4.1.0.tgz"
-
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz"
-
-lodash.set@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.npmjs.org/lodash.set/-/lodash.set-4.3.2.tgz"
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -1126,9 +1116,9 @@ lru-cache@^7.14.1:
   version "7.18.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.18.3.tgz#f793896e0fd0e954a59dfdd82f0773808df6aa89"
 
-luxon@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.npmjs.org/luxon/-/luxon-3.2.1.tgz"
+luxon@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
 
 markdown-it@^13.0.1:
   version "13.0.1"
@@ -1190,9 +1180,9 @@ minimatch@^7.4.1:
   dependencies:
     brace-expansion "^2.0.1"
 
-minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5, minimist@^1.2.6, minimist@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz"
+minimist@^1.2.0, minimist@^1.2.3, minimist@^1.2.5, minimist@^1.2.6, minimist@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
 
 minipass@^3.1.1:
   version "3.3.6"
@@ -1222,9 +1212,9 @@ moo@^0.5.2:
   version "0.5.2"
   resolved "https://registry.npmjs.org/moo/-/moo-0.5.2.tgz"
 
-morphdom@^2.6.1:
+morphdom@^2.7.0:
   version "2.7.0"
-  resolved "https://registry.npmjs.org/morphdom/-/morphdom-2.7.0.tgz"
+  resolved "https://registry.yarnpkg.com/morphdom/-/morphdom-2.7.0.tgz#9ef0c4bc15ac8725df398d127c6984f62e7f89e8"
 
 ms@2.0.0:
   version "2.0.0"
@@ -1714,8 +1704,8 @@ semver-compare@^1.0.0:
   resolved "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz"
 
 semver@^7.3.5, semver@^7.3.8:
-  version "7.3.8"
-  resolved "https://registry.npmjs.org/semver/-/semver-7.3.8.tgz"
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   dependencies:
     lru-cache "^6.0.0"
 
@@ -1764,9 +1754,9 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz"
 
-slugify@^1.6.5:
-  version "1.6.5"
-  resolved "https://registry.npmjs.org/slugify/-/slugify-1.6.5.tgz"
+slugify@^1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.6.tgz#2d4ac0eacb47add6af9e04d3be79319cbcc7924b"
 
 "source-map-js@>=0.6.2 <2.0.0":
   version "1.0.2"
@@ -1938,9 +1928,13 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
 
-ws@8.12.1, ws@^8.12.0:
+ws@8.12.1:
   version "8.12.1"
   resolved "https://registry.npmjs.org/ws/-/ws-8.12.1.tgz"
+
+ws@^8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.13.0.tgz#9a9fb92f93cf41512a0735c8f4dd09b8a1211cd0"
 
 yallist@^4.0.0:
   version "4.0.0"
