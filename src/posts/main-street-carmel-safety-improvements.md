@@ -1,6 +1,6 @@
 ---
 date: 2023-08-19
-title: Main Street Needs Safety Improvements
+title: Main Street needs safety improvements
 tags:
   - urbanism
   - climate
@@ -25,7 +25,7 @@ Unfortunately that wonderfully safe design comes to an end at Main Street. The p
 
 <img src="https://i.imgur.com/KF1kmnu.jpg" alt="bicycle path with counter (155 cyclists today)" style="margin: 0 auto; width:600px" />
 
-Main Street has so much potential and the city has a great base from which to build on. We only have to look at Midtown for inspiration. We must continue to improve the safety of Main Street (and the rest of the city) for people walking, biking, or rolling. It will only accelerate the success of local businesses and attract more families like mine, who moved here to live mostly car-free.
+Main Street has so much potential and the city has a great base from which to build on. We only have to look at Midtown for inspiration. We must continue to improve the safety of Main Street (and the rest of the city) for people walking, biking, or rolling. It will only accelerate the success of local businesses and attract more families like mine, who moved here to live as car-free as possible.
 
 I am not a transportation expert, but there are many ways to improve the crosswalk at Monon and Main Street. Here are just a few ideas:
 
@@ -39,3 +39,4 @@ I hope you understand the importance of the situation on Main Street. We cannot 
 Thank you for your time.
 
 Jordan Kohl
+Carmel Central District Resident
