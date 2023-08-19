@@ -39,4 +39,5 @@ I hope you understand the importance of the situation on Main Street. We cannot 
 Thank you for your time.
 
 Jordan Kohl
+
 Carmel Central District Resident
