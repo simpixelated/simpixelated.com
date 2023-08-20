@@ -35,6 +35,8 @@ I am not a transportation expert, but there are many ways to improve the crosswa
 - Remove parking — I would guess that a majority of the drivers on Main Street, especially on weekend nights, are people circling the block looking for the closest spot to their destination. People scanning for parking are distracted and anxious to avoid missing their opportunity. We should be directing people to use the abundant free parking we have in our garages. This could reap many positive benefits in the future as it would free up public space in front of our local businesses for seating and walking.
 - Restrict car access entirely — the saddest part of hit and run is that it wouldn't been possible the very next night, as the city closed Main Street to cars right at this intersection for "Late Night on Main". An entire block of Main Street was closed to cars, but drivers still found parking without creating a traffic jam.
 
+<img src="https://i.imgur.com/XwXeX56.jpg" alt="people enjoying Main Street without a car" style="margin: 0 auto; width:600px" />
+
 I hope you understand the importance of the situation on Main Street. We cannot allow the safety of people to be jeopardized for cars. Well designed places are for people. They are destinations, not thoroughfares.
 
 Thank you for your time.
