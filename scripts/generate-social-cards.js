@@ -1,5 +1,5 @@
 // inspired by https://github.com/emgoto/gatsby-plugin-react-social-cards/blob/main/gatsby-node.js
-// usage: npm run build:social => node ./scripts/generate-social-cards.js year-end-review-2022
+// usage: npm run serve:social => node ./scripts/generate-social-cards.js year-end-review-2022
 const { join } = require("path")
 const puppeteer = require("puppeteer")
 
