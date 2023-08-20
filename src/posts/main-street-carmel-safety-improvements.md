@@ -1,5 +1,5 @@
 ---
-date: 2023-08-19
+date: 2023-08-20
 title: Main Street Carmel needs safety improvements
 tags:
   - urbanism
@@ -13,7 +13,7 @@ _The following is an open letter to city council members for Carmel, Indiana._
 
 Dear Council Members Ayers, Worrel, Finkam, Rider, Hannon, and Nelson,
 
-Last night a [pregnant woman was struck](https://www.reddit.com/r/Carmel/comments/15v3lso/hit_and_run_in_downtown_carmel_woman_who_is) by a vehicle at the [Main Street and Monon Boulevard intersection](https://goo.gl/maps/aBWW3M3hPH2rWXac8). As a nearby resident, I use the crosswalk at that intersection, on foot and on bike, on a daily basis. I take my daughter to school (by bicycle) through this intersection and I see many other children doing it by themselves.
+On Friday August 18th a [pregnant woman was struck](https://www.reddit.com/r/Carmel/comments/15v3lso/hit_and_run_in_downtown_carmel_woman_who_is) by a vehicle at the [Main Street and Monon Boulevard intersection](https://goo.gl/maps/aBWW3M3hPH2rWXac8). As a nearby resident, I use the crosswalk at that intersection, on foot and on bike, on a daily basis. I take my daughter to school (by bicycle) through this intersection and I see many other children doing it by themselves.
 
 <img src="https://i.imgur.com/7KLjoBZ.png" alt="Hit and run in downtown Carmel. Woman who is pregnant was hit, driver fled the scene" style="margin: 0 auto; width:400px" />
 
@@ -33,6 +33,7 @@ I am not a transportation expert, but there are many ways to improve the crosswa
 - Raised crosswalk — currently the sidewalk goes down to the street level, further reinforcing the idea that cars are the priority. However NACTO recommends that “[raised intersections](https://nacto.org/publication/urban-street-design-guide/intersections/minor-intersections/raised-intersections/) reinforce slow speeds and encourage motorists to yield to pedestrians at the crosswalk”.
 - Stop sign — most of the time, drivers already stop here, because the crosswalk is so frequently used by pedestrians and cyclists. However, not all drivers know this. Why not make it official? It should be noted that this cannot be the only solution. Signage is not enough to direct motorist behavior. All it takes is one person ignoring the sign (on purpose or by accident) to cause another injury. We need proper infrastructure to slow drivers down.
 - Remove parking — I would guess that a majority of the drivers on Main Street, especially on weekend nights, are people circling the block looking for the closest spot to their destination. People scanning for parking are distracted and anxious to avoid missing their opportunity. We should be directing people to use the abundant free parking we have in our garages. This could reap many positive benefits in the future as it would free up public space in front of our local businesses for seating and walking.
+- Restrict car access entirely — the saddest part of hit and run is that it wouldn't been possible the very next night, as the city closed Main Street to cars right at this intersection for "Late Night on Main". An entire block of Main Street was closed to cars, but drivers still found parking without creating a traffic jam.
 
 I hope you understand the importance of the situation on Main Street. We cannot allow the safety of people to be jeopardized for cars. Well designed places are for people. They are destinations, not thoroughfares.
 
