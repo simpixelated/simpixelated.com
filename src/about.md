@@ -5,7 +5,7 @@ layout: base.njk
 
 ##### Software Engineer, technical writer, tweeter
 
-Hey, I'm Jordan! I'm a software engineer working in the Pacific Northwest. Here are a few random facts about me:
+Hey, I'm Jordan! I'm a software developer living in Carmel, Indiana. Here are a few random facts about me:
 
 - I built my first website on Geocities in 1999
 - I learned PHP and created a fan club (forum) in 2000 for [Penny Arcade](https://penny-arcade.com) which had over 5,000 members
