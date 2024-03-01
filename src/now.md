@@ -33,4 +33,4 @@ We moved to Carmel in 2023 to live car-lite and we’re doing it! We bought a ca
 - I think I might be done with Ghost of Tsushima after probably 40+ hours. Fantastic game! Completed the main story and the DLC
 - Currently restarting the BG3 campaign for the 3rd time. I’ve played acts 1 and 2 twice already, but I can’t seem to finish act 3. Not sure why, but I’m enjoying trying out new builds. Currently doing a Dark Urge (durge for short) with a Drow Oathbreaker Paladin. It’s presenting a lot of crazy, evil choices that is fun to see after being a pretty morally good character in my previous play-throughs.
 
-_Last updated: March 2024_
+_Last updated: March 1, 2024_
