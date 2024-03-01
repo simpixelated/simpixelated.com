@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+---
+
+## 2.3.2 - 2024-03-01
+
+### Added
+
+- blog post: [How to build "missing middle" in Carmel](src/posts/how-to-build-missing-middle-in-carmel.md)
+- [/now page](src/now.md)
+
+### Changed
+
+- dependency updates (added pnpm-lock)
+- removed Polywork link from homepage
+
+## 2.3.1 - 2023-01-31
+
 ### Added
 
 - blog post: [Hiding drafts and future posts in Eleventy.js](src/posts/adding-posts-by-tag-to-eleventy.md)
