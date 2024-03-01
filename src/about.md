@@ -19,7 +19,6 @@ Hey, I'm Jordan! I'm a software developer living in Carmel, Indiana. Here are a 
 You can email me at **kohl** dot **jordan** at **gmail** to say hello! I'm always open to chat.
 
 - [Twitter](https://twitter.com/simpixelated)
-- [Polywork](https://polywork.com/simpixelated)
 - [LinkedIn](https://www.linkedin.com/in/jordankohl/)
 - [GitHub](https://github.com/simpixelated)
 
@@ -28,6 +27,10 @@ You can email me at **kohl** dot **jordan** at **gmail** to say hello! I'm alway
 - This website is built with [Eleventy.js](https://www.11ty.dev/), hosted on [Netlify](https://docs.netlify.com/#get-started), with the code living on [GitHub](https://github.com/simpixelated/simpixelated.com). The styling was inspired by LekoArts' [minimal blog theme](https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog). This site was originally build with PHP, then converted to WordPress, then to Gatsby, and now to Eleventy.
 
 #### Interviews
+
+- [Carmel roundabouts facing a major change](https://www.wrtv.com/news/local-news/carmel-roundabouts-facing-a-major-change)
+
+  - _Griffin Gonzalez with WRTV Indianapolis, Feb 26, 2024_
 
 - [35 Interviews with 0 Applications](https://www.youtube.com/watch?v=4tqnvAMSbkQ)
 
