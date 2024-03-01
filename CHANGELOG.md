@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - dependency updates (added pnpm-lock)
 - removed Polywork link from homepage
+- updates to about page
 
 ## 2.3.1 - 2023-01-31
 
