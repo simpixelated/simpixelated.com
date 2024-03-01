@@ -1,6 +1,7 @@
 ---
 date: 2024-03-01
-title: How to build "missing middle" in Carmel
+title: How to build "missing middle" housing in Carmel
+permalink: "how-to-build-missing-middle-in-carmel/"
 tags:
   - urbanism
   - housing
