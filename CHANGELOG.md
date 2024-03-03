@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.3 - 2024-03-03
+
+### Changed
+
+- replaced link to resume in header with link to /now
+
+### Added
+
+- blog post: [Adding inline SVGs to Eleventy.js](src/posts/adding-inline-svgs-to-eleventy.md)
+
 ## 2.3.2 - 2024-03-01
 
 ### Added
