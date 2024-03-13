@@ -7,7 +7,7 @@ tags:
   - development
 ---
 
-I tend to sporadically publish blog posts. I'll do a burst of content for a few months, then kind of sputter out for awhile (sometimes years). Because of this inconsistent schedule, it makes more sense to group my blog posts by year. That makes it more obvious that two consecutive blog posts might are separated by a long time. It just feels like a more natural grouping.
+I tend to sporadically publish blog posts. I'll do a burst of content for a few months, then kind of sputter out for awhile (sometimes years). Because of this inconsistent schedule, it makes more sense to group my blog posts by year. That makes it more obvious that two consecutive blog posts might be separated by a long break. It also just feels like a more natural grouping.
 
 There are probably many different ways to accomplish this, but the way that worked for me was creating a custom collection in Eleventy:
 
@@ -45,7 +45,7 @@ Then it gets used on my blog page like so:
 
 {% endraw %}
 
-That’s it!
+That’s it! Note: the `exclude('posts')` bit prevents "posts" from showing in the tag list for every post (since all posts have this tag, in addition to whatever custom tags you've added).
 
 ### Alternatives Considered
 
