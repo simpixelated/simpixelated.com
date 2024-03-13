@@ -88,3 +88,7 @@ However this didn’t work. It kept showing the blogs in descending order. Event
 
 - [Group posts by year in Eleventy](https://darekkay.com/blog/eleventy-group-posts-by-year/)
 - [How do you list all posts grouped by year? 11ty/eleventy#1284 (comment)](https://github.com/11ty/eleventy/issues/1284#issuecomment-1026679407)
+
+### Leave a comment
+
+Have thoughts? Suggestions? Leave a comment on the [Reddit post](https://www.reddit.com/r/eleventy/comments/1bds2q2/group_posts_by_year_in_eleventyjs_short_tutorial/).
