@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.4 - 2024-03-13
+
+### Changed
+
+- switched to simpler [posts by year logic](src/posts/group-posts-by-year-in-eleventy-js.md)
+
 ## 2.3.3 - 2024-03-03
 
 ### Changed

@@ -11,6 +11,7 @@ module.exports = function () {
           data.title
         )}-social-card.png`
       },
+      year: data => new Date(data.date).getFullYear(),
     },
   }
 
