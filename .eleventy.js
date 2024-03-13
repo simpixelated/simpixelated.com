@@ -74,19 +74,6 @@ module.exports = function (eleventyConfig) {
 
   // custom collections
   eleventyConfig.addCollection("tagList", getAllTags)
-  // thanks to https://github.com/11ty/eleventy/issues/1284#issuecomment-1026679407
-  eleventyConfig.addCollection("postsByYear", collection => {
-    const posts = collection.getFilteredByTag("posts").reverse()
-    const years = posts.map(post => post.date.getFullYear())
-    const uniqueYears = [...new Set(years)]
-    const postsByYear = uniqueYears.reduce((prev, year) => {
-      const filteredPosts = posts.filter(
-        post => post.date.getFullYear() === year
-      )
-      return [...prev, [year, filteredPosts]]
-    }, [])
-    return postsByYear
-  })
 
   // template helpers (shortcodes and filters)
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
