@@ -25,7 +25,7 @@
     "husky": "^9.0.10",
     "path": "^0.12.7",
     "prettier": "^3.2.4",
-    "puppeteer": "^21.11.0",
+    "puppeteer": "^22.6.1",
     "sass": "^1.70.0"
   },
   "repository": {
