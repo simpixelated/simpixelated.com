@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Changed
+
+- dependency updates
+- updated [/now page](src/now.md)
+
 ---
 
 ## 2.3.4 - 2024-03-13
