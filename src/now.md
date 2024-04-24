@@ -25,14 +25,15 @@ We moved to Carmel in 2023 to live car-lite and we’re doing it! We bought a ca
 
 ### Watching
 
-- Tokyo Vice - loving it despite the [allegations against the lead actor](https://www.vulture.com/2022/04/ansel-elgort-sexual-assault-allegations-timeline.html)
-- Enjoying [Delicious in Dungeon](https://www.netflix.com/title/81564899)
-- Rewatched Dune, awaiting Dune 2 streaming release
+- Tokyo Vice - really enjoyed it, despite the [allegations against the lead actor](https://www.vulture.com/2022/04/ansel-elgort-sexual-assault-allegations-timeline.html)
+- Enjoying [Delicious in Dungeon](https://www.netflix.com/title/81564899) (with my daughter who now loves it too)
+- Rewatched Dune and then Dune 2 - very cinematic, even though I couldn't hear half of what was being whispered
 
 ### Playing
 
 - Finished Ghost of Tsushima. One of my favorite games of all time!
 - Put many hours into My Time at Sandrock, but ready for a break.
 - Just started God of War Ragnorak.
+- Redownloaded Hades for the Steam Deck
 
-_Last updated: April 4, 2024_
+_Last updated: April 24, 2024_
