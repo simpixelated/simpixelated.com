@@ -19,18 +19,21 @@ We moved to Carmel in 2023 to live car-lite and we’re doing it! We bought a ca
 
 ### Reading
 
-- Trying to finish [Around the World in 80 Trains](https://www.goodreads.com/en/book/show/40122009) (it's great, I just don't prioritize books right now)
-- Just checked out [Haruki Murakami Manga Stories](https://www.goodreads.com/book/show/124825303-haruki-murakami-manga-stories-1) from the library
+- Finished [Doing Good Better](https://www.effectivealtruism.org/doing-good-better) and excited to apply it to my life
+- Still trying to finish [Around the World in 80 Trains](https://www.goodreads.com/en/book/show/40122009) (it's great, I just don't prioritize books right now)
+- Gave up on [Haruki Murakami Manga Stories](https://www.goodreads.com/book/show/124825303-haruki-murakami-manga-stories-1). Just felt like everything had a moral that I couldn't understand. Felt intentionally obtuse.
 
 ### Watching
 
-- Tokyo Vice - loving it despite the [allegations against the lead actor](https://www.vulture.com/2022/04/ansel-elgort-sexual-assault-allegations-timeline.html)
-- Adored everyone on [Love on the Spectrum](https://www.netflix.com/title/81338328?source=35) season 2
-- Thoroughly enjoyed [Blue Eye Samurai](https://en.wikipedia.org/wiki/Blue_Eye_Samurai)
+- Tokyo Vice - really enjoyed it, despite the [allegations against the lead actor](https://www.vulture.com/2022/04/ansel-elgort-sexual-assault-allegations-timeline.html)
+- Enjoying [Delicious in Dungeon](https://www.netflix.com/title/81564899) (with my daughter who now loves it too)
+- Rewatched Dune and then Dune 2 - very cinematic, even though I couldn't hear half of what was being whispered
 
 ### Playing
 
-- I think I might be done with Ghost of Tsushima after probably 40+ hours. Fantastic game! Completed the main story and the DLC
-- Currently restarting the BG3 campaign for the 3rd time. I’ve played acts 1 and 2 twice already, but I can’t seem to finish act 3. Not sure why, but I’m enjoying trying out new builds. Currently doing a Dark Urge (durge for short) with a Drow Oathbreaker Paladin. It’s presenting a lot of crazy, evil choices that is fun to see after being a pretty morally good character in my previous play-throughs.
+- Finished Ghost of Tsushima. One of my favorite games of all time!
+- Put many hours into My Time at Sandrock, but ready for a break.
+- Just started God of War Ragnorak.
+- Redownloaded Hades for the Steam Deck
 
-_Last updated: March 1, 2024_
+_Last updated: April 24, 2024_
