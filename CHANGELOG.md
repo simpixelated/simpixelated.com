@@ -9,8 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+---
+
+## 2.3.5 - 2024-05-11
+
+### Changed
+
 - dependency updates
 - updated [/now page](src/now.md)
+- switched to 11ty-image plugin for social icons and header avatar
 
 ---
 
