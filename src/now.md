@@ -21,19 +21,19 @@ We moved to Carmel in 2023 to live car-lite and we’re doing it! We bought a ca
 
 - Finished [Doing Good Better](https://www.effectivealtruism.org/doing-good-better) and excited to apply it to my life
 - Still trying to finish [Around the World in 80 Trains](https://www.goodreads.com/en/book/show/40122009) (it's great, I just don't prioritize books right now)
-- Gave up on [Haruki Murakami Manga Stories](https://www.goodreads.com/book/show/124825303-haruki-murakami-manga-stories-1). Just felt like everything had a moral that I couldn't understand. Felt intentionally obtuse.
+- Picked up the latest compilations of I Hate Fairyland -- it's awesome
 
 ### Watching
 
-- Tokyo Vice - really enjoyed it, despite the [allegations against the lead actor](https://www.vulture.com/2022/04/ansel-elgort-sexual-assault-allegations-timeline.html)
 - Enjoying [Delicious in Dungeon](https://www.netflix.com/title/81564899) (with my daughter who now loves it too)
-- Rewatched Dune and then Dune 2 - very cinematic, even though I couldn't hear half of what was being whispered
+- Getting back into LEGO Masters Australia (on season 2 now)
+- Cringing/laughing at Clarkson's Farm
 
 ### Playing
 
 - Finished Ghost of Tsushima. One of my favorite games of all time!
 - Put many hours into My Time at Sandrock, but ready for a break.
-- Just started God of War Ragnorak.
+- Enjoying Star Wars Jedi Surivor on Game Pass
 - Redownloaded Hades for the Steam Deck
 
-_Last updated: April 24, 2024_
+_Last updated: May 11, 2024_

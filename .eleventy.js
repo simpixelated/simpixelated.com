@@ -41,7 +41,7 @@ const getPlainText = content => {
   // Regex = htmlTags or htmlComments
   return html.replace(
     new RegExp(String.raw`${htmlTags}|${htmlComments}`, "gi"),
-    ""
+    "",
   )
 }
 const getReadTime = content => {
@@ -61,15 +61,28 @@ module.exports = function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
-  eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async filename => {
-    const metadata = await Image(
-      `./${config.dir.input}/_includes/assets/${filename}`,
-      {
-        formats: ["svg"],
-        dryRun: true,
-      }
-    )
-    return metadata.svg[0].buffer.toString()
+  eleventyConfig.addNunjucksAsyncShortcode("image", async (src, alt, sizes) => {
+    const metadata = await Image(`./${config.dir.input}/static/${src}`, {
+      outputDir: `./${config.dir.output}/static/`,
+      urlPath: "/static/",
+      formats: ["auto"],
+      widths: ["auto"],
+      dryRun: src.endsWith(".svg"),
+    })
+
+    const imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    }
+
+    if (metadata.svg) {
+      return metadata.svg[0].buffer.toString()
+    }
+
+    // You bet we throw an error on a missing alt (alt="" works okay)
+    return Image.generateHTML(metadata, imageAttributes)
   })
 
   // custom collections
@@ -81,7 +94,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
   eleventyConfig.addFilter("postDate", date =>
-    DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED)
+    DateTime.fromJSDate(date).toLocaleString(DateTime.DATE_MED),
   )
   eleventyConfig.addFilter("exclude", (collection, stringToFilter) => {
     if (!stringToFilter) {
@@ -101,12 +114,13 @@ module.exports = function (eleventyConfig) {
   // When `permalink` is false, the file is not written to disk
   eleventyConfig.addGlobalData(
     "eleventyComputed.permalink",
-    () => data => shouldHide(data) ? false : data.permalink
+    () => data => (shouldHide(data) ? false : data.permalink),
   )
   // When `eleventyExcludeFromCollections` is true, the file is not included in any collections
   eleventyConfig.addGlobalData(
     "eleventyComputed.eleventyExcludeFromCollections",
-    () => data => shouldHide(data) ? true : data.eleventyExcludeFromCollections
+    () => data =>
+      shouldHide(data) ? true : data.eleventyExcludeFromCollections,
   )
   eleventyConfig.on("eleventy.before", ({ runMode }) => {
     // Set the environment variable

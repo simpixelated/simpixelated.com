@@ -14,12 +14,13 @@
     <header>
       <h2><a href="/">simpixelated.com</a></h2>
       <div>
-        <img
+        {% image 'profile-drawn-transparent.png', 'illustration of Jordan Kohl' %}
+        {# <img
           src="/static/profile-drawn-transparent.png"
           alt="illustration of Jordan Kohl"
           width="60"
           height="60"
-        />
+        /> #}
         <nav>
           <ul>
             <li><a {% if page.url === '/blog/' %} aria-current="page"{% endif %} href="/blog">Blog</a></li>
