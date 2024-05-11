@@ -62,9 +62,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
   eleventyConfig.addNunjucksAsyncShortcode("image", async (src, alt, sizes) => {
-    const metadata = await Image(`./${config.dir.input}/static/${src}`, {
-      outputDir: `./${config.dir.output}/static/`,
-      urlPath: "/static/",
+    const metadata = await Image(`./${config.dir.input}/assets/${src}`, {
+      outputDir: `./${config.dir.output}/assets/`,
+      urlPath: "/assets/",
       formats: ["auto"],
       widths: ["auto"],
       dryRun: src.endsWith(".svg"),
