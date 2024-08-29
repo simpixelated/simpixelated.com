@@ -9,22 +9,18 @@ _This is a [now page](https://nownownow.com/about). If you have a website, you s
 
 ### Reading
 
-- Finished [Doing Good Better](https://www.effectivealtruism.org/doing-good-better) and excited to apply it to my life
-- Started [Confessions of a Recovering Engineer: Transportation for a Strong Town](https://www.porchlightbooks.com/product/confessions-of-a-recovering-civil-engineer-transportation-for-a-strong-town--charles-l.-marohn) by Charles L Marohn
-- Just read a couple interesting graphic novels my lovely wife picked up from the library:
-  - Red Tag (loving this so far)
-  - Don't Spit in the Wind (not my thing)
+- Finished [Burnout: The Secret to Unlocking the Stress Cycle](https://www.burnoutbook.net/) - this is specifically written for a female audience, but there's plenty of useful advice for any gender
+- Halfway through [A History of the World in 6 Glasses](https://www.goodreads.com/book/show/3872.A_History_of_the_World_in_6_Glasses)
 
 ### Watching
 
-- Finished [Delicious in Dungeon](https://www.netflix.com/title/81564899) season one (with my daughter who now loves it too)
-- Getting back into LEGO Masters Australia (halfway through season 2 now)
-- Tried to get into Taskmaster Australia season 2 but didn't really pull me in like the original
+- Waiting for _Rings of Power_ season 2 (even though everyone says it's boring)
+- Mostly YouTube: [FD Signifire](https://www.youtube.com/@FDSignifire), [HasanAbi](https://www.youtube.com/@HasanAbi), [Rick Glassman](https://www.youtube.com/@rickglassman)
 
 ### Playing
 
-- Leveled several characters to 90+ in Diablo season 4 (best one so far)
-- Tried out Spiritfarer - very cool, but didn't hook me
-- Got hooked on Balatro for like a week (great Steam Deck game)
+- Feeling burned out on _Path of Exile_ (excited for PoE2!)
+- Jumped back into _Brotato_ for some quick games recently
+- Back into _Wordle_ again after a loooong break
 
-_Last updated: June 24, 2024_
+_Last updated: August 29, 2024_
