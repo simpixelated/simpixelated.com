@@ -1,8 +1,9 @@
 const package = require("./package.json")
+const site = require("./src/_data/site.json")
 const { DateTime } = require("luxon")
 const Image = require("@11ty/eleventy-img")
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const pluginRss = require("@11ty/eleventy-plugin-rss")
+const { feedPlugin } = require("@11ty/eleventy-plugin-rss")
 
 const config = {
   dir: {
@@ -130,7 +131,23 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(syntaxHighlight)
-  eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "atom", // or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "posts", // iterate over `collections.posts`
+      limit: 10, // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: site.name,
+      subtitle: site.summary,
+      base: site.url,
+      author: {
+        name: site.author.name,
+      },
+    },
+  })
 
   return config
 }

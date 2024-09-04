@@ -11,6 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.6 - 2024-09-04
+
+### Changed
+
+- dependency updates (eleventy@3 beta, eleventy-plugin-rss@2) [#245](https://github.com/simpixelated/simpixelated.com/issues/245)
+- updated [/now page](src/now.md)
+- switched to using config only for XML/RSS feed [#244](https://github.com/simpixelated/simpixelated.com/issues/244)
+
+---
+
 ## 2.3.5 - 2024-05-11
 
 ### Changed
