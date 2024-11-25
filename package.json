@@ -22,7 +22,7 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "husky": "^9.1.5",
+    "husky": "^9.1.7",
     "path": "^0.12.7",
     "prettier": "^3.3.3",
     "puppeteer": "^22.15.0",
