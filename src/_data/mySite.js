@@ -1,4 +1,4 @@
-module.exports = function () {
+export default function () {
   return {
     // should be Netlify build context
     // "It can be production, deploy-preview, branch-deploy, or dev."
