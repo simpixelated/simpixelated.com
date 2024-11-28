@@ -1,6 +1,6 @@
 {
   "name": "simpixelated.com",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "type": "module",
   "description": "personal website and blog of Jordan Kohl (simpixelated)",
   "main": ".eleventy.js",
