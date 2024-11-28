@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  luxon:
-    specifier: ^3.5.0
-    version: 3.5.0
-
 devDependencies:
   "@11ty/eleventy":
     specifier: 3.0.0
@@ -25,6 +20,9 @@ devDependencies:
   husky:
     specifier: ^9.1.7
     version: 9.1.7
+  luxon:
+    specifier: ^3.5.0
+    version: 3.5.0
   path:
     specifier: ^0.12.7
     version: 0.12.7
@@ -2590,6 +2588,7 @@ packages:
         integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==,
       }
     engines: { node: ">=12" }
+    dev: true
 
   /markdown-it@14.1.0:
     resolution:
