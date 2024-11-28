@@ -22,7 +22,7 @@ _This is a [now page](https://nownownow.com/about). If you have a website, you s
 
 - Still doing the daily _Wordle_ (when I remember)
   _ Beat most of \_Wildfrost_, but still playing once a day to try to get the remaining unlockables
-- Trying to finish _God of War: Ragnorak_; enjoying the world but hoping the story comes to an end soon
+- Trying to finish _God of War: Ragnorak_ - enjoying the world but hoping the story comes to an end soon
 - Excited for 2025 games: _Ghost of Yotei_, _My Time at Evershine_, _Tales of the Shire_
 
 _Last updated: November 28, 2024_
