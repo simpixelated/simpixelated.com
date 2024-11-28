@@ -7,7 +7,7 @@ const packageJSON = require("./package.json")
 const site = require("./src/_data/site.json")
 
 import { DateTime } from "luxon"
-import Image from "@11ty/eleventy-img"
+import Image, { eleventyImageTransformPlugin } from "@11ty/eleventy-img"
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
 import { feedPlugin } from "@11ty/eleventy-plugin-rss"
 
@@ -68,11 +68,12 @@ export default function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
+  // only use for inling svgs
   eleventyConfig.addNunjucksAsyncShortcode("image", async (src, alt, sizes) => {
     const metadata = await Image(`./${config.dir.input}/assets/${src}`, {
       outputDir: `./${config.dir.output}/assets/`,
       urlPath: "/assets/",
-      formats: ["auto"],
+      formats: ["svg"],
       widths: ["auto"],
       dryRun: src.endsWith(".svg"),
     })
@@ -90,6 +91,23 @@ export default function (eleventyConfig) {
 
     // You bet we throw an error on a missing alt (alt="" works okay)
     return Image.generateHTML(metadata, imageAttributes)
+  })
+  // new recommended image config method
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: "html",
+
+    // optional, output image formats
+    formats: ["auto"],
+
+    // optional, output image widths
+    // widths: ["auto"],
+
+    // optional, attributes assigned on <img> override these values.
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    },
   })
 
   // custom collections
