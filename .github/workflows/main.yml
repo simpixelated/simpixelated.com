@@ -1,25 +1,25 @@
-name: Lighthouse CI for Netlify sites
-on:
-  pull_request:
-    branches:
-      - stable
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# name: Lighthouse CI for Netlify sites
+# on:
+#   pull_request:
+#     branches:
+#       - stable
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
-      - name: Wait for the Netlify Preview
-        uses: jakepartusch/wait-for-netlify-action@v1.4
-        id: netlify
-        with:
-          site_name: "simpixelated"
-          max_timeout: 120
-      - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v10
-        with:
-          urls: |
-            ${{ steps.netlify.outputs.url }}
-            ${{ steps.netlify.outputs.url }}/two-year-work-retrospective/
-          configPath: "./.github/lighthouserc.js"
-          temporaryPublicStorage: true
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Wait for the Netlify Preview
+#         uses: jakepartusch/wait-for-netlify-action@v1.4
+#         id: netlify
+#         with:
+#           site_name: "simpixelated"
+#           max_timeout: 120
+#       - name: Audit URLs using Lighthouse
+#         uses: treosh/lighthouse-ci-action@v10
+#         with:
+#           urls: |
+#             ${{ steps.netlify.outputs.url }}
+#             ${{ steps.netlify.outputs.url }}/two-year-work-retrospective/
+#           configPath: "./.github/lighthouserc.js"
+#           temporaryPublicStorage: true

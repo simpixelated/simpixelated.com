@@ -11,6 +11,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.7 - 2024-11-28
+
+### Changed
+
+- fixed typo on /now
+- updated dependencies
+- switched to esm for #277
+- added 11ty `<img />` support for #231
+
+---
+
 ## 2.3.6 - 2024-09-04
 
 ### Changed

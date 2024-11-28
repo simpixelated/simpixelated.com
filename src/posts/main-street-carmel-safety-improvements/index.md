@@ -15,7 +15,7 @@ Dear Council Members Ayers, Worrel, Finkam, Rider, Hannon, and Nelson,
 
 On Friday August 18th a [pregnant woman was struck](https://www.reddit.com/r/Carmel/comments/15v3lso/hit_and_run_in_downtown_carmel_woman_who_is) by a vehicle at the [Main Street and Monon Boulevard intersection](https://goo.gl/maps/aBWW3M3hPH2rWXac8). As a nearby resident, I use the crosswalk at that intersection, on foot and on bike, on a daily basis. I take my daughter to school (by bicycle) through this intersection and I see many other children doing it by themselves.
 
-<img src="https://i.imgur.com/7KLjoBZ.png" alt="Hit and run in downtown Carmel. Woman who is pregnant was hit, driver fled the scene" style="margin: 0 auto; width:400px" />
+<img src="./7KLjoBZ.png" alt="Hit and run in downtown Carmel. Woman who is pregnant was hit, driver fled the scene" style="margin: 0 auto; width:400px" />
 
 With the constant conflict between pedestrians, cyclists, and motor vehicles at this intersection, an accident like this was bound to happen and **will happen again** if the city does not make improvements to the infrastructure. Main Street is a destination, but much of the street design reinforces that it is also a thoroughfare. It cannot and should not be both.
 
@@ -23,7 +23,7 @@ The city (with the help of Jeff Speck), has done an amazing job of designing a p
 
 Unfortunately that wonderfully safe design comes to an end at Main Street. The priority of people over cars is flipped and instead the design makes it dangerously obvious that cars are the dominant mode use. The sidewalks are narrow. There is free parking on both sides of the street (despite our expensive parking garages just blocks away). At the crosswalk where the pregnant woman was struck, there is a stop sign for people on the Monon Trail. However drivers, in 4,000 pound vehicles, only stop if they feel like it.
 
-<img src="https://i.imgur.com/KF1kmnu.jpg" alt="bicycle path with counter (155 cyclists today)" style="margin: 0 auto; width:600px" />
+<img src="./KF1kmnu.jpeg" alt="bicycle path with counter (155 cyclists today)" style="margin: 0 auto; width:600px" />
 
 Main Street has so much potential and the city has a great base from which to build on. We only have to look at Midtown for inspiration. We must continue to improve the safety of Main Street (and the rest of the city) for people walking, biking, or rolling. It will only accelerate the success of local businesses and attract more families like mine, who moved here to live as car-free as possible.
 
@@ -35,7 +35,7 @@ I am not a transportation expert, but there are many ways to improve the crosswa
 - Remove parking — I would guess that a majority of the drivers on Main Street, especially on weekend nights, are people circling the block looking for the closest spot to their destination. People scanning for parking are distracted and anxious to avoid missing their opportunity. We should be directing people to use the abundant free parking we have in our garages. This could reap many positive benefits in the future as it would free up public space in front of our local businesses for seating and walking.
 - Restrict car access entirely — the saddest part of hit and run is that it wouldn't have been possible the very next night, as the city closed Main Street to cars right at this intersection for "Late Night on Main". An entire block of Main Street was closed to cars, but drivers still found parking without creating a traffic jam.
 
-<img src="https://i.imgur.com/XwXeX56.jpg" alt="people enjoying Main Street without a car" style="margin: 0 auto; width:600px" />
+<img src="./XwXeX56.jpeg" alt="people enjoying Main Street without a car" style="margin: 0 auto; width:600px" />
 
 I hope you understand the importance of the situation on Main Street. We cannot allow the safety of people to be jeopardized for the efficiency cars. Well designed places are for people. They are destinations, not thoroughfares.
 

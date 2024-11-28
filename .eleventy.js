@@ -1,9 +1,15 @@
-const package = require("./package.json")
+// FIX for https://github.com/11ty/eleventy-dependency-tree-esm/issues/2
+import { createRequire } from "node:module"
+const require = createRequire(import.meta.url)
+// import packageJSON from "./package.json" assert { type: "json"}
+// import site from "./src/_data/site.json" assert { type: "json"}
+const packageJSON = require("./package.json")
 const site = require("./src/_data/site.json")
-const { DateTime } = require("luxon")
-const Image = require("@11ty/eleventy-img")
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
-const { feedPlugin } = require("@11ty/eleventy-plugin-rss")
+
+import { DateTime } from "luxon"
+import Image, { eleventyImageTransformPlugin } from "@11ty/eleventy-img"
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
+import { feedPlugin } from "@11ty/eleventy-plugin-rss"
 
 const config = {
   dir: {
@@ -53,7 +59,7 @@ const getReadTime = content => {
   return time
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // css loading
   eleventyConfig.setBrowserSyncConfig({
     files: `./${config.dir.output}/css/**/*.css`,
@@ -62,11 +68,12 @@ module.exports = function (eleventyConfig) {
   // js/image loading
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/global.js`)
   eleventyConfig.addPassthroughCopy(`./${config.dir.input}/static`)
+  // only use for inling svgs
   eleventyConfig.addNunjucksAsyncShortcode("image", async (src, alt, sizes) => {
     const metadata = await Image(`./${config.dir.input}/assets/${src}`, {
       outputDir: `./${config.dir.output}/assets/`,
       urlPath: "/assets/",
-      formats: ["auto"],
+      formats: ["svg"],
       widths: ["auto"],
       dryRun: src.endsWith(".svg"),
     })
@@ -85,13 +92,30 @@ module.exports = function (eleventyConfig) {
     // You bet we throw an error on a missing alt (alt="" works okay)
     return Image.generateHTML(metadata, imageAttributes)
   })
+  // new recommended image config method
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    // which file extensions to process
+    extensions: "html",
+
+    // optional, output image formats
+    formats: ["auto"],
+
+    // optional, output image widths
+    // widths: ["auto"],
+
+    // optional, attributes assigned on <img> override these values.
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+    },
+  })
 
   // custom collections
   eleventyConfig.addCollection("tagList", getAllTags)
 
   // template helpers (shortcodes and filters)
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
-  eleventyConfig.addShortcode("version", () => package.version)
+  eleventyConfig.addShortcode("version", () => packageJSON.version)
   eleventyConfig.addFilter("limit", (array, limit) => array.slice(0, limit))
   eleventyConfig.addFilter("timeToRead", getReadTime)
   eleventyConfig.addFilter("postDate", date =>
