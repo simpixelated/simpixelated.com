@@ -27,7 +27,7 @@
     "luxon": "^3.5.0",
     "path": "^0.12.7",
     "prettier": "^3.4.1",
-    "puppeteer": "^23.9.0",
+    "puppeteer": "^23.10.1",
     "sass": "^1.81.0"
   },
   "repository": {
