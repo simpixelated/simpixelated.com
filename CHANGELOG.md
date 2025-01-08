@@ -7,7 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+---
+
+## 2.3.8 - 2025-01-08
+
 ### Changed
+
+- updated /now
+
+### Added
+
+- added blog post for [year-end-review-2024](src/posts/year-end-review-2024/index.md)
 
 ---
 
@@ -18,6 +28,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fixed typo on /now
 - updated dependencies
 - switched to esm for #277
+
+### Added
+
 - added 11ty `<img />` support for #231
 
 ---
