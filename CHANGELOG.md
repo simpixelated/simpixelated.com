@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - updated /now
+- updated dependencies (prettier, puppeteer, sass, eleventy-img)
+- updated social share image gen script to ESM
 
 ### Added
 

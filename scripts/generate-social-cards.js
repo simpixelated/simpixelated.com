@@ -2,8 +2,8 @@
 // usage:
 // - npm run serve:social
 // - node ./scripts/generate-social-cards.js year-end-review-2022
-const { join } = require("path")
-const puppeteer = require("puppeteer")
+import { join } from "path"
+import puppeteer from "puppeteer"
 
 const DEFAULT_BASE_URL = "http://localhost:8080"
 const DEFAULT_IMAGE_FOLDER = "./src/static/banners"
@@ -47,14 +47,14 @@ const main = async slug => {
   const destinationFile = join(
     process.cwd(),
     DEFAULT_IMAGE_FOLDER,
-    `${slug}-social-card.png`
+    `${slug}-social-card.png`,
   )
   takeScreenshot(
     `${DEFAULT_BASE_URL}/${slug}`,
     width,
     height,
     destinationFile,
-    DEFAULT_TIMEOUT
+    DEFAULT_TIMEOUT,
   )
 }
 
