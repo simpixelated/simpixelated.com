@@ -28,7 +28,7 @@
     "path": "^0.12.7",
     "prettier": "^3.4.2",
     "puppeteer": "^23.11.1",
-    "sass": "^1.83.1"
+    "sass": "^1.83.4"
   },
   "repository": {
     "type": "git",
