@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.9 - 2025-01-08
+
+### Changed
+
+- updated /now
+- updated year-end-review-2024
+- updated dependencies (prettier, puppeteer, sass, eleventy-img)
+
+---
+
 ## 2.3.8 - 2025-01-08
 
 ### Changed
