@@ -27,7 +27,7 @@ _Proposed route_
 
 #### To connect neighborhoods
 
-The Monon Trail is the centerpiece of Carmel, Indiana. It connects the city with Indianapolis to the south and Westfield to the north. On holidays, weekends, and all summer, people from all over use the trail for exercise, recreation, and to visit local businesses on Main Street, Midtown, City Center, and more.
+The Monon Trail is the centerpiece of Carmel, Indiana. It connects the city with Indianapolis to the south and Westfield to the north. On holidays, weekends, and warm weather months, people from all over use the trail for exercise, recreation, and to visit local businesses on Main Street, Midtown, City Center, and more.
 
 > “The city’s Arts and Design District is centered around the Monon. Upscale Midtown, with nearly a billion dollars in development investment, rose because of it.” - [from IndyStar](https://www.indystar.com/story/news/local/2021/07/28/the-monon-trail-indianapolis-once-controversial-now-beloved/5324106001/)
 
@@ -47,7 +47,7 @@ _bike valet parking at Carmel Farmer’s Market_
 
 The Monon Trail is amazing for traveling north and south, but we need more connections going east and west. We need more safe biking and walking infrastructure to encourage people to leave their car at home.
 
-Everyone will benefit from fewer cars on the road, even those that never use this proposed path. For those that still choose to drive, they will have less traffic on the way and more parking spaces at their destination.
+Everyone will benefit from fewer cars on the road, even those that never use this proposed path. For those that still choose to drive, they will encounter less traffic on the way and more parking spaces at their destination.
 
 #### To provide more safe routes to school
 
@@ -67,7 +67,7 @@ There are other indirect benefits of The Autumn Greenway for the local economy: 
 
 #### To provide more green-space in the urban core
 
-In addition to providing a path for active transportation, this extension would also provide a safe and calming place for people to walk their dog, exercise, and enjoy green-space. The cross-country teams at Carmel Clay Schools already use The Monon Trail for training as ["an alternative to busy streets and narrow sidewalks"](https://carmelmonthlymagazine.com/celebrating-two-decades-of-the-monon-greenway/). The Autumn Greenway will provide another (much needed) linear park with central Carmel.
+In addition to providing a path for active transportation, this extension would also provide a safe and calming place for people to walk their dog, exercise, and enjoy green-space. The cross-country teams at Carmel Clay Schools already use The Monon Trail for training as ["an alternative to busy streets and narrow sidewalks"](https://carmelmonthlymagazine.com/celebrating-two-decades-of-the-monon-greenway/). The Autumn Greenway will provide another (much needed) linear park within central Carmel.
 
 #### To help achieve the city’s climate goals
 
@@ -84,7 +84,7 @@ All of these could be addressed or improved by an extension to the Monon Trail. 
 
 - 2022 - Riley created an [amazing video](https://youtu.be/nmqCMsSQ76Y) highlighting the problems that the Autumn Greenway could solve.
 - 2023 - A small group of local bicycle advocates started meeting monthly, calling ourselves the The Carmel Transportation Party. Based on Riley’s video, the off-street trail (with the working title “Monon Extension”) was one of our main topics.
-- Jan. 2024 - Newly elected city council member Matt Snyder joined our meeting and immediately wanted to help make the new trail a reality. He helped schedule a meeting with council member Anita Joshi, the parks department, and the engineering department at the city.
+- Jan. 2024 - Newly elected city council member [Matt Snyder](https://www.carmel.in.gov/government/city-council/matt-snyder) joined our meeting and immediately wanted to help make the new trail a reality. He helped schedule a meeting with council member [Anita Joshi](https://www.carmel.in.gov/government/city-council/anita-joshi), the parks department, and the engineering department at the city.
 - Spring 2024 - Jeremy Kashman investigated the project and made a final recommendation to Mayor Finkam for approval.
 - October 2024 - The project had made it through the Land Use and Special Studies Committee with $9M budgeted to each section: the Autumn Greenway and Memorial Greenway (new northern spur). It was later approved by city council, as part of a much larger bond package.
 - 2025 - Land acquisition and planning is expected to occur.
