@@ -1,6 +1,6 @@
 ---
 date: 2025-03-05
-title: "The Autumn Trail"
+title: "The Autumn Greenway"
 tags:
   - urbanism
   - Carmel
@@ -69,7 +69,7 @@ There are other indirect benefits of The Autumn Greenway for the local economy: 
 
 ### To provide more green-space in the urban core
 
-In addition to providing a path for active transportation, this extension would also provide a safe and calming place for people to walk their dog, exercise, and enjoy green-space. The cross-country teams at Carmel Clay Schools already use The Monon Trail for training as ["an alternative to busy streets and narrow sidewalks"](https://carmelmonthlymagazine.com/celebrating-two-decades-of-the-monon-greenway/). The Autumn Trail will provide another (much needed) linear park with central Carmel.
+In addition to providing a path for active transportation, this extension would also provide a safe and calming place for people to walk their dog, exercise, and enjoy green-space. The cross-country teams at Carmel Clay Schools already use The Monon Trail for training as ["an alternative to busy streets and narrow sidewalks"](https://carmelmonthlymagazine.com/celebrating-two-decades-of-the-monon-greenway/). The Autumn Greenway will provide another (much needed) linear park with central Carmel.
 
 ### To help achieve the city’s climate goals
 
