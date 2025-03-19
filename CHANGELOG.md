@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## 2.3.10 - 2025-03-19
+
+### Added
+
+- added blog post for [Carmel rental caps](/src/posts/rental-cap-carmel/index.md)
+- added blog post for [The Autumn Greenway](/src/posts/the-autumn-greenway/index.md)
+
+### Changed
+
+- updated dependencies (prettier, sass)
+
+---
+
 ## 2.3.9 - 2025-01-08
 
 ### Changed
