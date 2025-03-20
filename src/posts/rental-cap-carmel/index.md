@@ -66,3 +66,5 @@ This rental cap is likely to kill any future chances of incremental development 
 2. investor-owned apartments for everyone else
 
 I can’t do anything about Fishers, but I definitely plan to fight against this policy if it is proposed in Carmel. As a current renter with a kid and a dog, I appreciate that there are at least some houses available to rent. I want that to remain an affordable option. If I do become a homeowner someday, I want the flexibility of being able to rent out my home if I move away temporarily or want to save the home for my children. I don’t want to be forced to sell the house because too many of my neighbors beat me to renting their house first.
+
+Have thoughts? [Continue the conversation on Reddit](https://www.reddit.com/r/Carmel/comments/1jfo33d/should_carmel_cap_singlefamily_rentals_fishers_is/).
