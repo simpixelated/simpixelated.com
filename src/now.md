@@ -9,20 +9,22 @@ _This is a [now page](https://nownownow.com/about). If you have a website, you s
 
 ### Reading
 
-- Finished _[Jackson Rising Redux: Lessons on Building the Future in the Present](https://pmpress.org/index.php?l=product_detail&p=1188)_, which is a collection of essays about [Cooperation Jackson](https://cooperationjackson.org/) and similar projects around the country focused on the solidarity economy, with a focus on Black self-determination. Very inspiring read.
-- Finished _[Manifesto for World Revolution](https://subscribe.adbusters.org/products/a-manifesto-for-world-revolution)_ - Really cool anti-capitalist book with some great ideas on how to save the environment and reduce income inequality.
+- Finished _Peace By Peace: 99 Steps toward violence prevention & de-escalation_ - came from my PM Press subscription. I didn't plan to read it, but it was short and looked very interesting. It was! I realized how much of the conflict resolution skills can be applied to any conflict, not just physical ones.
+- Finished _The Strange Bird_ by Jeff Vandermeer - this is part of the "Borne" universe (not that one). It was good, if confusing. Writing from the perspective of a weird AI/genetically modified bird is definitely unique. It comes together in the end, much like Borne did. I really enjoyed it. I'm looking forward to reading more by Vandermeer.
+- Finished _Log Off: Why Posting and Politics (Almost) Never Mix_ by Katherine Cross. This was a solid reminder of why I don't go on social media as often, especially Twitter and BlueSky.
 
 ### Watching
 
-- _Arcane_ season 2 (finished)
-- _Silo_ season 2 - meh season until the last two episodes
-- _Singles Inferno_ with the family - we love ourselves some foreign reality TV.
-- _Severence_ season 2 - the best show on TV right now
+- Finished _Severence_ season 2 - some great episodes and some mediocre ones, but I loved the finale.
+- Finished _Last One Laughing_ - I'm so excited that they finally brought this to the UK. I've watched almost all of the Japanese and Canadian versions and despite not knowing many of those comedians, I thoroughly enjoyed it. With the UK version, I'm very familiar with the contestants from Taskmaster, 8 out of 10 Cats does countdown, etc.
+- Rewatching _Mad Men_ - it's too good. Still feels fresh and unique. I feel like each time we come at it, it shows a new dimension, based on our station in life. For example, being a mid-life with a child.
+- _Last of Us_ season 2 - have only watched the first episode, but it's starting off great.
 
 ### Playing
 
 - Still doing the daily _Wordle_
-- _Sniper Elite: Resistence_ - while offering nothing new, is a fun nazi-killing similator
-- _Diablo 4: Season of Witchcraft_ - probably done after just a week, but it was fun
+- Finished _Kingdom Come: Deliverance 2_. What an amazing game! I've seen people describe it as Skyrim without magic. The writing and RPG aspects are that good.
+- Played a few hours of _Nier Automata_, but it didn't hook me. I can see why people love it, but I'm just not in the mood right now.
+- Played a few hours of _South of Midnight_ on Gamepass. The art style, voice acting, and music in this is amazing. The gameplay is mid. I'm not sure I'll be motivated to finish the story.
 
-_Last updated: February 10, 2025_
+_Last updated: April 21, 2025_
