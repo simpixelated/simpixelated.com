@@ -89,3 +89,5 @@ All of these could be addressed or improved by an extension to the Monon Trail. 
 - October 2024 - The project had made it through the Land Use and Special Studies Committee with $9M budgeted to each section: the Autumn Greenway and Memorial Greenway (new northern spur). It was later approved by city council, as part of a much larger bond package.
 - 2025 - Land acquisition and planning is expected to occur.
 - 2026 - Development set to begin.
+
+If you're interested in helping Carmel build more projects like this, join me at [Strong Towns Carmel](https://strongtownscarmel.org).
