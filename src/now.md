@@ -9,21 +9,21 @@ _This is a [now page](https://nownownow.com/about). If you have a website, you s
 
 ### Reading
 
-- Over halfway through _The New Better Off_ by Courtney E. Martin. It's a collection of essays about how the American Dream has transformmed for the most recent generations. A little too happily celebrating things like the gig-economy, the sharing economy, and just our general lack of ownership due to late-stage capitalism and not really anything we're choosing.
+- Over halfway through _Outclassed: How the Left Lost the Working Class_ by Joan C. Williams. As a liberal elite who has grown class concious over the last 5+ years, I'm really appreciating the insights into different demographics and why they voted for the Far Right. It helps me feel some level of empathy and define a path forward for progressive policies that unite people vs. corporations.
 
 ### Watching
 
-- Rewatching _Mad Men_ - it's too good. Still feels fresh and unique. I feel like each time we come at it, it shows a new dimension, based on our station in life. For example, being a mid-life with a child.
-- _Last of Us_ season 2 - wow, what a start to the season. I haven't played the game, but I new the overall story. But still, it was intense.
-- _Taskmaster_ season 19 - so excited to see Jason Mantzoukas on the show!
+- Periodically enjoying [Kian's Bizarre B&B](https://www.netflix.com/title/81902047). I love me a good Korean/Japanese quasi-reality show.
+- _Taskmaster_ season 20 - not my absolute favorite season, but still loving the show
 
 ### Playing
 
 - Still doing the daily _Wordle_
-- Finished _Avowed_. I loved being able to explore the Pillars of Eternity world in full, first-person 3D. I went with a mostly guns-based ranger class and it was a "blast".
+- Finished _Ghost of Yotei_. It was just as good as Tsushima, but different (for better and worse).
+- Trying out _Ball x Pit_ and really enjoying it.
 
 ### Doing
 
 - Working on [Strong Towns Carmel](https://strongtownscarmel.org/).
 
-_Last updated: May 5, 2025_
+_Last updated: Oct 28, 2025_
